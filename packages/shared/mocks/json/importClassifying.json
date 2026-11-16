@@ -1,0 +1,54 @@
+{
+  "id": "imp_20260930_n8w1",
+  "state": "classifying",
+  "sourceAi": "chatgpt",
+  "fileName": "chatgpt-export-full-2026-09-30.zip",
+  "fileSizeBytes": 187334656,
+  "fileHash": "sha256:5e1c0b7a9d2f4e6813c7a0b9f1d2e3c4a5b6c7d8e9f0a1b2c3d4e5f60718293a",
+  "createdAt": "2026-09-30T09:02:10+09:00",
+  "startedAt": "2026-09-30T09:04:31+09:00",
+  "finishedAt": null,
+  "options": {
+    "classify": true,
+    "maxCostUsd": 10
+  },
+  "preview": {
+    "sourceAi": "chatgpt",
+    "detectedFormat": "chatgpt_export_zip",
+    "formatVersion": "2026-09",
+    "category": "conversations",
+    "projects": null,
+    "conversationsTotal": 1204,
+    "conversationsNew": 1180,
+    "conversationsUpdated": 18,
+    "conversationsUnchanged": 6,
+    "messagesTotal": 23870,
+    "dateRange": {
+      "from": "2023-03-14T22:01:00+09:00",
+      "to": "2026-09-29T23:12:00+09:00"
+    },
+    "quickQuestionPrefiltered": 412,
+    "activity": null,
+    "estimate": {
+      "model": "claude-haiku-4-5",
+      "inputTokens": 3960000,
+      "outputTokens": 238000,
+      "costUsd": 5.15,
+      "note": "가격표 기준 추정 [미검증] · 간단한 질문 412개는 규칙으로 걸러 LLM 생략"
+    },
+    "warnings": [
+      "캔버스·첨부파일 17개는 자리표시자로만 저장돼요"
+    ]
+  },
+  "progress": {
+    "phase": "classifying",
+    "processed": 312,
+    "total": 792,
+    "percent": 58,
+    "currentLabel": "분류 중 · 312 / 792",
+    "etaSec": 1440
+  },
+  "result": null,
+  "errors": [],
+  "classifyJobId": "job_8c21"
+}

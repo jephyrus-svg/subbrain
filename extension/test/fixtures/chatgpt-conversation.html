@@ -1,0 +1,62 @@
+<!--
+  ⚠ 근사치(APPROXIMATION) — 실제 chatgpt.com 화면을 저장한 것이 아니다.
+  2026-10 기준으로 알려진 공개 구조(data-message-author-role · data-message-id · data-testid="conversation-turn-N" ·
+  stop-button)를 흉내 내어 손으로 만들었다. class 이름은 실제처럼 길게 넣었지만 어댑터는 쓰지 않는다.
+  실제 사이트에서 저장한 HTML로 바꾸면 이 테스트가 그대로 회귀 테스트가 된다.
+  주소: https://chatgpt.com/c/68f2a91c-1d2e-4b7a-9c3f-0a1b2c3d4e5f
+-->
+<html><head><title>메인 카피 후보 뽑기 - ChatGPT</title></head>
+<body>
+<div class="flex h-full w-full">
+  <nav aria-label="Chat history" class="flex h-full flex-col">
+    <a href="/" data-testid="create-new-chat-button" class="group">새 채팅</a>
+    <div class="relative"><h3 class="px-2 text-xs">오늘</h3>
+      <ol>
+        <li data-testid="history-item-0"><a href="/c/68f2a91c-1d2e-4b7a-9c3f-0a1b2c3d4e5f" aria-current="page" class="flex items-center"><div class="relative grow overflow-hidden whitespace-nowrap" dir="auto">메인 카피 후보 뽑기</div></a></li>
+        <li data-testid="history-item-1"><a href="/c/77aa0000-0000-4000-8000-000000000003" class="flex items-center"><div class="relative grow">이사업체 견적 비교표</div></a></li>
+        <li data-testid="history-item-2"><a href="/g/g-p-6812ab34cd-landing/c/5d9e0000-0000-4000-8000-000000000004" class="flex items-center"><div class="relative grow">랜딩 페이지 구조</div></a></li>
+        <li data-testid="history-item-3"><a href="/c/68f2a91c-1d2e-4b7a-9c3f-0a1b2c3d4e5f" class="flex items-center"><div>메인 카피 후보 뽑기</div></a></li>
+      </ol>
+    </div>
+  </nav>
+  <main class="relative h-full w-full flex-1">
+    <div role="presentation" class="composer-parent">
+      <article data-testid="conversation-turn-1" data-scroll-anchor="false" class="w-full text-token-text-primary">
+        <h5 class="sr-only">나의 말:</h5>
+        <div data-message-author-role="user" data-message-id="aaa1-user-0001" class="min-h-8 text-message flex">
+          <div class="flex w-full flex-col"><div class="relative max-w-[70%] rounded-3xl bg-token-message-surface px-5 py-2.5">
+            <div data-testid="user-message-text" class="whitespace-pre-wrap">랜딩 페이지 메인 카피 후보 3개만 뽑아 줘.
+톤은 차분하게, 20자 안으로.</div>
+          </div></div>
+        </div>
+        <div class="flex justify-end"><button aria-label="복사" data-testid="copy-turn-action-button"><svg><path d="M0"/></svg></button><button aria-label="메시지 편집">편집</button></div>
+      </article>
+      <article data-testid="conversation-turn-2" class="w-full">
+        <h5 class="sr-only">ChatGPT의 말:</h5>
+        <div data-message-author-role="assistant" data-message-id="msg_aa02" data-message-model-slug="gpt-5" class="min-h-8 text-message">
+          <div class="flex w-full flex-col gap-1">
+            <div data-testid="assistant-markdown" class="markdown prose w-full break-words dark:prose-invert light">
+              <p>좋아요. <strong>차분한 톤</strong>으로 세 가지 안입니다:</p>
+              <ol><li><p>오늘 할 일만, 조용히</p></li><li><p>흩어진 대화를 한곳에</p></li><li><p>멈춘 일을 다시 <em>이어서</em></p></li></ol>
+              <p>길이 확인용 코드:</p>
+              <pre class="overflow-visible!"><div class="contain-inline-size rounded-md"><div class="flex items-center text-xs">python<button aria-label="코드 복사">복사</button></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-python"><span class="hljs-keyword">for</span> c <span class="hljs-keyword">in</span> candidates:
+    <span class="hljs-built_in">print</span>(c, <span class="hljs-built_in">len</span>(c))</code></div></div></pre>
+              <table><thead><tr><th>안</th><th>글자 수</th></tr></thead><tbody><tr><td>1</td><td>11</td></tr><tr><td>2</td><td>11</td></tr></tbody></table>
+              <p>점수 식: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s = \frac{a}{n}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base">s=a/n</span></span></span> 입니다.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex"><button data-testid="copy-turn-action-button" aria-label="복사">복사</button><button data-testid="good-response-turn-action-button" aria-label="좋은 응답">👍</button><button aria-label="다시 시도">다시</button></div>
+      </article>
+      <article data-testid="conversation-turn-3" class="w-full">
+        <div data-message-author-role="user" data-message-id="aaa1-user-0003"><div data-testid="user-message-text" class="whitespace-pre-wrap">후보 B를 조금 더 짧게 해 줘</div></div>
+      </article>
+      <article data-testid="conversation-turn-4" class="w-full">
+        <div data-message-author-role="assistant" data-message-id="msg_aa04"><div data-testid="assistant-markdown" class="markdown prose"><p>좋아요. 12자 안으로 줄인 안: <code>대화를 한곳에</code></p></div></div>
+      </article>
+    </div>
+    <form class="w-full"><textarea id="prompt-textarea" placeholder="무엇이든 물어보세요"></textarea>
+      <button data-testid="send-button" aria-label="프롬프트 보내기"><svg></svg></button></form>
+  </main>
+</div>
+</body></html>

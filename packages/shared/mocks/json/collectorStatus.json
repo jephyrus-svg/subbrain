@@ -1,0 +1,74 @@
+{
+  "config": {
+    "enabled": true,
+    "sources": [
+      {
+        "sourceAi": "claude-code",
+        "root": "~/.claude/projects",
+        "enabled": true
+      },
+      {
+        "sourceAi": "codex",
+        "root": "~/.codex/sessions",
+        "enabled": true
+      }
+    ],
+    "pollIntervalSec": 20,
+    "toolOutputMaxChars": 600,
+    "toolInputMaxChars": 300,
+    "excludeCwdPatterns": [],
+    "classify": true
+  },
+  "watching": true,
+  "redactedSecrets": 7,
+  "sources": [
+    {
+      "sourceAi": "claude-code",
+      "root": "/Users/me/.claude/projects",
+      "rootExists": true,
+      "enabled": true,
+      "files": 21,
+      "bytesTotal": 154109552,
+      "bytesIngested": 154109552,
+      "sessions": 17,
+      "lastScanAt": "2026-09-30T08:29:40+09:00",
+      "lastIngestAt": "2026-09-30T08:12:03+09:00",
+      "backfill": {
+        "state": "done",
+        "startedAt": "2026-09-30T08:00:00+09:00",
+        "finishedAt": "2026-09-30T08:00:41+09:00",
+        "filesDone": 21,
+        "filesTotal": 21,
+        "jobId": "job_cb01"
+      },
+      "errors": []
+    },
+    {
+      "sourceAi": "codex",
+      "root": "/Users/me/.codex/sessions",
+      "rootExists": true,
+      "enabled": true,
+      "files": 92,
+      "bytesTotal": 1589240949,
+      "bytesIngested": 1201333002,
+      "sessions": 61,
+      "lastScanAt": "2026-09-30T08:29:40+09:00",
+      "lastIngestAt": "2026-09-30T08:29:12+09:00",
+      "backfill": {
+        "state": "running",
+        "startedAt": "2026-09-30T08:00:00+09:00",
+        "finishedAt": null,
+        "filesDone": 70,
+        "filesTotal": 92,
+        "jobId": "job_cb02"
+      },
+      "errors": [
+        {
+          "file": "2026/07/14/rollout-…-01a0.jsonl",
+          "message": "마지막 줄이 아직 덜 써짐 — 다음 검사에서 이어 읽음",
+          "at": "2026-09-30T08:29:12+09:00"
+        }
+      ]
+    }
+  ]
+}

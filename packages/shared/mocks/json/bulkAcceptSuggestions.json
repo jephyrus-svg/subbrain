@@ -1,0 +1,17 @@
+{
+  "accepted": [],
+  "skipped": [
+    {
+      "id": "s1",
+      "reason": "protected"
+    },
+    {
+      "id": "s2",
+      "reason": "protected"
+    },
+    {
+      "id": "s5",
+      "reason": "protected"
+    }
+  ]
+}

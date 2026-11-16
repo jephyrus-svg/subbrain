@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "apiVersion": "1.10.1",
+  "coreVersion": "0.1.0",
+  "node": "v22.23.4",
+  "buildTarget": "personal",
+  "startedAt": "2026-09-30T08:30:00+09:00",
+  "uptimeSec": 0,
+  "db": {
+    "path": "/tmp/subbrain-mocks-bDgXou/subbrain.db",
+    "journalMode": "wal",
+    "schemaVersion": 8,
+    "sqliteVersion": "3.53.4",
+    "fts5": true,
+    "trigram": true,
+    "bigramIndex": false,
+    "sizeBytes": 6319608
+  },
+  "vault": {
+    "path": "/tmp/subbrain-mocks-bDgXou/vault",
+    "lastGeneratedAt": "2026-09-30T08:30:00+09:00",
+    "conflictCount": 1
+  },
+  "workers": {
+    "queueDepth": 0,
+    "running": 0,
+    "paused": false,
+    "pausedReason": null
+  },
+  "llm": {
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "configured": true
+  }
+}

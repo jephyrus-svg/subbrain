@@ -1,0 +1,3197 @@
+{
+  "prj_subbrain": {
+    "id": "prj_subbrain",
+    "name": "서브브레인",
+    "aliases": [
+      "SubBrain",
+      "subbrain"
+    ],
+    "status": "active",
+    "colorHex": "#5B8DEF",
+    "activity": {
+      "status": "진행 중",
+      "staleDays": null,
+      "statusVisual": "run"
+    },
+    "taskCount": 9,
+    "conversationCount": 58,
+    "startedAt": "2026-08-18T20:03:00+09:00",
+    "lastActivityAt": "2026-09-30T00:20:00+09:00",
+    "thresholds": null,
+    "summary": "스키마와 검색은 끝났고, 정답 세트로 분류 프롬프트 정확도를 시험하는 중이에요.",
+    "vault": {
+      "path": "projects/서브브레인.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=projects%2F%EC%84%9C%EB%B8%8C%EB%B8%8C%EB%A0%88%EC%9D%B8.md"
+    },
+    "weeklyConversations": {
+      "weeks": 16,
+      "buckets": [
+        {
+          "start": "2026-06-15",
+          "count": 0
+        },
+        {
+          "start": "2026-06-22",
+          "count": 0
+        },
+        {
+          "start": "2026-06-29",
+          "count": 0
+        },
+        {
+          "start": "2026-07-06",
+          "count": 0
+        },
+        {
+          "start": "2026-07-13",
+          "count": 0
+        },
+        {
+          "start": "2026-07-20",
+          "count": 0
+        },
+        {
+          "start": "2026-07-27",
+          "count": 0
+        },
+        {
+          "start": "2026-08-03",
+          "count": 0
+        },
+        {
+          "start": "2026-08-10",
+          "count": 0
+        },
+        {
+          "start": "2026-08-17",
+          "count": 10
+        },
+        {
+          "start": "2026-08-24",
+          "count": 8
+        },
+        {
+          "start": "2026-08-31",
+          "count": 11
+        },
+        {
+          "start": "2026-09-07",
+          "count": 10
+        },
+        {
+          "start": "2026-09-14",
+          "count": 8
+        },
+        {
+          "start": "2026-09-21",
+          "count": 6
+        },
+        {
+          "start": "2026-09-28",
+          "count": 5
+        }
+      ]
+    },
+    "byAi": [
+      {
+        "sourceAi": "claude",
+        "conversationCount": 30,
+        "messageCount": 274
+      },
+      {
+        "sourceAi": "chatgpt",
+        "conversationCount": 20,
+        "messageCount": 147
+      },
+      {
+        "sourceAi": "grok",
+        "conversationCount": 8,
+        "messageCount": 54
+      }
+    ],
+    "nextStep": {
+      "taskId": "task_20260929_01",
+      "taskTitle": "분류 프롬프트 정확도 시험",
+      "text": "틀린 23건의 공통점 정리",
+      "evidence": {
+        "conversationId": "conv_claude_7dee29ba",
+        "sourceAi": "claude",
+        "at": "2026-09-30T00:09:08+09:00",
+        "quote": "일단 여기까지 하고 나중에 다시 볼게.",
+        "label": "9월 30일 Claude 대화의 마지막 메시지"
+      },
+      "continue": {
+        "sourceAi": "claude",
+        "url": "https://claude.ai/chat/7dee29ba-63b3-4414-a507-ed0b5046ceee",
+        "conversationId": "conv_claude_7dee29ba",
+        "label": "Claude에서 이어서"
+      }
+    },
+    "tasks": [
+      {
+        "id": "task_20260929_01",
+        "title": "분류 프롬프트 정확도 시험",
+        "summary": "정답 세트 100건으로 정확도를 재는 중",
+        "kind": "task",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 2,
+        "messageCount": 52,
+        "startedAt": "2026-09-29T14:40:00+09:00",
+        "lastActivityAt": "2026-09-30T00:20:00+09:00",
+        "completedAt": null,
+        "nextStep": "틀린 23건의 공통점 정리",
+        "nextStepInfo": {
+          "text": "틀린 23건의 공통점 정리",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_7dee29ba",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/7dee29ba-63b3-4414-a507-ed0b5046ceee"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.88,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "interrupted",
+          "status": "진행 중",
+          "staleDays": null,
+          "label": "끊김(토큰 한도)",
+          "target": null,
+          "evidence": "마지막 사용자 메시지: ‘토큰이 다 떨어져서 오늘은 여기까지, 정리 파일 md로 만들어줘’",
+          "detectedBy": "rule"
+        }
+      },
+      {
+        "id": "task_20260924_01",
+        "title": "그래프 홈 시안",
+        "summary": "그래프 홈의 노드 크기·색 규칙을 정하고 필터 막대를 그리는 중",
+        "kind": "task",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 2,
+        "messageCount": 21,
+        "startedAt": "2026-09-24T20:00:00+09:00",
+        "lastActivityAt": "2026-09-29T22:40:00+09:00",
+        "completedAt": null,
+        "nextStep": "되감기 막대와 노드 흐림 효과 연결하기",
+        "nextStepInfo": {
+          "text": "되감기 막대와 노드 흐림 효과 연결하기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_296a5a76",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/296a5a76-1bcf-4781-ae5e-d9e20f002600"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "진행 중",
+          "staleDays": null,
+          "label": "진행 중",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260926_03",
+        "title": "수집 확장 MV3 골격",
+        "summary": "크롬 확장 MV3 골격을 만들고 service worker에서 대화 캡처를 시험하는 중",
+        "kind": "task",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 14,
+        "startedAt": "2026-09-26T20:00:00+09:00",
+        "lastActivityAt": "2026-09-28T22:40:00+09:00",
+        "completedAt": null,
+        "nextStep": "content script에서 대화 DOM 변화 감지 붙이기",
+        "nextStepInfo": {
+          "text": "content script에서 대화 DOM 변화 감지 붙이기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_b74a8daa",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/b74a8daa-5259-4b8a-a1de-7d0b18d43321"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "진행 중",
+          "staleDays": null,
+          "label": "진행 중",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260919_02",
+        "title": "온보딩 문구 다듬기",
+        "summary": "첫 화면 문구를 3줄로 줄이고 버튼은 ‘가져오기 시작’으로",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 1,
+        "messageCount": 6,
+        "startedAt": "2026-09-19T20:10:00+09:00",
+        "lastActivityAt": "2026-09-21T22:48:00+09:00",
+        "completedAt": "2026-09-21T22:48:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_7ad4344c",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/7ad4344c-174b-49dc-af6e-d01c0791775e"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260910_02",
+        "title": "FTS5 한국어 검색",
+        "summary": "trigram 토크나이저 + 2글자는 LIKE로 보완하기로 결정",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 2,
+        "messageCount": 18,
+        "startedAt": "2026-09-10T20:00:00+09:00",
+        "lastActivityAt": "2026-09-14T21:40:00+09:00",
+        "completedAt": "2026-09-14T21:40:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_c1766e9d",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/c1766e9d-f1c7-4af6-a99c-979ffeafd36f"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260901_01",
+        "title": "SQLite 스키마 설계",
+        "summary": "대화·과제·이벤트 테이블과 FTS5 인덱스 구조를 확정",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 3,
+        "messageCount": 31,
+        "startedAt": "2026-09-01T21:00:00+09:00",
+        "lastActivityAt": "2026-09-08T22:30:00+09:00",
+        "completedAt": "2026-09-08T22:30:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_5738f4c9",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/5738f4c9-80ba-4250-a8c6-89ff02e95d91"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260819_01",
+        "title": "로고 스케치",
+        "summary": "뇌 모양 대신 겹친 말풍선 두 개로 결정",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 8,
+        "startedAt": "2026-08-19T21:00:00+09:00",
+        "lastActivityAt": "2026-08-22T21:30:00+09:00",
+        "completedAt": "2026-08-22T21:30:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_46c643ca",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/46c643ca-03d3-459b-ad96-bd97de9a4960"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260818_02",
+        "title": "비슷한 서비스 조사",
+        "summary": "비슷한 서비스 4개를 훑어보고 ‘로컬 우선’이 차별점이라고 정리",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "sourceAis": [
+          "grok"
+        ],
+        "conversationCount": 1,
+        "messageCount": 5,
+        "startedAt": "2026-08-18T20:03:00+09:00",
+        "lastActivityAt": "2026-08-18T20:40:00+09:00",
+        "completedAt": "2026-08-18T20:40:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_grok_a81ba12c",
+          "sourceAi": "grok",
+          "url": "https://grok.com/chat/a81ba12c-ecf5-4aca-ae83-89404eaa58ca"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260915_01",
+        "title": "볼트 노트 형식",
+        "summary": "과제 노트 frontmatter 필드는 정했고 본문 섹션 순서를 고민하다 멈춤",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 1,
+        "messageCount": 12,
+        "startedAt": "2026-09-15T20:30:00+09:00",
+        "lastActivityAt": "2026-09-25T22:10:00+09:00",
+        "completedAt": null,
+        "nextStep": "본문 섹션 순서(요약→결정→흐름) 확정하기",
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_7a52cdde",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/7a52cdde-c9d0-471a-a0f6-c2cad6aa70ff"
+        },
+        "handoff": {
+          "label": "Claude Code에서 이어감",
+          "target": "Claude Code",
+          "conversationId": "conv_claude_7a52cdde",
+          "evidence": "마지막 사용자 메시지: ‘노트 형식은 md로 정리해줘, Claude Code에서 이어갈게’",
+          "detectedBy": "both"
+        },
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "moved",
+        "conversationOutcome": {
+          "outcome": "moved",
+          "status": "완료",
+          "staleDays": null,
+          "label": "Claude Code로 옮김",
+          "target": "Claude Code",
+          "evidence": "마지막 사용자 메시지: ‘노트 형식은 md로 정리해줘, Claude Code에서 이어갈게’",
+          "detectedBy": "both"
+        }
+      }
+    ],
+    "quickQuestionCount": 5,
+    "relatedProjects": [
+      {
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "reason": "같은 주제 #카피라이팅 · 겹치는 과제 1개",
+        "sharedTopicIds": [
+          "obj_topic_copywriting"
+        ]
+      },
+      {
+        "project": {
+          "id": "prj_devstudy",
+          "name": "개발 공부",
+          "colorHex": "#4DB9E3"
+        },
+        "reason": "같은 주제 #배포 · 겹치는 과제 1개",
+        "sharedTopicIds": [
+          "obj_topic_deploy"
+        ]
+      },
+      {
+        "project": {
+          "id": "prj_dividend",
+          "name": "배당 가계부",
+          "colorHex": "#E8B63E"
+        },
+        "reason": "같은 주제 #자동화 · 겹치는 과제 1개",
+        "sharedTopicIds": [
+          "obj_topic_automation"
+        ]
+      }
+    ]
+  },
+  "prj_blog": {
+    "id": "prj_blog",
+    "name": "블로그 리뉴얼",
+    "aliases": [
+      "블로그",
+      "blog renewal"
+    ],
+    "status": "active",
+    "colorHex": "#F07F5E",
+    "activity": {
+      "status": "진행 중",
+      "staleDays": null,
+      "statusVisual": "run"
+    },
+    "taskCount": 7,
+    "conversationCount": 43,
+    "startedAt": "2026-06-11T20:03:00+09:00",
+    "lastActivityAt": "2026-09-29T21:31:00+09:00",
+    "thresholds": null,
+    "summary": "1차 디자인과 섹션 구성은 끝났고, 메인 카피를 두 안 중에 고르다 멈춰 있어요.",
+    "vault": {
+      "path": "projects/블로그-리뉴얼.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=projects%2F%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A6%AC%EB%89%B4%EC%96%BC.md"
+    },
+    "weeklyConversations": {
+      "weeks": 16,
+      "buckets": [
+        {
+          "start": "2026-06-15",
+          "count": 4
+        },
+        {
+          "start": "2026-06-22",
+          "count": 5
+        },
+        {
+          "start": "2026-06-29",
+          "count": 3
+        },
+        {
+          "start": "2026-07-06",
+          "count": 3
+        },
+        {
+          "start": "2026-07-13",
+          "count": 1
+        },
+        {
+          "start": "2026-07-20",
+          "count": 2
+        },
+        {
+          "start": "2026-07-27",
+          "count": 3
+        },
+        {
+          "start": "2026-08-03",
+          "count": 1
+        },
+        {
+          "start": "2026-08-10",
+          "count": 3
+        },
+        {
+          "start": "2026-08-17",
+          "count": 2
+        },
+        {
+          "start": "2026-08-24",
+          "count": 0
+        },
+        {
+          "start": "2026-08-31",
+          "count": 3
+        },
+        {
+          "start": "2026-09-07",
+          "count": 2
+        },
+        {
+          "start": "2026-09-14",
+          "count": 2
+        },
+        {
+          "start": "2026-09-21",
+          "count": 1
+        },
+        {
+          "start": "2026-09-28",
+          "count": 2
+        }
+      ]
+    },
+    "byAi": [
+      {
+        "sourceAi": "chatgpt",
+        "conversationCount": 21,
+        "messageCount": 214
+      },
+      {
+        "sourceAi": "claude",
+        "conversationCount": 14,
+        "messageCount": 131
+      },
+      {
+        "sourceAi": "gemini",
+        "conversationCount": 6,
+        "messageCount": 45
+      },
+      {
+        "sourceAi": "grok",
+        "conversationCount": 2,
+        "messageCount": 12
+      }
+    ],
+    "nextStep": {
+      "taskId": "task_20260830_01",
+      "taskTitle": "메인 페이지 카피 확정",
+      "text": "A안을 기준으로 보조 문장 3개와 CTA 2개 쓰기",
+      "evidence": {
+        "conversationId": "conv_chatgpt_68f2a91c",
+        "sourceAi": "chatgpt",
+        "at": "2026-09-18T01:37:28+09:00",
+        "quote": "A가 더 나 같긴 한데, 너무 밋밋한가? 내일 다시 볼게",
+        "label": "9월 18일 ChatGPT 대화의 마지막 메시지"
+      },
+      "continue": {
+        "sourceAi": "chatgpt",
+        "url": "https://chatgpt.com/c/68f2a91c-4b7e-8003-a1d2-9c0e5b7f3a21",
+        "conversationId": "conv_chatgpt_68f2a91c",
+        "label": "ChatGPT에서 이어서"
+      }
+    },
+    "tasks": [
+      {
+        "id": "task_20260805_01",
+        "title": "RSS 피드 붙이기",
+        "summary": "라우트 핸들러로 만들다 멈춤. 우선순위 낮음",
+        "kind": "task",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 54,
+        "staleStage": "long_stale",
+        "badge": "54일",
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "sourceAis": [
+          "grok"
+        ],
+        "conversationCount": 1,
+        "messageCount": 6,
+        "startedAt": "2026-08-05T21:44:00+09:00",
+        "lastActivityAt": "2026-08-07T00:15:00+09:00",
+        "completedAt": null,
+        "nextStep": "app/feed.xml/route.ts에서 글 목록을 RSS 2.0으로 내보내기",
+        "nextStepInfo": {
+          "text": "app/feed.xml/route.ts에서 글 목록을 RSS 2.0으로 내보내기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_grok_19ab2c7d",
+          "sourceAi": "grok",
+          "url": "https://grok.com/chat/19ab2c7d-0e44-4b1f-9a52-7f3e0c2d8b16"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.81,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 54,
+          "label": "멈춤 54일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260830_01",
+        "title": "메인 페이지 카피 확정",
+        "summary": "후보 3개 중 A/B로 좁힘. 톤은 ‘담백하게’로 합의",
+        "kind": "task",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 12,
+        "staleStage": "stale",
+        "badge": "12일",
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "sourceAis": [
+          "chatgpt",
+          "claude",
+          "gemini"
+        ],
+        "conversationCount": 5,
+        "messageCount": 89,
+        "startedAt": "2026-08-30T23:12:00+09:00",
+        "lastActivityAt": "2026-09-18T01:47:00+09:00",
+        "completedAt": null,
+        "nextStep": "A안을 기준으로 보조 문장 3개와 CTA 2개 쓰기",
+        "nextStepInfo": {
+          "text": "A안을 기준으로 보조 문장 3개와 CTA 2개 쓰기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_68f2a91c",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/68f2a91c-4b7e-8003-a1d2-9c0e5b7f3a21"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.86,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 12,
+          "label": "멈춤 12일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260902_01",
+        "title": "소개 페이지 톤 맞추기",
+        "summary": "메인 카피가 정해지면 같은 톤으로 다시 쓰기로 함",
+        "kind": "task",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 6,
+        "staleStage": "short_pause",
+        "badge": "6일",
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 2,
+        "messageCount": 22,
+        "startedAt": "2026-09-02T10:20:00+09:00",
+        "lastActivityAt": "2026-09-24T22:10:00+09:00",
+        "completedAt": null,
+        "nextStep": "메인 카피 확정 후 소개 문단 1·2를 같은 톤으로 다시 쓰기",
+        "nextStepInfo": {
+          "text": "메인 카피 확정 후 소개 문단 1·2를 같은 톤으로 다시 쓰기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_e02b5a91",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/e02b5a91-6c3d-4f70-b1a8-2d9e4c7f0a35"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.78,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 6,
+          "label": "멈춤 6일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260927_01",
+        "title": "글 목록 태그 필터",
+        "summary": "칩 대신 텍스트 링크로 바꾸는 중 — 모바일 줄바꿈 확인 필요",
+        "kind": "task",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 9,
+        "startedAt": "2026-09-27T13:02:00+09:00",
+        "lastActivityAt": "2026-09-29T21:31:00+09:00",
+        "completedAt": null,
+        "nextStep": "375px 화면에서 태그 줄바꿈 확인",
+        "nextStepInfo": {
+          "text": "375px 화면에서 태그 줄바꿈 확인",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_7c0d3e55",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/7c0d3e55-2a19-8001-b6f4-5e8a1d0c9b72"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.9,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "진행 중",
+          "staleDays": null,
+          "label": "진행 중",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260703_01",
+        "title": "1차 디자인 시안",
+        "summary": "레퍼런스 4개 중 2번 방향(여백 넓은 단일 칼럼)",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "sourceAis": [
+          "chatgpt",
+          "gemini"
+        ],
+        "conversationCount": 3,
+        "messageCount": 27,
+        "startedAt": "2026-07-03T19:30:00+09:00",
+        "lastActivityAt": "2026-07-21T23:02:00+09:00",
+        "completedAt": "2026-07-21T23:02:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_4be8c9f2",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/4be8c9f2-cb7c-431a-aef1-3366b3799c84"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.92,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260612_01",
+        "title": "섹션 구성안",
+        "summary": "소개·글 목록·프로젝트·연락 4섹션으로 확정",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 2,
+        "messageCount": 19,
+        "startedAt": "2026-06-12T21:00:00+09:00",
+        "lastActivityAt": "2026-06-20T22:31:00+09:00",
+        "completedAt": "2026-06-20T22:31:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_1a14c47c",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/1a14c47c-a5d6-46f4-a837-f1d942c5420a"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.9,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260615_01",
+        "title": "도메인·호스팅 결정",
+        "summary": "Vercel + 기존 도메인 유지로 결정",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 1,
+        "messageCount": 11,
+        "startedAt": "2026-06-15T20:12:00+09:00",
+        "lastActivityAt": "2026-06-15T21:40:00+09:00",
+        "completedAt": "2026-06-15T21:40:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_5f81c0d2",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/5f81c0d2-3b6a-4e19-8d70-a1c4e9b2f063"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.93,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      }
+    ],
+    "quickQuestionCount": 3,
+    "relatedProjects": [
+      {
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "reason": "같은 주제 #카피라이팅 · 겹치는 과제 1개",
+        "sharedTopicIds": [
+          "obj_topic_copywriting"
+        ]
+      },
+      {
+        "project": {
+          "id": "prj_career",
+          "name": "커리어",
+          "colorHex": "#A393E0"
+        },
+        "reason": "포트폴리오 글을 블로그로 옮기기로 함 (8월 4일)",
+        "sharedTopicIds": [
+          "obj_topic_portfolio"
+        ]
+      },
+      {
+        "project": {
+          "id": "prj_devstudy",
+          "name": "개발 공부",
+          "colorHex": "#4DB9E3"
+        },
+        "reason": "Next.js 배포 위키 2건을 참고함",
+        "sharedTopicIds": [
+          "obj_topic_deploy"
+        ]
+      }
+    ]
+  },
+  "prj_moving": {
+    "id": "prj_moving",
+    "name": "이사 준비",
+    "aliases": [
+      "이사"
+    ],
+    "status": "active",
+    "colorHex": "#36C2A6",
+    "activity": {
+      "status": "진행 중",
+      "staleDays": null,
+      "statusVisual": "run"
+    },
+    "taskCount": 5,
+    "conversationCount": 19,
+    "startedAt": "2026-07-28T20:00:00+09:00",
+    "lastActivityAt": "2026-09-29T19:41:00+09:00",
+    "thresholds": null,
+    "summary": "업체 견적을 비교하는 중이에요. 한 곳은 아직 답이 없어요.",
+    "vault": {
+      "path": "projects/이사-준비.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=projects%2F%EC%9D%B4%EC%82%AC-%EC%A4%80%EB%B9%84.md"
+    },
+    "weeklyConversations": {
+      "weeks": 16,
+      "buckets": [
+        {
+          "start": "2026-06-15",
+          "count": 0
+        },
+        {
+          "start": "2026-06-22",
+          "count": 0
+        },
+        {
+          "start": "2026-06-29",
+          "count": 0
+        },
+        {
+          "start": "2026-07-06",
+          "count": 0
+        },
+        {
+          "start": "2026-07-13",
+          "count": 0
+        },
+        {
+          "start": "2026-07-20",
+          "count": 0
+        },
+        {
+          "start": "2026-07-27",
+          "count": 6
+        },
+        {
+          "start": "2026-08-03",
+          "count": 2
+        },
+        {
+          "start": "2026-08-10",
+          "count": 1
+        },
+        {
+          "start": "2026-08-17",
+          "count": 2
+        },
+        {
+          "start": "2026-08-24",
+          "count": 3
+        },
+        {
+          "start": "2026-08-31",
+          "count": 0
+        },
+        {
+          "start": "2026-09-07",
+          "count": 0
+        },
+        {
+          "start": "2026-09-14",
+          "count": 1
+        },
+        {
+          "start": "2026-09-21",
+          "count": 1
+        },
+        {
+          "start": "2026-09-28",
+          "count": 3
+        }
+      ]
+    },
+    "byAi": [
+      {
+        "sourceAi": "chatgpt",
+        "conversationCount": 10,
+        "messageCount": 83
+      },
+      {
+        "sourceAi": "claude",
+        "conversationCount": 7,
+        "messageCount": 71
+      },
+      {
+        "sourceAi": "gemini",
+        "conversationCount": 2,
+        "messageCount": 6
+      }
+    ],
+    "nextStep": {
+      "taskId": "task_20260919_01",
+      "taskTitle": "인터넷 이전 신청",
+      "text": "통신사에 이전 설치 가능한 날짜 문의하기",
+      "evidence": {
+        "conversationId": "conv_chatgpt_04abfe52",
+        "sourceAi": "chatgpt",
+        "at": "2026-09-26T21:10:00+09:00",
+        "quote": "예시를 하나만 더 들어 줘.",
+        "label": "9월 26일 ChatGPT 대화의 마지막 메시지"
+      },
+      "continue": {
+        "sourceAi": "chatgpt",
+        "url": "https://chatgpt.com/c/04abfe52-d82d-47e1-a05b-a7fc8341608a",
+        "conversationId": "conv_chatgpt_04abfe52",
+        "label": "ChatGPT에서 이어서"
+      }
+    },
+    "tasks": [
+      {
+        "id": "task_20260919_01",
+        "title": "인터넷 이전 신청",
+        "summary": "이전 설치 날짜를 이사 당일로 잡을지 고민 중",
+        "kind": "task",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 4,
+        "staleStage": "short_pause",
+        "badge": "4일",
+        "project": {
+          "id": "prj_moving",
+          "name": "이사 준비",
+          "colorHex": "#36C2A6"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 9,
+        "startedAt": "2026-09-19T10:00:00+09:00",
+        "lastActivityAt": "2026-09-26T21:10:00+09:00",
+        "completedAt": null,
+        "nextStep": "통신사에 이전 설치 가능한 날짜 문의하기",
+        "nextStepInfo": {
+          "text": "통신사에 이전 설치 가능한 날짜 문의하기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_04abfe52",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/04abfe52-d82d-47e1-a05b-a7fc8341608a"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 4,
+          "label": "멈춤 4일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260914_01",
+        "title": "이사업체 견적 비교표",
+        "summary": "이사업체 3곳 견적을 표로 비교하다가 B업체 추가 견적 대기 중",
+        "kind": "task",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_moving",
+          "name": "이사 준비",
+          "colorHex": "#36C2A6"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 1,
+        "messageCount": 24,
+        "startedAt": "2026-09-14T20:30:00+09:00",
+        "lastActivityAt": "2026-09-29T19:20:00+09:00",
+        "completedAt": null,
+        "nextStep": "B업체 답장이 오면 표에 넣고 총액 다시 계산",
+        "nextStepInfo": {
+          "text": "B업체 답장이 오면 표에 넣고 총액 다시 계산",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_a1b2c3d4",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/a1b2c3d4-7f60-4e2a-9b1c-5d8e3f0a6c27"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.83,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "진행 중",
+          "staleDays": null,
+          "label": "진행 중",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260928_01",
+        "title": "가구 배치 스케치",
+        "summary": "거실 소파 위치를 두 가지로 그려 봄",
+        "kind": "task",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_moving",
+          "name": "이사 준비",
+          "colorHex": "#36C2A6"
+        },
+        "sourceAis": [
+          "gemini"
+        ],
+        "conversationCount": 1,
+        "messageCount": 4,
+        "startedAt": "2026-09-28T20:00:00+09:00",
+        "lastActivityAt": "2026-09-28T21:00:00+09:00",
+        "completedAt": null,
+        "nextStep": "방 치수 재서 소파 위치 확정",
+        "nextStepInfo": {
+          "text": "방 치수 재서 소파 위치 확정",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_gemini_b07f0dcd",
+          "sourceAi": "gemini",
+          "url": "https://gemini.google.com/app/b07f0dcd51b2b2a3"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "진행 중",
+          "staleDays": null,
+          "label": "진행 중",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260811_01",
+        "title": "전입신고 준비물",
+        "summary": "신분증과 임대차계약서만 있으면 됨 — 온라인 신고도 가능",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_moving",
+          "name": "이사 준비",
+          "colorHex": "#36C2A6"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 1,
+        "messageCount": 7,
+        "startedAt": "2026-08-11T12:00:00+09:00",
+        "lastActivityAt": "2026-08-11T12:40:00+09:00",
+        "completedAt": "2026-08-11T12:40:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_4a0887d9",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/4a0887d9-0ab6-40f0-a1c9-b78b0958dba5"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260802_01",
+        "title": "포장이사 체크리스트",
+        "summary": "이사 한 달 전부터 당일까지 체크리스트 완성",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_moving",
+          "name": "이사 준비",
+          "colorHex": "#36C2A6"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 10,
+        "startedAt": "2026-08-02T21:00:00+09:00",
+        "lastActivityAt": "2026-08-02T22:10:00+09:00",
+        "completedAt": "2026-08-02T22:10:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_9f8e7d6c",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/9f8e7d6c-1a2b-8005-d4e6-7b9c0a1f2e33"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.91,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      }
+    ],
+    "quickQuestionCount": 2,
+    "relatedProjects": []
+  },
+  "prj_devstudy": {
+    "id": "prj_devstudy",
+    "name": "개발 공부",
+    "aliases": [
+      "공부",
+      "dev"
+    ],
+    "status": "active",
+    "colorHex": "#4DB9E3",
+    "activity": {
+      "status": "완료",
+      "staleDays": null,
+      "statusVisual": "done"
+    },
+    "taskCount": 6,
+    "conversationCount": 22,
+    "startedAt": "2026-06-20T21:00:00+09:00",
+    "lastActivityAt": "2026-09-29T10:12:00+09:00",
+    "thresholds": null,
+    "summary": "궁금한 걸 그때그때 끝내는 편 — 진행 중인 과제는 없어요.",
+    "vault": {
+      "path": "projects/개발-공부.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=projects%2F%EA%B0%9C%EB%B0%9C-%EA%B3%B5%EB%B6%80.md"
+    },
+    "weeklyConversations": {
+      "weeks": 16,
+      "buckets": [
+        {
+          "start": "2026-06-15",
+          "count": 1
+        },
+        {
+          "start": "2026-06-22",
+          "count": 4
+        },
+        {
+          "start": "2026-06-29",
+          "count": 1
+        },
+        {
+          "start": "2026-07-06",
+          "count": 1
+        },
+        {
+          "start": "2026-07-13",
+          "count": 2
+        },
+        {
+          "start": "2026-07-20",
+          "count": 4
+        },
+        {
+          "start": "2026-07-27",
+          "count": 0
+        },
+        {
+          "start": "2026-08-03",
+          "count": 1
+        },
+        {
+          "start": "2026-08-10",
+          "count": 1
+        },
+        {
+          "start": "2026-08-17",
+          "count": 0
+        },
+        {
+          "start": "2026-08-24",
+          "count": 0
+        },
+        {
+          "start": "2026-08-31",
+          "count": 1
+        },
+        {
+          "start": "2026-09-07",
+          "count": 0
+        },
+        {
+          "start": "2026-09-14",
+          "count": 2
+        },
+        {
+          "start": "2026-09-21",
+          "count": 2
+        },
+        {
+          "start": "2026-09-28",
+          "count": 2
+        }
+      ]
+    },
+    "byAi": [
+      {
+        "sourceAi": "claude",
+        "conversationCount": 13,
+        "messageCount": 119
+      },
+      {
+        "sourceAi": "chatgpt",
+        "conversationCount": 8,
+        "messageCount": 74
+      },
+      {
+        "sourceAi": "grok",
+        "conversationCount": 1,
+        "messageCount": 7
+      }
+    ],
+    "nextStep": null,
+    "tasks": [
+      {
+        "id": "task_20260926_01",
+        "title": "Next.js 배포 오류 해결",
+        "summary": "원인은 환경변수 이름 — 위키 초안으로 남김",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_devstudy",
+          "name": "개발 공부",
+          "colorHex": "#4DB9E3"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 2,
+        "messageCount": 20,
+        "startedAt": "2026-09-26T21:18:00+09:00",
+        "lastActivityAt": "2026-09-29T10:12:00+09:00",
+        "completedAt": "2026-09-29T10:12:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_91d0f6a4",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/91d0f6a4-7e2b-4c58-a3f9-0b6d1e8c2a57"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.94,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260901_02",
+        "title": "React 19 use() 정리",
+        "summary": "use()는 Promise와 Context를 읽는 훅 — Suspense와 같이 씀",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_devstudy",
+          "name": "개발 공부",
+          "colorHex": "#4DB9E3"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 1,
+        "messageCount": 13,
+        "startedAt": "2026-09-01T21:00:00+09:00",
+        "lastActivityAt": "2026-09-03T22:00:00+09:00",
+        "completedAt": "2026-09-03T22:00:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_6e5c2530",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/6e5c2530-6a95-48ec-a337-14f237443cf3"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260815_01",
+        "title": "Docker 볼륨 권한",
+        "summary": "컨테이너 사용자 UID를 호스트와 맞춰 해결",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_devstudy",
+          "name": "개발 공부",
+          "colorHex": "#4DB9E3"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 9,
+        "startedAt": "2026-08-15T21:00:00+09:00",
+        "lastActivityAt": "2026-08-16T21:00:00+09:00",
+        "completedAt": "2026-08-16T21:00:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_4ccc9c2f",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/4ccc9c2f-bdff-4aa0-a0c4-d7decbcd3bcf"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260808_01",
+        "title": "Rust 소유권 메모",
+        "summary": "빌림 규칙 두 가지를 예제로 정리",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_devstudy",
+          "name": "개발 공부",
+          "colorHex": "#4DB9E3"
+        },
+        "sourceAis": [
+          "grok"
+        ],
+        "conversationCount": 1,
+        "messageCount": 7,
+        "startedAt": "2026-08-08T21:00:00+09:00",
+        "lastActivityAt": "2026-08-09T21:30:00+09:00",
+        "completedAt": "2026-08-09T21:30:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_grok_b1a07b42",
+          "sourceAi": "grok",
+          "url": "https://grok.com/chat/b1a07b42-bb07-4064-acde-f89d5d6fe436"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260710_01",
+        "title": "타입스크립트 제네릭",
+        "summary": "조건부 타입과 infer까지 예제로 정리",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_devstudy",
+          "name": "개발 공부",
+          "colorHex": "#4DB9E3"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 2,
+        "messageCount": 25,
+        "startedAt": "2026-07-10T21:00:00+09:00",
+        "lastActivityAt": "2026-07-14T22:00:00+09:00",
+        "completedAt": "2026-07-14T22:00:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_cb2e0738",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/cb2e0738-0d76-40ba-af28-574b63767304"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260702_01",
+        "title": "SQL 윈도 함수",
+        "summary": "ROW_NUMBER·LAG 예제로 정리",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_devstudy",
+          "name": "개발 공부",
+          "colorHex": "#4DB9E3"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 5,
+        "startedAt": "2026-07-02T21:00:00+09:00",
+        "lastActivityAt": "2026-07-02T21:40:00+09:00",
+        "completedAt": "2026-07-02T21:40:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_eae24322",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/eae24322-f119-4af5-a216-c666f1126191"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      }
+    ],
+    "quickQuestionCount": 4,
+    "relatedProjects": [
+      {
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "reason": "Next.js 배포 위키 2건을 참고함",
+        "sharedTopicIds": [
+          "obj_topic_deploy"
+        ]
+      },
+      {
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "reason": "같은 주제 #배포 · 겹치는 과제 1개",
+        "sharedTopicIds": [
+          "obj_topic_deploy"
+        ]
+      }
+    ]
+  },
+  "prj_health": {
+    "id": "prj_health",
+    "name": "건강",
+    "aliases": [
+      "운동"
+    ],
+    "status": "active",
+    "colorHex": "#9CCB5E",
+    "activity": {
+      "status": "진행 중",
+      "staleDays": null,
+      "statusVisual": "run"
+    },
+    "taskCount": 3,
+    "conversationCount": 9,
+    "startedAt": "2026-08-25T21:00:00+09:00",
+    "lastActivityAt": "2026-09-29T07:40:00+09:00",
+    "thresholds": null,
+    "summary": "10km 러닝 훈련표를 짜는 중이에요.",
+    "vault": {
+      "path": "projects/건강.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=projects%2F%EA%B1%B4%EA%B0%95.md"
+    },
+    "weeklyConversations": {
+      "weeks": 16,
+      "buckets": [
+        {
+          "start": "2026-06-15",
+          "count": 0
+        },
+        {
+          "start": "2026-06-22",
+          "count": 0
+        },
+        {
+          "start": "2026-06-29",
+          "count": 0
+        },
+        {
+          "start": "2026-07-06",
+          "count": 0
+        },
+        {
+          "start": "2026-07-13",
+          "count": 0
+        },
+        {
+          "start": "2026-07-20",
+          "count": 0
+        },
+        {
+          "start": "2026-07-27",
+          "count": 0
+        },
+        {
+          "start": "2026-08-03",
+          "count": 0
+        },
+        {
+          "start": "2026-08-10",
+          "count": 0
+        },
+        {
+          "start": "2026-08-17",
+          "count": 0
+        },
+        {
+          "start": "2026-08-24",
+          "count": 5
+        },
+        {
+          "start": "2026-08-31",
+          "count": 1
+        },
+        {
+          "start": "2026-09-07",
+          "count": 0
+        },
+        {
+          "start": "2026-09-14",
+          "count": 0
+        },
+        {
+          "start": "2026-09-21",
+          "count": 2
+        },
+        {
+          "start": "2026-09-28",
+          "count": 1
+        }
+      ]
+    },
+    "byAi": [
+      {
+        "sourceAi": "gemini",
+        "conversationCount": 8,
+        "messageCount": 66
+      },
+      {
+        "sourceAi": "chatgpt",
+        "conversationCount": 1,
+        "messageCount": 4
+      }
+    ],
+    "nextStep": {
+      "taskId": "task_20260921_03",
+      "taskTitle": "홈트 루틴 식단",
+      "text": "아침 식단 3가지 후보 중 하나 고르기",
+      "evidence": {
+        "conversationId": "conv_gemini_85360ec3",
+        "sourceAi": "gemini",
+        "at": "2026-09-26T08:05:00+09:00",
+        "quote": "조금 더 짧게, 목록으로 정리해 줘.",
+        "label": "9월 26일 Gemini 대화의 마지막 메시지"
+      },
+      "continue": {
+        "sourceAi": "gemini",
+        "url": "https://gemini.google.com/app/85360ec33fd77f72",
+        "conversationId": "conv_gemini_85360ec3",
+        "label": "Gemini에서 이어서"
+      }
+    },
+    "tasks": [
+      {
+        "id": "task_20260921_03",
+        "title": "홈트 루틴 식단",
+        "summary": "주 3회 홈트 루틴은 정했고 식단 부분을 고민 중",
+        "kind": "task",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 4,
+        "staleStage": "short_pause",
+        "badge": "4일",
+        "project": {
+          "id": "prj_health",
+          "name": "건강",
+          "colorHex": "#9CCB5E"
+        },
+        "sourceAis": [
+          "gemini"
+        ],
+        "conversationCount": 1,
+        "messageCount": 7,
+        "startedAt": "2026-09-21T07:30:00+09:00",
+        "lastActivityAt": "2026-09-26T08:05:00+09:00",
+        "completedAt": null,
+        "nextStep": "아침 식단 3가지 후보 중 하나 고르기",
+        "nextStepInfo": {
+          "text": "아침 식단 3가지 후보 중 하나 고르기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_gemini_85360ec3",
+          "sourceAi": "gemini",
+          "url": "https://gemini.google.com/app/85360ec33fd77f72"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 4,
+          "label": "멈춤 4일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260927_02",
+        "title": "러닝 10km 준비",
+        "summary": "10주 훈련표를 짜는 중, 3주차까지 확정",
+        "kind": "task",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_health",
+          "name": "건강",
+          "colorHex": "#9CCB5E"
+        },
+        "sourceAis": [
+          "gemini"
+        ],
+        "conversationCount": 1,
+        "messageCount": 11,
+        "startedAt": "2026-09-27T07:00:00+09:00",
+        "lastActivityAt": "2026-09-29T07:40:00+09:00",
+        "completedAt": null,
+        "nextStep": "4주차 인터벌 거리 정하기",
+        "nextStepInfo": {
+          "text": "4주차 인터벌 거리 정하기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_gemini_452f0963",
+          "sourceAi": "gemini",
+          "url": "https://gemini.google.com/app/452f0963f9d52e44"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "진행 중",
+          "staleDays": null,
+          "label": "진행 중",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260826_01",
+        "title": "영양제 조합",
+        "summary": "비타민 D·마그네슘만 먹기로 함",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_health",
+          "name": "건강",
+          "colorHex": "#9CCB5E"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 4,
+        "startedAt": "2026-08-26T21:00:00+09:00",
+        "lastActivityAt": "2026-08-26T21:20:00+09:00",
+        "completedAt": "2026-08-26T21:20:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_8d8cfae6",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/8d8cfae6-b76b-4e53-a15f-1d7f18eed0ec"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      }
+    ],
+    "quickQuestionCount": 1,
+    "relatedProjects": []
+  },
+  "prj_kyoto": {
+    "id": "prj_kyoto",
+    "name": "가을 교토 여행",
+    "aliases": [
+      "교토",
+      "일본 여행"
+    ],
+    "status": "active",
+    "colorHex": "#D768A6",
+    "activity": {
+      "status": "멈춤",
+      "staleDays": 4,
+      "statusVisual": "stall2"
+    },
+    "taskCount": 4,
+    "conversationCount": 12,
+    "startedAt": "2026-09-02T21:00:00+09:00",
+    "lastActivityAt": "2026-09-26T23:50:00+09:00",
+    "thresholds": null,
+    "summary": "료칸은 골랐고 3박 4일 일정과 교통패스를 정하다 멈춰 있어요.",
+    "vault": {
+      "path": "projects/가을-교토-여행.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=projects%2F%EA%B0%80%EC%9D%84-%EA%B5%90%ED%86%A0-%EC%97%AC%ED%96%89.md"
+    },
+    "weeklyConversations": {
+      "weeks": 16,
+      "buckets": [
+        {
+          "start": "2026-06-15",
+          "count": 0
+        },
+        {
+          "start": "2026-06-22",
+          "count": 0
+        },
+        {
+          "start": "2026-06-29",
+          "count": 0
+        },
+        {
+          "start": "2026-07-06",
+          "count": 0
+        },
+        {
+          "start": "2026-07-13",
+          "count": 0
+        },
+        {
+          "start": "2026-07-20",
+          "count": 0
+        },
+        {
+          "start": "2026-07-27",
+          "count": 0
+        },
+        {
+          "start": "2026-08-03",
+          "count": 0
+        },
+        {
+          "start": "2026-08-10",
+          "count": 0
+        },
+        {
+          "start": "2026-08-17",
+          "count": 0
+        },
+        {
+          "start": "2026-08-24",
+          "count": 0
+        },
+        {
+          "start": "2026-08-31",
+          "count": 3
+        },
+        {
+          "start": "2026-09-07",
+          "count": 2
+        },
+        {
+          "start": "2026-09-14",
+          "count": 1
+        },
+        {
+          "start": "2026-09-21",
+          "count": 6
+        },
+        {
+          "start": "2026-09-28",
+          "count": 0
+        }
+      ]
+    },
+    "byAi": [
+      {
+        "sourceAi": "gemini",
+        "conversationCount": 8,
+        "messageCount": 125
+      },
+      {
+        "sourceAi": "chatgpt",
+        "conversationCount": 2,
+        "messageCount": 10
+      },
+      {
+        "sourceAi": "grok",
+        "conversationCount": 2,
+        "messageCount": 5
+      }
+    ],
+    "nextStep": {
+      "taskId": "task_20260920_01",
+      "taskTitle": "교토 3박 4일 일정",
+      "text": "둘째 날 오후 동선을 버스 기준으로 다시 짜기",
+      "evidence": {
+        "conversationId": "conv_gemini_793a3db5",
+        "sourceAi": "gemini",
+        "at": "2026-09-26T23:41:07+09:00",
+        "quote": "일단 여기까지 하고 나중에 다시 볼게.",
+        "label": "9월 26일 Gemini 대화의 마지막 메시지"
+      },
+      "continue": {
+        "sourceAi": "gemini",
+        "url": "https://gemini.google.com/app/793a3db5691593ea",
+        "conversationId": "conv_gemini_793a3db5",
+        "label": "Gemini에서 이어서"
+      }
+    },
+    "tasks": [
+      {
+        "id": "task_20260922_02",
+        "title": "JR 패스 계산",
+        "summary": "JR 패스와 개별 승차권 가격을 비교하다 멈춤",
+        "kind": "task",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 6,
+        "staleStage": "short_pause",
+        "badge": "6일",
+        "project": {
+          "id": "prj_kyoto",
+          "name": "가을 교토 여행",
+          "colorHex": "#D768A6"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 8,
+        "startedAt": "2026-09-22T21:00:00+09:00",
+        "lastActivityAt": "2026-09-24T21:40:00+09:00",
+        "completedAt": null,
+        "nextStep": "간사이 와이드 패스 가격과 비교해서 결정",
+        "nextStepInfo": {
+          "text": "간사이 와이드 패스 가격과 비교해서 결정",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": true,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_956789b4",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/956789b4-41f1-4a53-aceb-18d55741819c"
+        },
+        "handoff": null,
+        "classificationState": "blocked",
+        "blockedReason": "PROHIBITED_CONTENT",
+        "blockedModel": "gemini-3.5-flash-lite",
+        "confidence": 0.55,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 6,
+          "label": "멈춤 6일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260920_01",
+        "title": "교토 3박 4일 일정",
+        "summary": "둘째 날 아라시야마 동선에서 멈춤",
+        "kind": "task",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 4,
+        "staleStage": "short_pause",
+        "badge": "4일",
+        "project": {
+          "id": "prj_kyoto",
+          "name": "가을 교토 여행",
+          "colorHex": "#D768A6"
+        },
+        "sourceAis": [
+          "gemini"
+        ],
+        "conversationCount": 3,
+        "messageCount": 31,
+        "startedAt": "2026-09-20T21:00:00+09:00",
+        "lastActivityAt": "2026-09-26T23:50:00+09:00",
+        "completedAt": null,
+        "nextStep": "둘째 날 오후 동선을 버스 기준으로 다시 짜기",
+        "nextStepInfo": {
+          "text": "둘째 날 오후 동선을 버스 기준으로 다시 짜기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_gemini_793a3db5",
+          "sourceAi": "gemini",
+          "url": "https://gemini.google.com/app/793a3db5691593ea"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 4,
+          "label": "멈춤 4일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260905_01",
+        "title": "료칸 후보",
+        "summary": "조식 포함·기온 근처 료칸 한 곳으로 예약",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_kyoto",
+          "name": "가을 교토 여행",
+          "colorHex": "#D768A6"
+        },
+        "sourceAis": [
+          "gemini"
+        ],
+        "conversationCount": 1,
+        "messageCount": 6,
+        "startedAt": "2026-09-05T21:00:00+09:00",
+        "lastActivityAt": "2026-09-07T21:30:00+09:00",
+        "completedAt": "2026-09-07T21:30:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_gemini_99c1dae8",
+          "sourceAi": "gemini",
+          "url": "https://gemini.google.com/app/99c1dae821ce9b1b"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260903_01",
+        "title": "10월 축제 찾기",
+        "summary": "여행 기간에 겹치는 축제는 지다이 마쓰리(10/22) 하나",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_kyoto",
+          "name": "가을 교토 여행",
+          "colorHex": "#D768A6"
+        },
+        "sourceAis": [
+          "grok"
+        ],
+        "conversationCount": 1,
+        "messageCount": 3,
+        "startedAt": "2026-09-03T22:00:00+09:00",
+        "lastActivityAt": "2026-09-03T22:20:00+09:00",
+        "completedAt": "2026-09-03T22:20:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_grok_60b8b509",
+          "sourceAi": "grok",
+          "url": "https://grok.com/chat/60b8b509-4a74-4f19-aee3-d4962758a164"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      }
+    ],
+    "quickQuestionCount": 3,
+    "relatedProjects": []
+  },
+  "prj_dividend": {
+    "id": "prj_dividend",
+    "name": "배당 가계부",
+    "aliases": [
+      "배당",
+      "가계부"
+    ],
+    "status": "active",
+    "colorHex": "#E8B63E",
+    "activity": {
+      "status": "멈춤",
+      "staleDays": 6,
+      "statusVisual": "stall2"
+    },
+    "taskCount": 3,
+    "conversationCount": 11,
+    "startedAt": "2026-07-10T21:00:00+09:00",
+    "lastActivityAt": "2026-09-24T20:30:00+09:00",
+    "thresholds": null,
+    "summary": "구글 시트로 배당 가계부를 만드는 중. 환율 자동화에서 막혀 있어요.",
+    "vault": {
+      "path": "projects/배당-가계부.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=projects%2F%EB%B0%B0%EB%8B%B9-%EA%B0%80%EA%B3%84%EB%B6%80.md"
+    },
+    "weeklyConversations": {
+      "weeks": 16,
+      "buckets": [
+        {
+          "start": "2026-06-15",
+          "count": 0
+        },
+        {
+          "start": "2026-06-22",
+          "count": 0
+        },
+        {
+          "start": "2026-06-29",
+          "count": 0
+        },
+        {
+          "start": "2026-07-06",
+          "count": 2
+        },
+        {
+          "start": "2026-07-13",
+          "count": 4
+        },
+        {
+          "start": "2026-07-20",
+          "count": 1
+        },
+        {
+          "start": "2026-07-27",
+          "count": 0
+        },
+        {
+          "start": "2026-08-03",
+          "count": 0
+        },
+        {
+          "start": "2026-08-10",
+          "count": 0
+        },
+        {
+          "start": "2026-08-17",
+          "count": 0
+        },
+        {
+          "start": "2026-08-24",
+          "count": 0
+        },
+        {
+          "start": "2026-08-31",
+          "count": 0
+        },
+        {
+          "start": "2026-09-07",
+          "count": 1
+        },
+        {
+          "start": "2026-09-14",
+          "count": 0
+        },
+        {
+          "start": "2026-09-21",
+          "count": 3
+        },
+        {
+          "start": "2026-09-28",
+          "count": 0
+        }
+      ]
+    },
+    "byAi": [
+      {
+        "sourceAi": "chatgpt",
+        "conversationCount": 8,
+        "messageCount": 88
+      },
+      {
+        "sourceAi": "grok",
+        "conversationCount": 3,
+        "messageCount": 22
+      }
+    ],
+    "nextStep": {
+      "taskId": "task_20260921_01",
+      "taskTitle": "배당 시트 환율 자동화",
+      "text": "GOOGLEFINANCE 환율 셀이 #N/A 나는 원인 찾기",
+      "evidence": {
+        "conversationId": "conv_grok_b1115650",
+        "sourceAi": "grok",
+        "at": "2026-09-21T21:24:00+09:00",
+        "quote": "일단 여기까지 하고 나중에 다시 볼게.",
+        "label": "9월 21일 Grok 대화의 마지막 메시지"
+      },
+      "continue": {
+        "sourceAi": "grok",
+        "url": "https://grok.com/chat/b1115650-a489-4475-ad01-94f13a6e1c09",
+        "conversationId": "conv_grok_b1115650",
+        "label": "Grok에서 이어서"
+      }
+    },
+    "tasks": [
+      {
+        "id": "task_20260921_01",
+        "title": "배당 시트 환율 자동화",
+        "summary": "GOOGLEFINANCE 환율 셀이 #N/A로 나와 멈춤",
+        "kind": "task",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 9,
+        "staleStage": "stale",
+        "badge": "9일",
+        "project": {
+          "id": "prj_dividend",
+          "name": "배당 가계부",
+          "colorHex": "#E8B63E"
+        },
+        "sourceAis": [
+          "grok"
+        ],
+        "conversationCount": 1,
+        "messageCount": 16,
+        "startedAt": "2026-09-21T20:00:00+09:00",
+        "lastActivityAt": "2026-09-21T21:30:00+09:00",
+        "completedAt": null,
+        "nextStep": "GOOGLEFINANCE 환율 셀이 #N/A 나는 원인 찾기",
+        "nextStepInfo": {
+          "text": "GOOGLEFINANCE 환율 셀이 #N/A 나는 원인 찾기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_grok_b1115650",
+          "sourceAi": "grok",
+          "url": "https://grok.com/chat/b1115650-a489-4475-ad01-94f13a6e1c09"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 9,
+          "label": "멈춤 9일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260924_03",
+        "title": "ETF 분배금 세금",
+        "summary": "ETF 분배금 과세 방식을 묻다 멈춤",
+        "kind": "task",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 6,
+        "staleStage": "short_pause",
+        "badge": "6일",
+        "project": {
+          "id": "prj_dividend",
+          "name": "배당 가계부",
+          "colorHex": "#E8B63E"
+        },
+        "sourceAis": [
+          "grok"
+        ],
+        "conversationCount": 1,
+        "messageCount": 4,
+        "startedAt": "2026-09-24T20:00:00+09:00",
+        "lastActivityAt": "2026-09-24T20:30:00+09:00",
+        "completedAt": null,
+        "nextStep": "국내 상장 해외 ETF 분배금 원천징수 확인",
+        "nextStepInfo": {
+          "text": "국내 상장 해외 ETF 분배금 원천징수 확인",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_grok_46093688",
+          "sourceAi": "grok",
+          "url": "https://grok.com/chat/46093688-b835-4131-af6f-a51db50a85ae"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 6,
+          "label": "멈춤 6일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260712_01",
+        "title": "배당 캘린더 정리",
+        "summary": "보유 종목 배당 지급월을 캘린더 시트로 정리",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_dividend",
+          "name": "배당 가계부",
+          "colorHex": "#E8B63E"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 12,
+        "startedAt": "2026-07-12T21:00:00+09:00",
+        "lastActivityAt": "2026-07-15T22:00:00+09:00",
+        "completedAt": "2026-07-15T22:00:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_d74004a5",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/d74004a5-c449-4a60-ac70-6c68ce0507b2"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      }
+    ],
+    "quickQuestionCount": 2,
+    "relatedProjects": [
+      {
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "reason": "같은 주제 #자동화 · 겹치는 과제 1개",
+        "sharedTopicIds": [
+          "obj_topic_automation"
+        ]
+      }
+    ]
+  },
+  "prj_career": {
+    "id": "prj_career",
+    "name": "커리어",
+    "aliases": [
+      "이직",
+      "이력서"
+    ],
+    "status": "active",
+    "colorHex": "#A393E0",
+    "activity": {
+      "status": "멈춤",
+      "staleDays": 34,
+      "statusVisual": "stall"
+    },
+    "taskCount": 4,
+    "conversationCount": 16,
+    "startedAt": "2026-07-20T21:00:00+09:00",
+    "lastActivityAt": "2026-08-27T23:30:00+09:00",
+    "thresholds": null,
+    "summary": "포트폴리오 목차는 끝났고 영문 이력서를 다듬다 한 달 넘게 멈춰 있어요.",
+    "vault": {
+      "path": "projects/커리어.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=projects%2F%EC%BB%A4%EB%A6%AC%EC%96%B4.md"
+    },
+    "weeklyConversations": {
+      "weeks": 16,
+      "buckets": [
+        {
+          "start": "2026-06-15",
+          "count": 0
+        },
+        {
+          "start": "2026-06-22",
+          "count": 0
+        },
+        {
+          "start": "2026-06-29",
+          "count": 0
+        },
+        {
+          "start": "2026-07-06",
+          "count": 0
+        },
+        {
+          "start": "2026-07-13",
+          "count": 0
+        },
+        {
+          "start": "2026-07-20",
+          "count": 6
+        },
+        {
+          "start": "2026-07-27",
+          "count": 1
+        },
+        {
+          "start": "2026-08-03",
+          "count": 1
+        },
+        {
+          "start": "2026-08-10",
+          "count": 3
+        },
+        {
+          "start": "2026-08-17",
+          "count": 1
+        },
+        {
+          "start": "2026-08-24",
+          "count": 4
+        },
+        {
+          "start": "2026-08-31",
+          "count": 0
+        },
+        {
+          "start": "2026-09-07",
+          "count": 0
+        },
+        {
+          "start": "2026-09-14",
+          "count": 0
+        },
+        {
+          "start": "2026-09-21",
+          "count": 0
+        },
+        {
+          "start": "2026-09-28",
+          "count": 0
+        }
+      ]
+    },
+    "byAi": [
+      {
+        "sourceAi": "chatgpt",
+        "conversationCount": 10,
+        "messageCount": 100
+      },
+      {
+        "sourceAi": "claude",
+        "conversationCount": 6,
+        "messageCount": 50
+      }
+    ],
+    "nextStep": {
+      "taskId": "task_20260827_01",
+      "taskTitle": "영문 이력서 다듬기",
+      "text": "경력 요약을 3줄로 줄이기",
+      "evidence": {
+        "conversationId": "conv_chatgpt_3771cb26",
+        "sourceAi": "chatgpt",
+        "at": "2026-08-27T23:30:00+09:00",
+        "quote": "영문 이력서 다듬기 — 이어서 관련해서 같이 정리해 줄래?",
+        "label": "8월 27일 ChatGPT 대화의 마지막 메시지"
+      },
+      "continue": {
+        "sourceAi": "chatgpt",
+        "url": "https://chatgpt.com/c/3771cb26-5ed1-4120-a6ad-bd8c950fd209",
+        "conversationId": "conv_chatgpt_3771cb26",
+        "label": "ChatGPT에서 이어서"
+      }
+    },
+    "tasks": [
+      {
+        "id": "task_20260827_01",
+        "title": "영문 이력서 다듬기",
+        "summary": "경력 요약 문단을 세 번 고치다 멈춤",
+        "kind": "task",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 34,
+        "staleStage": "long_stale",
+        "badge": "34일",
+        "project": {
+          "id": "prj_career",
+          "name": "커리어",
+          "colorHex": "#A393E0"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 2,
+        "messageCount": 27,
+        "startedAt": "2026-08-27T20:00:00+09:00",
+        "lastActivityAt": "2026-08-27T23:30:00+09:00",
+        "completedAt": null,
+        "nextStep": "경력 요약을 3줄로 줄이기",
+        "nextStepInfo": {
+          "text": "경력 요약을 3줄로 줄이기",
+          "source": "saved",
+          "basis": "분류 결과"
+        },
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_3771cb26",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/3771cb26-5ed1-4120-a6ad-bd8c950fd209"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": null,
+        "conversationOutcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 34,
+          "label": "멈춤 34일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260804_01",
+        "title": "포트폴리오 목차",
+        "summary": "포트폴리오 글을 블로그로 옮기기로 하고 목차 5개 확정",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_career",
+          "name": "커리어",
+          "colorHex": "#A393E0"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 15,
+        "startedAt": "2026-08-04T20:00:00+09:00",
+        "lastActivityAt": "2026-08-04T21:10:00+09:00",
+        "completedAt": "2026-08-04T21:10:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_c87e0c6b",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/c87e0c6b-8d81-45f9-a2e9-f6e287ae3c1f"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260725_01",
+        "title": "자기소개서 첫 문단",
+        "summary": "첫 문단을 ‘만든 도구’ 이야기로 시작하기로 함",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_career",
+          "name": "커리어",
+          "colorHex": "#A393E0"
+        },
+        "sourceAis": [
+          "claude"
+        ],
+        "conversationCount": 1,
+        "messageCount": 9,
+        "startedAt": "2026-07-25T20:00:00+09:00",
+        "lastActivityAt": "2026-07-26T21:00:00+09:00",
+        "completedAt": "2026-07-26T21:00:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_claude_d796ca81",
+          "sourceAi": "claude",
+          "url": "https://claude.ai/chat/d796ca81-ae5e-490c-a767-bc9a3b155245"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "id": "task_20260721_01",
+        "title": "링크드인 소개글",
+        "summary": "소개글 3문장 확정",
+        "kind": "task",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "staleStage": null,
+        "badge": null,
+        "project": {
+          "id": "prj_career",
+          "name": "커리어",
+          "colorHex": "#A393E0"
+        },
+        "sourceAis": [
+          "chatgpt"
+        ],
+        "conversationCount": 1,
+        "messageCount": 6,
+        "startedAt": "2026-07-21T21:00:00+09:00",
+        "lastActivityAt": "2026-07-21T21:40:00+09:00",
+        "completedAt": "2026-07-21T21:40:00+09:00",
+        "nextStep": null,
+        "nextStepInfo": null,
+        "needsReview": false,
+        "pin": false,
+        "primaryConversation": {
+          "id": "conv_chatgpt_308d2b14",
+          "sourceAi": "chatgpt",
+          "url": "https://chatgpt.com/c/308d2b14-0d18-40dc-afbd-5a387f2011df"
+        },
+        "handoff": null,
+        "classificationState": "ok",
+        "blockedReason": null,
+        "blockedModel": null,
+        "confidence": 0.85,
+        "completionReason": "resolved",
+        "conversationOutcome": {
+          "outcome": "done",
+          "status": "완료",
+          "staleDays": null,
+          "label": "끝난 대화",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      }
+    ],
+    "quickQuestionCount": 2,
+    "relatedProjects": [
+      {
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "reason": "포트폴리오 글을 블로그로 옮기기로 함 (8월 4일)",
+        "sharedTopicIds": [
+          "obj_topic_portfolio"
+        ]
+      }
+    ]
+  }
+}

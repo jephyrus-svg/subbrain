@@ -1,0 +1,9 @@
+{
+  "code": "418207",
+  "client": {
+    "kind": "extension",
+    "name": "SubBrain Chrome",
+    "version": "0.3.0",
+    "extensionId": "abcdefghijklmnopabcdefghijklmnop"
+  }
+}

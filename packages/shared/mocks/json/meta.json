@@ -1,0 +1,313 @@
+{
+  "statuses": [
+    {
+      "value": "진행 중",
+      "visual": "run",
+      "colorHex": "#5ED3A0",
+      "labelKo": "진행 중"
+    },
+    {
+      "value": "멈춤",
+      "visual": "stall",
+      "colorHex": "#FF8A65",
+      "labelKo": "멈춤"
+    },
+    {
+      "value": "완료",
+      "visual": "done",
+      "colorHex": "#8C94A8",
+      "labelKo": "완료"
+    },
+    {
+      "value": "간단한 질문",
+      "visual": "quick",
+      "colorHex": "#5E677D",
+      "labelKo": "간단한 질문"
+    },
+    {
+      "value": "보관",
+      "visual": "archived",
+      "colorHex": "#535D75",
+      "labelKo": "보관"
+    }
+  ],
+  "statusVisuals": {
+    "run": {
+      "colorHex": "#5ED3A0",
+      "ring": "solid",
+      "labelKo": "진행 중"
+    },
+    "stall2": {
+      "colorHex": "#F2B45A",
+      "ring": "dashed",
+      "labelKo": "잠깐 멈춤 (4–7일)"
+    },
+    "stall": {
+      "colorHex": "#FF8A65",
+      "ring": "dashed",
+      "labelKo": "7일 넘게 멈춤"
+    },
+    "done": {
+      "colorHex": "#8C94A8",
+      "ring": "none",
+      "labelKo": "완료"
+    },
+    "quick": {
+      "colorHex": "#5E677D",
+      "ring": "dot",
+      "labelKo": "간단한 질문"
+    },
+    "archived": {
+      "colorHex": null,
+      "ring": "none",
+      "labelKo": "보관"
+    }
+  },
+  "staleStages": [
+    {
+      "key": "short_pause",
+      "labelKo": "잠깐 멈춤",
+      "emoji": "🟡",
+      "minDays": 4,
+      "maxDays": 7
+    },
+    {
+      "key": "stale",
+      "labelKo": "방치",
+      "emoji": "🟠",
+      "minDays": 8,
+      "maxDays": 30
+    },
+    {
+      "key": "long_stale",
+      "labelKo": "오래 방치",
+      "emoji": "🔴",
+      "minDays": 31,
+      "maxDays": 90
+    },
+    {
+      "key": "dormant",
+      "labelKo": "휴면",
+      "emoji": "⚫",
+      "minDays": 91,
+      "maxDays": null
+    }
+  ],
+  "sourceAis": [
+    {
+      "key": "chatgpt",
+      "labelKo": "ChatGPT",
+      "shape": "circle",
+      "colorHex": "#4CC38A"
+    },
+    {
+      "key": "claude",
+      "labelKo": "Claude",
+      "shape": "rounded_square",
+      "colorHex": "#E88C60"
+    },
+    {
+      "key": "gemini",
+      "labelKo": "Gemini",
+      "shape": "diamond",
+      "colorHex": "#7EA2F7"
+    },
+    {
+      "key": "grok",
+      "labelKo": "Grok",
+      "shape": "triangle",
+      "colorHex": "#D8DCE5"
+    },
+    {
+      "key": "claude-code",
+      "labelKo": "Claude Code",
+      "shape": "rounded_square",
+      "colorHex": "#B8603A"
+    },
+    {
+      "key": "codex",
+      "labelKo": "Codex",
+      "shape": "circle",
+      "colorHex": "#2E8F62"
+    },
+    {
+      "key": "grokbot",
+      "labelKo": "Grok Bot",
+      "shape": "triangle",
+      "colorHex": "#9AA3B5"
+    }
+  ],
+  "projectPalette": [
+    "#F07F5E",
+    "#5B8DEF",
+    "#36C2A6",
+    "#D768A6",
+    "#E8B63E",
+    "#A393E0",
+    "#4DB9E3",
+    "#9CCB5E"
+  ],
+  "objectTypes": [
+    {
+      "key": "person",
+      "labelKo": "사람",
+      "icon": "person",
+      "sensitive": true,
+      "enabled": false
+    },
+    {
+      "key": "project",
+      "labelKo": "프로젝트",
+      "icon": "sphere",
+      "sensitive": false,
+      "enabled": true
+    },
+    {
+      "key": "task",
+      "labelKo": "과제",
+      "icon": "sphere-ring",
+      "sensitive": false,
+      "enabled": true
+    },
+    {
+      "key": "decision",
+      "labelKo": "결정",
+      "icon": "flag-check",
+      "sensitive": false,
+      "enabled": true
+    },
+    {
+      "key": "tool",
+      "labelKo": "도구/기술",
+      "icon": "wrench",
+      "sensitive": false,
+      "enabled": true
+    },
+    {
+      "key": "artifact",
+      "labelKo": "파일/자료",
+      "icon": "document",
+      "sensitive": false,
+      "enabled": false
+    },
+    {
+      "key": "place",
+      "labelKo": "장소",
+      "icon": "pin",
+      "sensitive": false,
+      "enabled": false
+    },
+    {
+      "key": "organization",
+      "labelKo": "조직",
+      "icon": "building",
+      "sensitive": false,
+      "enabled": false
+    },
+    {
+      "key": "topic",
+      "labelKo": "주제",
+      "icon": "hash",
+      "sensitive": false,
+      "enabled": true
+    }
+  ],
+  "linkTypes": [
+    {
+      "key": "uses",
+      "labelKo": "사용함",
+      "directed": true,
+      "colorHex": "#5B8DEF",
+      "line": "solid",
+      "arrow": false,
+      "hiddenByDefault": false
+    },
+    {
+      "key": "decided",
+      "labelKo": "결정함",
+      "directed": true,
+      "colorHex": "#E8B63E",
+      "line": "solid",
+      "arrow": false,
+      "hiddenByDefault": false
+    },
+    {
+      "key": "blocked_by",
+      "labelKo": "막혔음",
+      "directed": true,
+      "colorHex": "#FF8A65",
+      "line": "dashed",
+      "arrow": true,
+      "hiddenByDefault": false
+    },
+    {
+      "key": "derived_from",
+      "labelKo": "파생함",
+      "directed": true,
+      "colorHex": "#A393E0",
+      "line": "solid",
+      "arrow": true,
+      "hiddenByDefault": false
+    },
+    {
+      "key": "references",
+      "labelKo": "참고함",
+      "directed": true,
+      "colorHex": "#4DB9E3",
+      "line": "thin",
+      "arrow": false,
+      "hiddenByDefault": false
+    },
+    {
+      "key": "part_of",
+      "labelKo": "속함",
+      "directed": true,
+      "colorHex": "#535D75",
+      "line": "thin",
+      "arrow": false,
+      "hiddenByDefault": false
+    },
+    {
+      "key": "supersedes",
+      "labelKo": "대체함",
+      "directed": true,
+      "colorHex": "#D768A6",
+      "line": "solid",
+      "arrow": true,
+      "hiddenByDefault": false
+    },
+    {
+      "key": "affects",
+      "labelKo": "영향 줌",
+      "directed": true,
+      "colorHex": "#36C2A6",
+      "line": "solid",
+      "arrow": true,
+      "hiddenByDefault": false
+    },
+    {
+      "key": "located_at",
+      "labelKo": "위치함",
+      "directed": true,
+      "colorHex": "#9CCB5E",
+      "line": "thin",
+      "arrow": false,
+      "hiddenByDefault": false
+    },
+    {
+      "key": "related_to",
+      "labelKo": "관련 있음",
+      "directed": false,
+      "colorHex": "#8089A0",
+      "line": "dotted",
+      "arrow": false,
+      "hiddenByDefault": true
+    }
+  ],
+  "thresholds": {
+    "inProgressMaxDays": 3,
+    "shortPauseMaxDays": 7,
+    "staleMaxDays": 30,
+    "longStaleMaxDays": 90
+  }
+}

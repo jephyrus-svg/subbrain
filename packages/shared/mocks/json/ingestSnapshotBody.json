@@ -1,0 +1,36 @@
+{
+  "sourceAi": "chatgpt",
+  "sourceId": "68f2a91c-1d2e-4b7a-9c3f-0a1b2c3d4e5f",
+  "url": "https://chatgpt.com/c/68f2a91c-1d2e-4b7a-9c3f-0a1b2c3d4e5f",
+  "title": "메인 카피 후보 뽑기",
+  "capturedAt": "2026-09-30T08:20:41+09:00",
+  "serviceUpdatedAt": "2026-09-30T08:20:30+09:00",
+  "captureMethod": "extension_live",
+  "mode": "append",
+  "appendFromSeq": 6,
+  "baseContentHash": "9b1c…(이전 응답 contentHash)",
+  "messages": [
+    {
+      "seq": 6,
+      "externalId": "msg_aa01",
+      "role": "user",
+      "contentMd": "후보 B를 조금 더 짧게 해 줘",
+      "createdAt": "2026-09-30T08:20:02+09:00"
+    },
+    {
+      "seq": 7,
+      "externalId": "msg_aa02",
+      "role": "assistant",
+      "contentMd": "좋아요. 12자 안으로 줄인 안: …",
+      "createdAt": "2026-09-30T08:20:30+09:00"
+    }
+  ],
+  "contentHash": "4e07…(전체 8개 메시지 기준)",
+  "complete": true,
+  "adapter": {
+    "name": "chatgpt-dom",
+    "version": "0.3.0",
+    "domVersion": "2026-09"
+  },
+  "project": null
+}

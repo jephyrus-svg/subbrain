@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "task": {
+        "id": "task_20260830_01",
+        "title": "메인 페이지 카피 확정",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 14,
+        "projectId": "prj_blog"
+      },
+      "score": 0.62,
+      "sharedObjects": [
+        {
+          "id": "obj_task_copy",
+          "type": "task",
+          "label": "메인 페이지 카피 확정"
+        }
+      ],
+      "decisions": [
+        "카피 톤은 존댓말"
+      ],
+      "blockers": [
+        "디자이너 답변 대기"
+      ],
+      "completedAt": null
+    }
+  ]
+}

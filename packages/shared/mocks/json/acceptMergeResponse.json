@@ -1,0 +1,300 @@
+{
+  "suggestion": {
+    "id": "ms_4410",
+    "state": "accepted",
+    "confidence": 0.74,
+    "reason": "같은 주제 #카피라이팅 · Claude에서 시작한 소개 페이지 톤 작업을 ChatGPT에서 이어간 것으로 보임",
+    "tasks": [
+      {
+        "id": "task_20260902_01",
+        "title": "소개 페이지 톤 맞추기",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 6,
+        "projectId": "prj_blog",
+        "sourceAis": [
+          "claude"
+        ]
+      },
+      {
+        "id": "task_20260924_02",
+        "title": "소개 페이지 문장 다듬기",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 6,
+        "projectId": null,
+        "sourceAis": [
+          "chatgpt"
+        ]
+      }
+    ],
+    "suggestedPrimaryTaskId": "task_20260902_01",
+    "createdAt": "2026-09-25T03:02:11+09:00",
+    "decidedAt": "2026-09-30T08:30:00+09:00"
+  },
+  "task": {
+    "id": "task_20260902_01",
+    "title": "소개 페이지 톤 맞추기",
+    "kind": "task",
+    "status": "멈춤",
+    "statusSource": "rule",
+    "stale": {
+      "staleDays": 6,
+      "staleStage": "short_pause",
+      "statusVisual": "stall2",
+      "badge": "6일"
+    },
+    "completionReason": null,
+    "project": {
+      "id": "prj_blog",
+      "name": "블로그 리뉴얼",
+      "colorHex": "#F07F5E"
+    },
+    "breadcrumb": [
+      {
+        "label": "그래프",
+        "href": "/"
+      },
+      {
+        "label": "블로그 리뉴얼",
+        "href": "/?focus=prj_blog"
+      },
+      {
+        "label": "과제",
+        "href": null
+      }
+    ],
+    "origin": "auto",
+    "pin": false,
+    "overrides": [],
+    "startedAt": "2026-09-02T10:20:00+09:00",
+    "lastActivityAt": "2026-09-24T22:10:00+09:00",
+    "completedAt": null,
+    "firstConversationAt": "2026-09-02T10:20:00+09:00",
+    "lastConversationAt": "2026-09-24T22:10:00+09:00",
+    "conversationCount": 3,
+    "messageCount": 34,
+    "byAi": [
+      {
+        "sourceAi": "claude",
+        "conversationCount": 2,
+        "messageCount": 22,
+        "sharedConversationCount": 0
+      },
+      {
+        "sourceAi": "chatgpt",
+        "conversationCount": 1,
+        "messageCount": 12,
+        "sharedConversationCount": 0
+      }
+    ],
+    "topics": [
+      {
+        "id": "obj_topic_blog",
+        "name": "블로그"
+      },
+      {
+        "id": "obj_topic_copywriting",
+        "name": "카피라이팅"
+      }
+    ],
+    "summary": "메인 카피가 정해지면 같은 톤으로 다시 쓰기로 함",
+    "summaryDetail": [],
+    "nextStep": "메인 카피 확정 후 소개 문단 1·2를 같은 톤으로 다시 쓰기",
+    "nextStepInfo": {
+      "text": "메인 카피 확정 후 소개 문단 1·2를 같은 톤으로 다시 쓰기",
+      "source": "saved",
+      "basis": "분류 결과"
+    },
+    "classification": {
+      "kind": "task",
+      "resolution": "unresolved",
+      "completionReason": null,
+      "confidence": 0.78,
+      "evidence": "마지막 사용자 메시지: ‘나중에 다시 볼게’",
+      "model": "claude-haiku-4-5",
+      "promptVersion": "cls-v1",
+      "classifiedAt": "2026-09-24T22:15:30+09:00",
+      "needsReview": false,
+      "state": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "rawConfidence": null,
+      "handoff": null,
+      "cached": false
+    },
+    "handoff": null,
+    "classificationState": "ok",
+    "conversationOutcome": {
+      "outcome": "open",
+      "status": "멈춤",
+      "staleDays": 6,
+      "label": "멈춤 6일",
+      "target": null,
+      "evidence": null,
+      "detectedBy": "derived"
+    },
+    "conversationOutcomes": [
+      {
+        "conversationId": "conv_claude_e02b5a91",
+        "sourceAi": "claude",
+        "title": "소개 문단 다시 쓰기",
+        "role": "primary",
+        "updatedAt": "2026-09-24T22:10:00+09:00",
+        "outcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 6,
+          "label": "멈춤 6일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "conversationId": "conv_chatgpt_ecce7181",
+        "sourceAi": "chatgpt",
+        "title": "소개 페이지 문장 다듬기",
+        "role": "primary",
+        "updatedAt": "2026-09-24T21:10:00+09:00",
+        "outcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 6,
+          "label": "멈춤 6일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "conversationId": "conv_claude_f7710eae",
+        "sourceAi": "claude",
+        "title": "소개 페이지 톤",
+        "role": "primary",
+        "updatedAt": "2026-09-02T11:30:00+09:00",
+        "outcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 28,
+          "label": "멈춤 28일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      }
+    ],
+    "vault": {
+      "path": "tasks/소개-페이지-톤-맞추기.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=tasks%2F%EC%86%8C%EA%B0%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%86%A4-%EB%A7%9E%EC%B6%94%EA%B8%B0.md"
+    },
+    "decisions": [],
+    "openQuestions": [],
+    "resume": {
+      "defaultTargetAi": "claude",
+      "targets": [
+        "chatgpt",
+        "claude",
+        "gemini",
+        "grok"
+      ],
+      "promptPreview": "[맥락] 블로그 리뉴얼 — 소개 페이지 톤 맞추기. 메인 카피가 정해지면 같은 톤으로 다시 쓰기로 함\n다음 할 일: 메인 카피 확정 후 소개 문단 1·2를 같은 톤으로 다시 쓰기\n요청: 위 다음 할 일부터 이어서 도와줘.",
+      "continue": {
+        "sourceAi": "claude",
+        "url": "https://claude.ai/chat/e02b5a91-6c3d-4f70-b1a8-2d9e4c7f0a35",
+        "conversationId": "conv_claude_e02b5a91",
+        "label": "Claude에서 이어서"
+      },
+      "continueNote": "원래 대화(9.24)에 이어 붙임"
+    },
+    "related": {
+      "similarTasks": [
+        {
+          "id": "task_20260919_02",
+          "title": "온보딩 문구 다듬기",
+          "status": "완료",
+          "statusVisual": "done",
+          "staleDays": null,
+          "projectId": "prj_subbrain",
+          "projectName": "서브브레인",
+          "sourceAi": "claude",
+          "reason": "같은 주제 #카피라이팅",
+          "completedAt": "2026-09-21T22:48:00+09:00"
+        },
+        {
+          "id": "task_20260703_01",
+          "title": "1차 디자인 시안",
+          "status": "완료",
+          "statusVisual": "done",
+          "staleDays": null,
+          "projectId": "prj_blog",
+          "projectName": "블로그 리뉴얼",
+          "sourceAi": "chatgpt",
+          "reason": "같은 주제 #블로그",
+          "completedAt": "2026-07-21T23:02:00+09:00"
+        },
+        {
+          "id": "task_20260612_01",
+          "title": "섹션 구성안",
+          "status": "완료",
+          "statusVisual": "done",
+          "staleDays": null,
+          "projectId": "prj_blog",
+          "projectName": "블로그 리뉴얼",
+          "sourceAi": "chatgpt",
+          "reason": "같은 주제 #블로그",
+          "completedAt": "2026-06-20T22:31:00+09:00"
+        },
+        {
+          "id": "task_20260927_01",
+          "title": "글 목록 태그 필터",
+          "status": "진행 중",
+          "statusVisual": "run",
+          "staleDays": null,
+          "projectId": "prj_blog",
+          "projectName": "블로그 리뉴얼",
+          "sourceAi": "chatgpt",
+          "reason": "같은 주제 #블로그",
+          "completedAt": null
+        },
+        {
+          "id": "task_20260805_01",
+          "title": "RSS 피드 붙이기",
+          "status": "멈춤",
+          "statusVisual": "stall",
+          "staleDays": 54,
+          "projectId": "prj_blog",
+          "projectName": "블로그 리뉴얼",
+          "sourceAi": "grok",
+          "reason": "같은 주제 #블로그",
+          "completedAt": null
+        }
+      ],
+      "wikiPages": []
+    },
+    "mergeSuggestions": [],
+    "neighborCount": 4,
+    "whyStalled": {
+      "chain": [
+        {
+          "depth": 1,
+          "nodeId": "obj_task_copy",
+          "type": "task",
+          "label": "메인 페이지 카피 확정",
+          "linkType": "blocked_by",
+          "confidence": 0.88
+        },
+        {
+          "depth": 2,
+          "nodeId": "obj_person_designer",
+          "type": "person",
+          "label": "디자이너 윤서",
+          "linkType": "blocked_by",
+          "confidence": 0.91
+        }
+      ],
+      "rootCause": "‘디자이너 윤서’(사람 답 기다림)",
+      "lastRelatedConversationId": "conv_claude_e02b5a91"
+    }
+  }
+}

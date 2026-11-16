@@ -1,0 +1,31 @@
+/* 1.9.0 기기 연결 — 리뷰 화면 판 위에 차분한 카드 */
+.dvgrid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.pcard{border:1px solid var(--rule);border-radius:6px;background:var(--sheet);padding:14px 16px;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.pcard p{margin:0;font-size:12.5px;color:var(--ink2);line-height:1.55}
+.pcard .seg{display:flex;border:1px solid var(--rule);border-radius:var(--radius);overflow:hidden}
+.pcard .seg button{font:inherit;font-size:12px;background:none;border:0;color:var(--ink3);padding:5px 12px;cursor:pointer}
+.pcard .seg button.on{background:var(--sheet2);color:var(--ink)}
+.pcode{font-family:var(--mono);font-size:34px;letter-spacing:.12em;color:var(--ink);padding:4px 0 0}
+.pcount{width:100%;max-width:260px;display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--ink3)}
+.pcount i{display:block;height:3px;border-radius:2px;background:var(--ochre);transition:width var(--t-slow) var(--ease)}
+.pok{color:var(--sage) !important;display:flex;align-items:center;gap:5px}
+.hlist,.dlist{list-style:none;margin:6px 0 0;padding:0}
+.hlist li{display:grid;grid-template-columns:auto auto auto 1fr;grid-template-rows:auto auto;column-gap:8px;row-gap:2px;align-items:center;padding:9px 0;border-top:1px solid var(--rule);font-size:12.5px}
+.hlist li:first-child{border-top:0}
+.hlist .hm{grid-column:2/5;color:var(--ink2);font-size:11.5px}
+.hlist .hv{grid-column:2/5;color:var(--ink4);font-size:11px;font-family:var(--mono)}
+.hb{font-size:11px;border:1px solid var(--rule);border-radius:3px;padding:0 6px;justify-self:start}
+.hb.ok{color:var(--sage);border-color:var(--line-default)}.hb.warm{color:var(--ochre);border-color:var(--line-default)}.hb.late{color:var(--clay);border-color:var(--clay-12);background:var(--clay-12)}.hb.dim{color:var(--ink4)}
+.hlist li.broken b{color:var(--clay)}
+.dlist li{padding:10px 0;border-top:1px solid var(--rule);display:flex;flex-direction:column;gap:4px;position:relative}
+.dlist li:first-child{border-top:0}
+.dlist .d1{display:flex;align-items:center;gap:6px;font-size:13px}
+.dlist .d1 .tb{font-size:11px;color:var(--ink3);border:1px solid var(--rule);border-radius:3px;padding:0 5px}
+.dlist .sc{font-size:10.5px;color:var(--ink3)}
+.dlist .d2{display:flex;flex-wrap:wrap;gap:10px;font-size:11.5px;color:var(--ink3)}
+.dlist code{font-family:var(--mono);font-size:10.5px;color:var(--ink3)}
+.dlist .dx{position:absolute;right:0;top:9px;padding:2px 9px;font-size:11.5px}
+.dlist .d3{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--ink2)}
+.dlist .d3 .btn{padding:2px 10px;font-size:11.5px}
+.drev{margin-top:10px;font-size:12px;color:var(--ink3)}.drev ul{margin:6px 0 0;padding-left:16px}
+.dnote{margin-top:18px;font-size:12px;color:var(--ink3)}

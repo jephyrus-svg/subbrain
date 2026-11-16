@@ -1,0 +1,365 @@
+{
+  "id": "task_20260830_01",
+  "title": "메인 페이지 카피 확정",
+  "kind": "task",
+  "status": "멈춤",
+  "statusSource": "rule",
+  "stale": {
+    "staleDays": 12,
+    "staleStage": "stale",
+    "statusVisual": "stall",
+    "badge": "12일"
+  },
+  "completionReason": null,
+  "project": {
+    "id": "prj_blog",
+    "name": "블로그 리뉴얼",
+    "colorHex": "#F07F5E"
+  },
+  "breadcrumb": [
+    {
+      "label": "그래프",
+      "href": "/"
+    },
+    {
+      "label": "블로그 리뉴얼",
+      "href": "/?focus=prj_blog"
+    },
+    {
+      "label": "과제",
+      "href": null
+    }
+  ],
+  "origin": "auto",
+  "pin": false,
+  "overrides": [],
+  "startedAt": "2026-08-30T23:12:00+09:00",
+  "lastActivityAt": "2026-09-18T01:47:00+09:00",
+  "completedAt": null,
+  "firstConversationAt": "2026-08-30T23:12:00+09:00",
+  "lastConversationAt": "2026-09-18T01:47:00+09:00",
+  "conversationCount": 5,
+  "messageCount": 89,
+  "byAi": [
+    {
+      "sourceAi": "chatgpt",
+      "conversationCount": 2,
+      "messageCount": 44,
+      "sharedConversationCount": 0
+    },
+    {
+      "sourceAi": "claude",
+      "conversationCount": 2,
+      "messageCount": 36,
+      "sharedConversationCount": 0
+    },
+    {
+      "sourceAi": "gemini",
+      "conversationCount": 1,
+      "messageCount": 9,
+      "sharedConversationCount": 1
+    }
+  ],
+  "topics": [
+    {
+      "id": "obj_topic_blog",
+      "name": "블로그"
+    },
+    {
+      "id": "obj_topic_copywriting",
+      "name": "카피라이팅"
+    },
+    {
+      "id": "obj_topic_branding",
+      "name": "브랜딩"
+    }
+  ],
+  "summary": "후보 3개 중 A/B로 좁힘. 톤은 ‘담백하게’로 합의",
+  "summaryDetail": [
+    "메인 카피 후보 11개를 3개로 추렸고, 9월 18일 A(담백한 소개형)와 B(질문형)를 비교함.",
+    "A 쪽으로 기울었지만 “밋밋한가?”라는 고민으로 확정하지 않고 끝남.",
+    "보이스 원칙(1인칭·짧은 문장·느낌표 없음)은 9월 3일 Claude 대화에서 정함."
+  ],
+  "nextStep": "A안을 기준으로 보조 문장 3개와 CTA 2개 쓰기",
+  "nextStepInfo": {
+    "text": "A안을 기준으로 보조 문장 3개와 CTA 2개 쓰기",
+    "source": "saved",
+    "basis": "분류 결과"
+  },
+  "classification": {
+    "kind": "task",
+    "resolution": "unresolved",
+    "completionReason": null,
+    "confidence": 0.86,
+    "evidence": "“내일 다시 볼게”로 끝남",
+    "model": "claude-haiku-4-5",
+    "promptVersion": "cls-v1",
+    "classifiedAt": "2026-09-18T01:52:30+09:00",
+    "needsReview": false,
+    "state": "ok",
+    "blockedReason": null,
+    "blockedModel": null,
+    "rawConfidence": null,
+    "handoff": null,
+    "cached": false
+  },
+  "handoff": null,
+  "classificationState": "ok",
+  "conversationOutcome": {
+    "outcome": "open",
+    "status": "멈춤",
+    "staleDays": 12,
+    "label": "멈춤 12일",
+    "target": null,
+    "evidence": null,
+    "detectedBy": "derived"
+  },
+  "conversationOutcomes": [
+    {
+      "conversationId": "conv_chatgpt_68f2a91c",
+      "sourceAi": "chatgpt",
+      "title": "카피 A/B 비교",
+      "role": "primary",
+      "updatedAt": "2026-09-18T01:47:00+09:00",
+      "outcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 12,
+        "label": "멈춤 12일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    },
+    {
+      "conversationId": "conv_chatgpt_5d1e77b0",
+      "sourceAi": "chatgpt",
+      "title": "메인 카피 후보 뽑기",
+      "role": "primary",
+      "updatedAt": "2026-09-12T23:02:00+09:00",
+      "outcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 18,
+        "label": "멈춤 18일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    },
+    {
+      "conversationId": "conv_claude_a7c3e210",
+      "sourceAi": "claude",
+      "title": "블로그 톤 & 보이스 정리",
+      "role": "primary",
+      "updatedAt": "2026-09-03T21:20:00+09:00",
+      "outcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 27,
+        "label": "멈춤 27일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    },
+    {
+      "conversationId": "conv_claude_3b9d4f12",
+      "sourceAi": "claude",
+      "title": "소개 문단 초안",
+      "role": "primary",
+      "updatedAt": "2026-08-31T00:05:00+09:00",
+      "outcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 30,
+        "label": "멈춤 30일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    },
+    {
+      "conversationId": "conv_gemini_c41f8e03",
+      "sourceAi": "gemini",
+      "title": "헤더 레퍼런스 찾기",
+      "role": "shared",
+      "updatedAt": "2026-07-15T21:40:00+09:00",
+      "outcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 77,
+        "label": "멈춤 77일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    }
+  ],
+  "vault": {
+    "path": "tasks/메인-페이지-카피-확정.md",
+    "obsidianUri": "obsidian://open?vault=SubBrain&file=tasks%2F%EB%A9%94%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%B9%B4%ED%94%BC-%ED%99%95%EC%A0%95.md"
+  },
+  "decisions": [
+    {
+      "id": "obj_decision_b812",
+      "text": "후보는 A(담백한 소개형)와 B(질문형) 둘로 좁힘",
+      "sourceConversationId": "conv_chatgpt_68f2a91c",
+      "sourceAi": "chatgpt",
+      "decidedAt": "2026-09-18T01:30:00+09:00",
+      "valid": true,
+      "overridden": false
+    },
+    {
+      "id": "obj_decision_7a1c",
+      "text": "메인 카피는 한 줄 + 보조 한 줄 구조로 간다",
+      "sourceConversationId": "conv_chatgpt_5d1e77b0",
+      "sourceAi": "chatgpt",
+      "decidedAt": "2026-09-12T22:41:00+09:00",
+      "valid": true,
+      "overridden": false
+    },
+    {
+      "id": "obj_decision_7a1d",
+      "text": "과장 표현은 쓰지 않는다 (‘혁신’, ‘세상을 바꾸는’ 등)",
+      "sourceConversationId": "conv_chatgpt_5d1e77b0",
+      "sourceAi": "chatgpt",
+      "decidedAt": "2026-09-12T22:18:00+09:00",
+      "valid": true,
+      "overridden": false
+    },
+    {
+      "id": "obj_decision_2f90",
+      "text": "보이스: 1인칭, 짧은 문장, 느낌표 없음",
+      "sourceConversationId": "conv_claude_a7c3e210",
+      "sourceAi": "claude",
+      "decidedAt": "2026-09-03T21:05:00+09:00",
+      "valid": true,
+      "overridden": false
+    }
+  ],
+  "openQuestions": [
+    {
+      "id": "oq_20260830_01_1",
+      "text": "A안이 밋밋한가? 두 번째 줄에 숫자를 넣을지",
+      "resolved": false,
+      "note": "9.18 ChatGPT 대화 마지막에서",
+      "sourceConversationId": "conv_chatgpt_68f2a91c",
+      "resolvedAt": null
+    },
+    {
+      "id": "oq_20260830_01_2",
+      "text": "CTA를 ‘글 읽기’로 할지 ‘뉴스레터 구독’으로 할지",
+      "resolved": false,
+      "note": "뉴스레터 자체가 보류 상태 — 섹션 구성안 참고",
+      "sourceConversationId": "conv_chatgpt_5d1e77b0",
+      "resolvedAt": null
+    },
+    {
+      "id": "oq_20260830_01_3",
+      "text": "영문 병기 여부",
+      "resolved": false,
+      "note": "한 번 언급되고 결론 없음",
+      "sourceConversationId": "conv_claude_3b9d4f12",
+      "resolvedAt": null
+    }
+  ],
+  "resume": {
+    "defaultTargetAi": "chatgpt",
+    "targets": [
+      "chatgpt",
+      "claude",
+      "gemini",
+      "grok"
+    ],
+    "promptPreview": "[맥락] 블로그 리뉴얼 — 메인 페이지 카피 확정. 후보 3개 중 A/B로 좁힘. 톤은 ‘담백하게’로 합의\n결정: 후보는 A(담백한 소개형)와 B(질문형) 둘로 좁힘 / 메인 카피는 한 줄 + 보조 한 줄 구조로 간다 / 과장 표현은 쓰지 않는다 (‘혁신’, ‘세상을 바꾸는’ 등) / 보이스: 1인칭, 짧은 문장, 느낌표 없음\n- 메인 카피 후보 11개를 3개로 추렸고, 9월 18일 A(담백한 소개형)와 B(질문형)를 비교함.\n- A 쪽으로 기울었지만 “밋밋한가?”라는 고민으로 확정하지 않고 끝남.\n- 보이스 원칙(1인칭·짧은 문장·느낌표 없음)은 9월 3일 Claude 대화에서 정함.\n남은 질문: A안이 밋밋한가? 두 번째 줄에 숫자를 넣을지 / CTA를 ‘글 읽기’로 할지 ‘뉴스레터 구독’으로 할지 / 영문 병기 여부\n다음 할 일: A안을 기준으로 보조 문장 3개와 CTA 2개 쓰기\n요청: 위 다음 할 일부터 이어서 도와줘.",
+    "continue": {
+      "sourceAi": "chatgpt",
+      "url": "https://chatgpt.com/c/68f2a91c-4b7e-8003-a1d2-9c0e5b7f3a21",
+      "conversationId": "conv_chatgpt_68f2a91c",
+      "label": "ChatGPT에서 이어서"
+    },
+    "continueNote": "원래 대화(9.18)에 이어 붙임"
+  },
+  "related": {
+    "similarTasks": [
+      {
+        "id": "task_20260919_02",
+        "title": "온보딩 문구 다듬기",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "projectId": "prj_subbrain",
+        "projectName": "서브브레인",
+        "sourceAi": "claude",
+        "reason": "같은 주제 #카피라이팅",
+        "completedAt": "2026-09-21T22:48:00+09:00"
+      },
+      {
+        "id": "task_20260703_01",
+        "title": "1차 디자인 시안",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "projectId": "prj_blog",
+        "projectName": "블로그 리뉴얼",
+        "sourceAi": "chatgpt",
+        "reason": "같은 주제 #블로그",
+        "completedAt": "2026-07-21T23:02:00+09:00"
+      },
+      {
+        "id": "task_20260612_01",
+        "title": "섹션 구성안",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "projectId": "prj_blog",
+        "projectName": "블로그 리뉴얼",
+        "sourceAi": "chatgpt",
+        "reason": "같은 주제 #블로그",
+        "completedAt": "2026-06-20T22:31:00+09:00"
+      },
+      {
+        "id": "task_20260927_01",
+        "title": "글 목록 태그 필터",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "projectId": "prj_blog",
+        "projectName": "블로그 리뉴얼",
+        "sourceAi": "chatgpt",
+        "reason": "같은 주제 #블로그",
+        "completedAt": null
+      },
+      {
+        "id": "task_20260924_02",
+        "title": "소개 페이지 문장 다듬기",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 6,
+        "projectId": null,
+        "projectName": null,
+        "sourceAi": "chatgpt",
+        "reason": "같은 주제 #카피라이팅",
+        "completedAt": null
+      }
+    ],
+    "wikiPages": []
+  },
+  "mergeSuggestions": [],
+  "neighborCount": 5,
+  "whyStalled": {
+    "chain": [
+      {
+        "depth": 1,
+        "nodeId": "obj_person_designer",
+        "type": "person",
+        "label": "디자이너 윤서",
+        "linkType": "blocked_by",
+        "confidence": 0.91
+      }
+    ],
+    "rootCause": "‘디자이너 윤서’(사람 답 기다림)",
+    "lastRelatedConversationId": "conv_chatgpt_68f2a91c"
+  }
+}

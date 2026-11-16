@@ -1,0 +1,28 @@
+{
+  "name": "subbrain",
+  "private": true,
+  "version": "0.1.0-alpha",
+  "description": "Subbrain — a local-first work memory for your AI chats (ChatGPT, Claude, Gemini, Grok): status classification, tasks & next steps, weekly review, layered MCP table of contents.",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "demo": "node scripts/run.mjs demo",
+    "app": "node scripts/run.mjs app",
+    "import": "node scripts/run.mjs import",
+    "dev": "pnpm --filter @subbrain/core dev",
+    "start": "pnpm --filter @subbrain/core start",
+    "seed": "pnpm --filter @subbrain/core seed",
+    "test": "pnpm --filter @subbrain/core test",
+    "typecheck": "pnpm -r typecheck",
+    "contract": "node scripts/build-contract.mjs",
+    "mocks": "pnpm --filter @subbrain/core mocks"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  },
+  "license": "MIT",
+  "author": "Subbrain Contributors"
+}

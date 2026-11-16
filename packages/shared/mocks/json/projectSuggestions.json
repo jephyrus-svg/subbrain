@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "id": "psg_seed01",
+      "name": "전세 계약 정리",
+      "altNames": [
+        "전세계약 서류"
+      ],
+      "state": "pending",
+      "ready": false,
+      "taskCount": 1,
+      "minTasks": 3,
+      "tasks": [
+        {
+          "id": "task_20260928_02",
+          "title": "전세 계약 특약 문구 검토",
+          "status": "완료",
+          "statusVisual": "done",
+          "staleDays": null,
+          "projectId": null,
+          "sourceAis": [
+            "chatgpt"
+          ]
+        }
+      ],
+      "projectId": null,
+      "createdAt": "2026-09-28T21:40:00+09:00",
+      "updatedAt": "2026-09-28T21:40:00+09:00",
+      "decidedAt": null
+    }
+  ],
+  "page": {
+    "limit": 50,
+    "nextCursor": null,
+    "hasMore": false,
+    "total": 1
+  }
+}

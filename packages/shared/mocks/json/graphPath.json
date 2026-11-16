@@ -1,0 +1,34 @@
+{
+  "found": true,
+  "objects": [
+    {
+      "id": "obj_task_copy",
+      "type": "task",
+      "label": "메인 페이지 카피 확정"
+    },
+    {
+      "id": "obj_project_blog",
+      "type": "project",
+      "label": "블로그 리뉴얼"
+    }
+  ],
+  "links": [
+    {
+      "id": "l01",
+      "type": "part_of",
+      "srcId": "obj_task_copy",
+      "dstId": "obj_project_blog",
+      "status": "accepted",
+      "confidence": 1,
+      "origin": "rule",
+      "mentionCount": 1,
+      "validFrom": "2026-08-30T12:00:00+09:00",
+      "endedAt": null,
+      "firstSeenAt": "2026-08-30T12:00:00+09:00",
+      "lastSeenAt": "2026-09-16T12:00:00+09:00",
+      "properties": {},
+      "evidencePreview": null
+    }
+  ],
+  "usedSuggested": false
+}

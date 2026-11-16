@@ -1,0 +1,216 @@
+{
+  "task": {
+    "id": "task_20260805_01",
+    "title": "RSS 피드 붙이기",
+    "kind": "task",
+    "status": "보관",
+    "statusSource": "user",
+    "stale": {
+      "staleDays": null,
+      "staleStage": null,
+      "statusVisual": "archived",
+      "badge": null
+    },
+    "completionReason": null,
+    "project": {
+      "id": "prj_blog",
+      "name": "블로그 리뉴얼",
+      "colorHex": "#F07F5E"
+    },
+    "breadcrumb": [
+      {
+        "label": "그래프",
+        "href": "/"
+      },
+      {
+        "label": "블로그 리뉴얼",
+        "href": "/?focus=prj_blog"
+      },
+      {
+        "label": "과제",
+        "href": null
+      }
+    ],
+    "origin": "auto",
+    "pin": false,
+    "overrides": [
+      "status"
+    ],
+    "startedAt": "2026-08-05T21:44:00+09:00",
+    "lastActivityAt": "2026-08-07T00:15:00+09:00",
+    "completedAt": null,
+    "firstConversationAt": "2026-08-05T21:44:00+09:00",
+    "lastConversationAt": "2026-08-07T00:15:00+09:00",
+    "conversationCount": 1,
+    "messageCount": 6,
+    "byAi": [
+      {
+        "sourceAi": "grok",
+        "conversationCount": 1,
+        "messageCount": 6,
+        "sharedConversationCount": 0
+      }
+    ],
+    "topics": [
+      {
+        "id": "obj_topic_blog",
+        "name": "블로그"
+      }
+    ],
+    "summary": "라우트 핸들러로 만들다 멈춤. 우선순위 낮음",
+    "summaryDetail": [],
+    "nextStep": "app/feed.xml/route.ts에서 글 목록을 RSS 2.0으로 내보내기",
+    "nextStepInfo": null,
+    "classification": {
+      "kind": "task",
+      "resolution": "unresolved",
+      "completionReason": null,
+      "confidence": 0.81,
+      "evidence": "마지막 사용자 메시지: ‘나중에 다시 볼게’",
+      "model": "claude-haiku-4-5",
+      "promptVersion": "cls-v1",
+      "classifiedAt": "2026-08-07T00:20:30+09:00",
+      "needsReview": false,
+      "state": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "rawConfidence": null,
+      "handoff": null,
+      "cached": false
+    },
+    "handoff": null,
+    "classificationState": "ok",
+    "conversationOutcome": {
+      "outcome": "open",
+      "status": "멈춤",
+      "staleDays": 54,
+      "label": "멈춤 54일",
+      "target": null,
+      "evidence": null,
+      "detectedBy": "derived"
+    },
+    "conversationOutcomes": [
+      {
+        "conversationId": "conv_grok_19ab2c7d",
+        "sourceAi": "grok",
+        "title": "Next.js RSS 피드",
+        "role": "primary",
+        "updatedAt": "2026-08-07T00:15:00+09:00",
+        "outcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 54,
+          "label": "멈춤 54일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      }
+    ],
+    "vault": {
+      "path": "tasks/rss-피드-붙이기.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=tasks%2Frss-%ED%94%BC%EB%93%9C-%EB%B6%99%EC%9D%B4%EA%B8%B0.md"
+    },
+    "decisions": [],
+    "openQuestions": [],
+    "resume": {
+      "defaultTargetAi": "grok",
+      "targets": [
+        "chatgpt",
+        "claude",
+        "gemini",
+        "grok"
+      ],
+      "promptPreview": "[맥락] 블로그 리뉴얼 — RSS 피드 붙이기. 라우트 핸들러로 만들다 멈춤. 우선순위 낮음\n다음 할 일: app/feed.xml/route.ts에서 글 목록을 RSS 2.0으로 내보내기\n요청: 위 다음 할 일부터 이어서 도와줘.",
+      "continue": {
+        "sourceAi": "grok",
+        "url": "https://grok.com/chat/19ab2c7d-0e44-4b1f-9a52-7f3e0c2d8b16",
+        "conversationId": "conv_grok_19ab2c7d",
+        "label": "Grok에서 이어서"
+      },
+      "continueNote": "원래 대화(8.7)에 이어 붙임"
+    },
+    "related": {
+      "similarTasks": [
+        {
+          "id": "task_20260703_01",
+          "title": "1차 디자인 시안",
+          "status": "완료",
+          "statusVisual": "done",
+          "staleDays": null,
+          "projectId": "prj_blog",
+          "projectName": "블로그 리뉴얼",
+          "sourceAi": "chatgpt",
+          "reason": "같은 주제 #블로그",
+          "completedAt": "2026-07-21T23:02:00+09:00"
+        },
+        {
+          "id": "task_20260612_01",
+          "title": "섹션 구성안",
+          "status": "완료",
+          "statusVisual": "done",
+          "staleDays": null,
+          "projectId": "prj_blog",
+          "projectName": "블로그 리뉴얼",
+          "sourceAi": "chatgpt",
+          "reason": "같은 주제 #블로그",
+          "completedAt": "2026-06-20T22:31:00+09:00"
+        },
+        {
+          "id": "task_20260927_01",
+          "title": "글 목록 태그 필터",
+          "status": "진행 중",
+          "statusVisual": "run",
+          "staleDays": null,
+          "projectId": "prj_blog",
+          "projectName": "블로그 리뉴얼",
+          "sourceAi": "chatgpt",
+          "reason": "같은 주제 #블로그",
+          "completedAt": null
+        },
+        {
+          "id": "task_20260902_01",
+          "title": "소개 페이지 톤 맞추기",
+          "status": "멈춤",
+          "statusVisual": "stall2",
+          "staleDays": 6,
+          "projectId": "prj_blog",
+          "projectName": "블로그 리뉴얼",
+          "sourceAi": "claude",
+          "reason": "같은 주제 #블로그",
+          "completedAt": null
+        },
+        {
+          "id": "task_20260830_01",
+          "title": "메인 페이지 카피 확정",
+          "status": "멈춤",
+          "statusVisual": "stall",
+          "staleDays": 12,
+          "projectId": "prj_blog",
+          "projectName": "블로그 리뉴얼",
+          "sourceAi": "chatgpt",
+          "reason": "같은 주제 #블로그",
+          "completedAt": null
+        }
+      ],
+      "wikiPages": []
+    },
+    "mergeSuggestions": [],
+    "neighborCount": 2,
+    "whyStalled": null
+  },
+  "event": {
+    "id": 444,
+    "at": "2026-09-30T08:30:00+09:00",
+    "type": "status_changed",
+    "taskId": "task_20260805_01",
+    "conversationId": null,
+    "actor": "user",
+    "payload": {
+      "from": "멈춤",
+      "to": "보관",
+      "field": "status",
+      "addedOverride": "status"
+    }
+  }
+}

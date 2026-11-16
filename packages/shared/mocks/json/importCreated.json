@@ -1,0 +1,24 @@
+{
+  "id": "imp_20260930_n8w1",
+  "state": "parsing",
+  "sourceAi": null,
+  "fileName": "chatgpt-export-full-2026-09-30.zip",
+  "fileSizeBytes": 187334656,
+  "fileHash": "sha256:5e1c0b7a9d2f4e6813c7a0b9f1d2e3c4a5b6c7d8e9f0a1b2c3d4e5f60718293a",
+  "createdAt": "2026-09-30T09:02:10+09:00",
+  "startedAt": null,
+  "finishedAt": null,
+  "options": {},
+  "preview": null,
+  "progress": {
+    "phase": "parsing",
+    "processed": 0,
+    "total": 0,
+    "percent": 2,
+    "currentLabel": "ZIP 여는 중",
+    "etaSec": null
+  },
+  "result": null,
+  "errors": [],
+  "classifyJobId": null
+}

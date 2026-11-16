@@ -1,0 +1,24 @@
+{
+  "name": "@subbrain/shared",
+  "version": "0.1.0-alpha",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/api-types.ts",
+    "./api-types": "./src/api-types.ts",
+    "./schemas": "./src/schemas.ts",
+    "./constants": "./src/constants.ts",
+    "./fixtures": "./mocks/fixtures.ts",
+    "./mocks/*": "./mocks/json/*.json"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "mocks": "node --experimental-strip-types mocks/dump.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  }
+}

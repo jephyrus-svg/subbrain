@@ -1,0 +1,15 @@
+{
+  "error": {
+    "code": "VALIDATION_ERROR",
+    "message": "요청 값이 올바르지 않아요.",
+    "details": {
+      "issues": [
+        {
+          "path": "status",
+          "message": "'진행중'은 허용되지 않아요. 허용: 진행 중, 멈춤, 완료, 간단한 질문, 보관"
+        }
+      ]
+    },
+    "requestId": "req_01J9ZK5Q"
+  }
+}

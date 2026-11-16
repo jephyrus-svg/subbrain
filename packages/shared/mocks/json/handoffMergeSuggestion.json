@@ -1,0 +1,45 @@
+{
+  "id": "ms_hs01",
+  "state": "pending",
+  "confidence": 0.81,
+  "kind": "handoff_session",
+  "reason": "‘Claude Code에서 이어감’으로 끝난 대화 → 18분 뒤 같은 프로젝트 폴더(blog-renewal)의 Claude Code 세션",
+  "tasks": [
+    {
+      "id": "task_20260915_01",
+      "title": "노트 형식 정리",
+      "status": "진행 중",
+      "statusVisual": "run",
+      "staleDays": null,
+      "projectId": "prj_subbrain",
+      "sourceAis": [
+        "claude"
+      ]
+    },
+    {
+      "id": "task_20260915_07",
+      "title": "blog-renewal: md 노트 변환 스크립트",
+      "status": "진행 중",
+      "statusVisual": "run",
+      "staleDays": null,
+      "projectId": null,
+      "sourceAis": [
+        "claude-code"
+      ]
+    }
+  ],
+  "suggestedPrimaryTaskId": "task_20260915_01",
+  "createdAt": "2026-09-15T22:40:00+09:00",
+  "decidedAt": null,
+  "handoff": {
+    "fromConversationId": "conv_claude_5e1d",
+    "sessionConversationId": "conv_claude-code_28327da6",
+    "target": "Claude Code",
+    "gapMinutes": 18,
+    "textSimilarity": 0.34,
+    "projectMatch": "cwd_name",
+    "explicitRef": false,
+    "cwd": "/Users/me/dev/blog-renewal",
+    "score": 0.81
+  }
+}

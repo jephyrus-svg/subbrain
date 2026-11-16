@@ -1,0 +1,24 @@
+{
+  "queue": {
+    "pending": 0,
+    "running": 0,
+    "deferred": 0,
+    "failedToday": 0
+  },
+  "today": {
+    "classified": 1,
+    "inputTokens": 3280,
+    "outputTokens": 240,
+    "costUsd": null,
+    "costUsdKnown": 0,
+    "costUnknownCount": 1,
+    "cacheHits": 0
+  },
+  "dailyCapUsd": 10,
+  "capReached": false,
+  "model": "claude-haiku-4-5",
+  "promptVersion": "cls-v4",
+  "needsReviewCount": 3,
+  "blockedCount": 1,
+  "lastRunAt": "2026-09-30T00:25:30+09:00"
+}

@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "date": "2026-09-30",
+      "generatedAt": "2026-09-30T08:00:03+09:00",
+      "title": "9월 30일 수요일 아침",
+      "strip": {
+        "yesterdayConversations": 11,
+        "completedTasks": 2,
+        "newlyStalled": 4,
+        "quickQuestions": 4,
+        "collectionGap": {
+          "hasGap": true,
+          "hours": 34,
+          "label": "34시간"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "generatedAt": "2026-09-29T08:00:03+09:00",
+      "title": "9월 29일 화요일 아침",
+      "strip": {
+        "yesterdayConversations": 4,
+        "completedTasks": 0,
+        "newlyStalled": 5,
+        "quickQuestions": 2,
+        "collectionGap": {
+          "hasGap": false,
+          "hours": null,
+          "label": "없음"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "generatedAt": "2026-09-28T08:00:03+09:00",
+      "title": "9월 28일 월요일 아침",
+      "strip": {
+        "yesterdayConversations": 2,
+        "completedTasks": 0,
+        "newlyStalled": 4,
+        "quickQuestions": 2,
+        "collectionGap": {
+          "hasGap": false,
+          "hours": null,
+          "label": "없음"
+        }
+      }
+    }
+  ],
+  "page": {
+    "limit": 30,
+    "nextCursor": null,
+    "hasMore": false,
+    "total": 3
+  }
+}

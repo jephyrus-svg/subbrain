@@ -1,0 +1,181 @@
+/* 온톨로지 모드 (설계서 10.11, 시각 언어 10.2.6) — 모두 .onto 아래로 묶는다 */
+.onto .counts .v small b.n{color:var(--ink2)}
+.onto .counts .clk{pointer-events:auto;cursor:pointer}
+.onto .counts .clk .v{color:var(--accent)}
+.onto .counts .clk:hover .l{color:var(--ink2)}
+.onto .counts .l .st{width:8px;height:8px}
+/* 왼쪽 필터 레일 */
+.onto .orail{position:absolute;left:20px;top:92px;width:168px;bottom:96px;display:flex;flex-direction:column;gap:1px;padding:0 4px 0 0;z-index:3}
+.onto .orail .rh{font-size:11px;font-weight:600;color:var(--ink3);letter-spacing:.02em;padding:10px 8px 4px}
+.onto .orail .rh:first-child{padding-top:0}
+.onto .rrow{display:flex;align-items:center;gap:8px;height:24px;padding:0 8px;border-radius:4px;font-size:12px;color:var(--ink2);text-align:left;flex:none}
+.onto .rrow:hover{background:var(--surface-2);color:var(--ink)}
+.onto .rrow>span:not(.og){flex:1;white-space:nowrap}
+.onto .rrow em{font-style:normal;font-size:11px;color:var(--ink3)}
+.onto .rrow.off{color:var(--ink4)}
+.onto .rrow.off .og,.onto .rrow.off .lsw{opacity:.35}
+.onto .rrow.off>span:not(.og){text-decoration:line-through;text-decoration-color:var(--text-3)}
+.onto .rrow .lsw{flex:none}
+.onto .rchk{display:flex;align-items:center;gap:7px;font-size:11.5px;color:var(--ink3);padding:5px 8px 0;cursor:pointer}
+.onto .rchk input{accent-color:var(--text-1)}
+.onto .rnote{font-size:10.5px;line-height:1.45;color:var(--ink3);padding:6px 8px 0}
+.onto .rleg{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--ink3);padding:4px 8px 0}
+.onto .seg{display:flex;margin:2px 8px 0;border:1px solid var(--line-default);border-radius:4px;background:var(--surface-1);overflow:hidden;flex:none}
+.onto .seg button{flex:1;height:24px;font-size:11.5px;color:var(--ink2)}
+.onto .seg button+button{border-left:1px solid var(--line-default)}
+.onto .seg button.on{background:var(--text-1);color:var(--bg-base);font-weight:600}
+.onto .rreset{margin:10px 8px 0;font-size:11.5px;color:var(--ink3);text-align:left;border-bottom:1px solid var(--rule);align-self:flex-start}
+.onto .rreset:hover{color:var(--ink)}
+/* 객체 표식 */
+.og{display:inline-grid;place-items:center;border-radius:50%;flex:none;background:var(--surface-2);box-shadow:inset 0 0 0 1px var(--line-strong),var(--shade-sphere)}
+.og svg.i{stroke-width:1.5}
+.og.t-decision{box-shadow:inset 0 0 0 1.2px var(--text-1)}
+.og.t-topic{background:var(--bg-base);box-shadow:inset 0 0 0 1px var(--text-3)}
+.og.og-sug{opacity:.75;box-shadow:none;border:1px dashed var(--text-3)}
+.og.sph{background:none;box-shadow:none}
+.og.sph .st{width:9px;height:9px}
+.ps.tk{width:9px;height:9px}
+/* 아래쪽 줄: 범례 또는 경로 표시줄 */
+.onto .obar{position:absolute;left:28px;right:28px;bottom:26px;min-height:40px;border-top:1px solid var(--line-default);padding-top:10px;display:flex;align-items:center;gap:12px;font-size:12px;color:var(--ink2)}
+.onto .obar .bl{display:flex;align-items:center;gap:6px;font-weight:600;color:var(--ink);white-space:nowrap}
+.onto .obar .bm{color:var(--ink3);flex:1}
+.onto .obar .bx{margin-left:auto;width:24px;height:24px;border:1px solid var(--line-default);border-radius:50%;display:grid;place-items:center;color:var(--ink2);background:var(--surface-1);flex:none}
+.onto .obar .bx:hover{color:var(--ink)}
+.onto .olegend{display:flex;gap:18px;align-items:center;font-size:11.5px;color:var(--ink3);flex-wrap:wrap}
+.onto .olegend span{display:flex;align-items:center;gap:6px}
+.onto .olegend .lk{margin-left:auto;color:var(--ink4)}
+.onto .onote{max-width:560px}
+/* 경로 표시줄 */
+.onto .opath{display:flex;align-items:center;flex-wrap:wrap;gap:4px 6px;min-width:0}
+.onto .oref{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink);font-weight:500;padding:1px 2px;border-radius:3px;max-width:100%;text-align:left}
+.onto .oref span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.onto .oref:hover span{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--ink4)}
+.onto .oref b{font-size:11px;font-weight:600;margin-left:2px}
+.onto .orel{font-size:11.5px;font-weight:600;white-space:nowrap}
+.onto .orel.sug{opacity:.75;font-style:italic}
+.onto .late{color:var(--accent);font-weight:600}
+.onto .warm{color:var(--stall2);font-weight:600}
+.onto .dim{color:var(--ink4)}
+/* 패널 */
+.onto .opanel{padding-top:0}
+.onto .otabs{position:sticky;top:0;z-index:2;display:flex;gap:22px;height:44px;align-items:stretch;background:var(--sheet);border-bottom:1px solid var(--rule);margin:0 -30px 12px;padding:0 30px}
+.onto .otabs button{font-size:12.5px;font-weight:600;color:var(--ink3);border-bottom:1.5px solid transparent;margin-bottom:-1px;display:flex;align-items:center;gap:6px}
+.onto .otabs button.on{color:var(--ink);border-bottom-color:var(--ink)}
+.onto .otabs button:hover{color:var(--ink2)}
+.onto .otabs .n{font-size:11px;color:var(--accent);font-weight:600}
+.onto .ph .acts .obs{background:none}
+.onto .oh1{display:flex;align-items:center;gap:11px}
+.onto .oh1 .og svg.i{stroke-width:1.4}
+.onto .panel .meta .ok svg{margin-right:1px}
+.onto .alias{display:flex;flex-wrap:wrap;gap:5px;align-items:center;margin-top:9px;font-size:11.5px;color:var(--ink3)}
+.onto .alias>span{margin-right:4px}
+.onto .alias i{font-style:normal;color:var(--ink2);border:1px solid var(--rule);border-radius:999px;padding:0 8px;line-height:19px}
+.onto .ofacts{grid-template-columns:1fr 1fr;column-gap:22px;margin-top:10px}
+.onto .ofacts>div{display:grid;grid-template-columns:62px 1fr;border-bottom:1px solid var(--rule2)}
+.onto .ofacts dt,.onto .ofacts dd{border:0;padding:5px 0}
+.onto .oper>div{grid-template-columns:58px 1fr 18px}
+.onto .oq{display:flex;align-items:center;gap:6px;margin-top:12px;padding-top:11px;border-top:1px solid var(--rule)}
+.onto .oq .hd{margin:0 6px 0 0}
+.onto .oq .btn{height:30px;font-size:12px}
+.onto .oans{margin-top:10px}
+.onto .oans.ok2{border-left-color:var(--sage)}
+.onto .oans.sim{border-left-color:var(--slate)}
+.onto .oans p.om{font-size:12.5px;font-weight:400;color:var(--ink2);margin-top:6px;line-height:1.55}
+.onto .oans p.om b{color:var(--ink)}
+.onto .oans .opath{margin-top:2px}
+.onto .oans .why{white-space:normal}
+.onto .olist{list-style:none;display:flex;flex-direction:column;gap:2px;margin-top:2px}
+.onto .olist li{display:flex;align-items:center;gap:8px;font-size:12px;min-height:24px}
+.onto .olist .dep{font-size:10.5px;color:var(--ink4);width:30px;flex:none}
+.onto .olist .via{font-size:11.5px;color:var(--ink3);margin-left:auto;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:200px}
+.onto .otip{font-size:11.5px;color:var(--ink3);margin-top:9px}
+.onto .otip b{color:var(--ink2);font-weight:600}
+.onto .orels .rg2{padding:7px 0 4px;border-bottom:1px solid var(--rule2)}
+.onto .rgh{display:flex;align-items:center;gap:6px;font-size:11.5px;color:var(--ink3);margin-bottom:2px}
+.onto .rgh i{width:10px;height:2px;border-radius:1px;display:inline-block}
+.onto .rgh b{font-weight:600}
+.onto .rrel{display:grid;grid-template-columns:1fr auto 64px;align-items:center;gap:8px;min-height:26px;padding-left:16px}
+.onto .rrel .rtag{font-size:11px;color:var(--ink4)}
+.onto .rrel .rconf{font-size:11px;color:var(--ink3);text-align:right;white-space:nowrap}
+.onto .rrel.sug .oref{opacity:.75}
+.onto .rrel.sug .rtag{color:var(--stall2)}
+.onto .rrel.ended .oref{opacity:.55}
+.onto .rrel .chg{display:flex;align-items:center;gap:6px;flex-wrap:wrap;min-width:0}
+.onto .ohubs .rrel,.onto .tsec>.rrel{padding-left:0;border-bottom:1px solid var(--rule2)}
+.onto .osrc .src{padding:9px 0;border-bottom:1px solid var(--rule2)}
+.onto .src .sh{display:flex;align-items:center;gap:7px;font-size:12.5px}
+.onto .src .sh b{font-weight:600}
+.onto .src .sh span{margin-left:auto;font-size:11px;color:var(--ink3);white-space:nowrap}
+.onto .src blockquote{margin:5px 0 0 14px;padding-left:10px;border-left:2px solid var(--rule);font-size:12.5px;color:var(--ink2);line-height:1.55}
+.onto .src .sl{font-size:11px;margin:5px 0 0 14px;display:inline-block}
+.onto .ostall{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--rule2);cursor:pointer}
+.onto .ostall:hover{background:var(--surface-1)}
+.onto .ostall>span{margin-left:auto;font-size:11.5px;padding-top:2px;white-space:nowrap}
+.onto .orev{cursor:pointer}
+.onto .orev:hover{background:var(--surface-2)}
+/* 제안 검토 */
+.onto .okeys{font-size:11px;color:var(--ink3);gap:5px !important;align-items:center}
+.onto .okeys kbd{font-family:var(--mono);font-size:10px;border:1px solid var(--rule);border-radius:3px;padding:0 4px;background:var(--paper);color:var(--ink2);margin-left:4px}
+.onto .rvbar{display:flex;align-items:center;gap:8px;margin-top:12px}
+.onto .rvbar .btn{height:30px;font-size:12px}
+.onto .rvsort{margin-left:auto;font-size:11px;color:var(--ink3)}
+.onto .sugs{margin-top:12px;border-top:1px solid var(--rule)}
+.onto .srow{padding:11px 12px 12px;border-bottom:1px solid var(--rule2);cursor:pointer;margin:0 -12px}
+.onto .srow:hover{background:var(--surface-1)}
+.onto .srow.on{background:var(--sheet2);box-shadow:inset 2px 0 0 var(--accent)}
+.onto .srow.later{opacity:.7}
+.onto .sl1{display:flex;align-items:center;flex-wrap:wrap;gap:4px 7px}
+.onto .sl1 .kind{font-size:10.5px;color:var(--ink3);border:1px solid var(--rule);border-radius:3px;padding:0 5px;line-height:17px}
+.onto .sl1.merge .eq{color:var(--ink3);font-weight:600}
+.onto .sl2{display:flex;gap:12px;align-items:center;font-size:11.5px;color:var(--ink3);margin-top:6px}
+.onto .sl2 .cf{display:flex;align-items:center;gap:7px;color:var(--ink2)}
+.onto .sl2 .cf i{display:block;width:40px;height:4px;border-radius:2px;background:var(--surface-3);position:relative}
+.onto .sl2 .cf i::before{content:"";position:absolute;left:0;top:0;bottom:0;width:var(--w,100%);background:var(--stall2);border-radius:2px}
+.onto .sl2 .nt{color:var(--ink4)}
+.onto .sq{display:grid;grid-template-columns:12px 1fr;gap:2px 8px;margin-top:7px;font-size:12px;color:var(--ink2);line-height:1.5}
+.onto .sq .mk{margin-top:6px}
+.onto .sq small{grid-column:2;font-size:10.5px;color:var(--ink4)}
+.onto .sb{display:flex;gap:6px;margin-top:9px}
+.onto .sb .btn{height:28px;font-size:12px;padding:0 11px}
+.onto .srow:not(.on) .sb{display:none}
+.onto .srow.done{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--ink3);padding:8px 12px;cursor:default}
+.onto .srow.done.accepted svg{color:var(--run)}
+.onto .srow.done .sd{font-weight:600;color:var(--ink2)}
+.onto .srow.done .st2{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.onto .srow.done .lnk{font-size:11.5px}
+.onto .osc{min-width:0;flex:1}
+.onto .ochain{display:flex;flex-wrap:wrap;gap:2px 6px;padding-left:24px;margin-top:1px;font-size:11.5px;color:var(--ink2)}
+.onto .ochain span{display:inline-flex;gap:5px;align-items:baseline}
+.onto .ochain em{font-style:normal;color:var(--clay);opacity:.85;font-size:11px}
+.onto .ochain button{font-size:11.5px;color:var(--ink2)}
+.onto .ochain button:hover{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+/* 1.7.0 객체 찾기 */
+.osearch{margin:2px 0 14px}
+.osearch input{width:100%;box-sizing:border-box;font:inherit;font-size:12.5px;color:var(--ink);background:var(--sheet);border:1px solid var(--rule);border-radius:var(--radius);padding:7px 10px;outline:none}
+.osearch input:focus{border-color:var(--ink3)}
+.osearch .olist{margin-top:8px}
+.osearch li.dim{opacity:.55}
+/* 2D 관계 지도 */
+.onto .omap .olbl{paint-order:stroke;stroke:var(--bg-base);stroke-width:3.5px;stroke-linejoin:round;font-family:var(--sans)}
+.onto .omap .oflow{animation:oflow 5s linear infinite}
+@keyframes oflow{to{stroke-dashoffset:var(--flow,-48px)}}
+@media (prefers-reduced-motion:reduce){.onto .omap .oflow{animation:none;opacity:0}}
+.onto .crumb{position:absolute;left:28px;top:96px;z-index:3;display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--ink3)}
+.onto .crumb button{color:var(--ink2);display:inline-flex;align-items:center;gap:5px}
+.onto .crumb button:hover{color:var(--ink)}
+.onto .crumb b{color:var(--ink);font-weight:600}
+.onto .crumb .sep{color:var(--text-4)}
+.onto .tools .t3d{font-size:11.5px;font-weight:600;width:auto;padding:0 9px}
+/* 프로젝트 카드 패널 */
+.onto .pcards h2{font-size:19px;font-weight:700;margin:4px 0 2px;display:flex;align-items:center;gap:9px}
+.onto .pcards .meta{font-size:12px;color:var(--ink3);margin-bottom:14px}
+.onto .pcards .sec{font-size:11.5px;font-weight:600;color:var(--ink3);margin:16px 0 6px;display:flex;justify-content:space-between}
+.onto .pcard{display:flex;align-items:flex-start;gap:9px;width:100%;text-align:left;padding:8px 10px;border:1px solid var(--line-subtle);border-radius:var(--radius);background:var(--surface-1);margin-bottom:5px}
+.onto .pcard:hover{border-color:var(--line-strong)}
+.onto .pcard.on{border-color:var(--text-2);background:var(--surface-2)}
+.onto .pcard .dot{width:8px;height:8px;border-radius:50%;margin-top:5px;flex:none}
+.onto .pcard .nm{font-size:12.5px;color:var(--ink);line-height:1.35}
+.onto .pcard .sm{font-size:11px;color:var(--ink3);margin-top:2px}
+.onto .pcard .bd{margin-left:auto;font-size:11px;font-weight:600;flex:none}
+.onto .pcards .lnk{font-size:11.5px;color:var(--ink3);border-bottom:1px solid var(--rule)}
+.onto .pcards .lnk:hover{color:var(--ink)}

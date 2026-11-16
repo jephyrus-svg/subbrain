@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "sourceAi": "claude",
+      "cursor": "cur_claude_20260930T0821",
+      "lastScanAt": "2026-09-30T08:21:00+09:00",
+      "lastSnapshotAt": "2026-09-30T08:20:41+09:00",
+      "knownConversations": 29,
+      "pendingFetch": 2,
+      "health": "degraded",
+      "healthAt": "2026-09-30T08:22:00+09:00",
+      "adapter": {
+        "name": "claude-dom",
+        "version": "0.3.0"
+      },
+      "errorCode": null,
+      "bufferedSnapshots": 0
+    },
+    {
+      "sourceAi": "chatgpt",
+      "cursor": null,
+      "lastScanAt": null,
+      "lastSnapshotAt": "2026-09-30T08:20:41+09:00",
+      "knownConversations": 412,
+      "pendingFetch": 0,
+      "health": "ok",
+      "healthAt": "2026-09-30T08:19:00+09:00",
+      "adapter": {
+        "name": "chatgpt-dom",
+        "version": "0.3.0"
+      },
+      "errorCode": null,
+      "bufferedSnapshots": 0
+    }
+  ]
+}

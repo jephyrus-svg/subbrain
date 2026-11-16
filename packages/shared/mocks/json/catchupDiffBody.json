@@ -1,0 +1,22 @@
+{
+  "sourceAi": "claude",
+  "items": [
+    {
+      "sourceId": "c1a0de01-0000-4000-8000-000000000001",
+      "title": "Gemini 팟캐스트 자막 변환 도구 개발",
+      "updatedAt": "2026-09-29T23:10:00+09:00"
+    },
+    {
+      "sourceId": "c1a0de02-0000-4000-8000-000000000002",
+      "title": "독서 모임 공지 초안",
+      "updatedAt": "2026-09-12T10:00:00+09:00"
+    },
+    {
+      "sourceId": "77aa0000-0000-4000-8000-000000000003",
+      "title": "새 대화",
+      "updatedAt": null
+    }
+  ],
+  "cursor": null,
+  "endOfList": false
+}

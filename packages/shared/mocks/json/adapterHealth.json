@@ -1,0 +1,31 @@
+{
+  "recorded": true,
+  "state": {
+    "sourceAi": "claude",
+    "cursor": "cur_claude_20260930T0821",
+    "lastScanAt": "2026-09-30T08:21:00+09:00",
+    "lastSnapshotAt": "2026-09-30T08:20:41+09:00",
+    "knownConversations": 29,
+    "pendingFetch": 2,
+    "health": "degraded",
+    "healthAt": "2026-09-30T08:22:00+09:00",
+    "adapter": {
+      "name": "claude-dom",
+      "version": "0.3.0"
+    },
+    "errorCode": null,
+    "bufferedSnapshots": 0
+  },
+  "collection": {
+    "sourceAi": "claude",
+    "methods": [
+      "extension_live",
+      "extension_catchup",
+      "export"
+    ],
+    "methodLabel": "확장 프로그램",
+    "lastCapturedAt": "2026-09-30T08:20:41+09:00",
+    "health": "degraded",
+    "message": "응답 끝 표시를 못 찾음 — 120초 대기로 저장 중"
+  }
+}

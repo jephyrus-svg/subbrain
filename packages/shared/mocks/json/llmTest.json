@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5",
+  "latencyMs": 812,
+  "message": "연결됐어요. 시험 분류 1건 성공."
+}

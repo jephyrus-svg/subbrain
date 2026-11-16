@@ -1,0 +1,166 @@
+{
+  "items": [
+    {
+      "id": "task_20260920_01",
+      "title": "교토 3박 4일 일정",
+      "summary": "둘째 날 아라시야마 동선에서 멈춤",
+      "kind": "task",
+      "status": "멈춤",
+      "statusVisual": "stall2",
+      "staleDays": 4,
+      "staleStage": "short_pause",
+      "badge": "4일",
+      "project": {
+        "id": "prj_kyoto",
+        "name": "가을 교토 여행",
+        "colorHex": "#D768A6"
+      },
+      "sourceAis": [
+        "gemini"
+      ],
+      "conversationCount": 3,
+      "messageCount": 31,
+      "startedAt": "2026-09-20T21:00:00+09:00",
+      "lastActivityAt": "2026-09-26T23:50:00+09:00",
+      "completedAt": null,
+      "nextStep": "둘째 날 오후 동선을 버스 기준으로 다시 짜기",
+      "nextStepInfo": {
+        "text": "둘째 날 오후 동선을 버스 기준으로 다시 짜기",
+        "source": "saved",
+        "basis": "분류 결과"
+      },
+      "needsReview": false,
+      "pin": false,
+      "primaryConversation": {
+        "id": "conv_gemini_793a3db5",
+        "sourceAi": "gemini",
+        "url": "https://gemini.google.com/app/793a3db5691593ea"
+      },
+      "handoff": null,
+      "classificationState": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "confidence": 0.85,
+      "completionReason": null,
+      "conversationOutcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 4,
+        "label": "멈춤 4일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    },
+    {
+      "id": "task_20260919_01",
+      "title": "인터넷 이전 신청",
+      "summary": "이전 설치 날짜를 이사 당일로 잡을지 고민 중",
+      "kind": "task",
+      "status": "멈춤",
+      "statusVisual": "stall2",
+      "staleDays": 4,
+      "staleStage": "short_pause",
+      "badge": "4일",
+      "project": {
+        "id": "prj_moving",
+        "name": "이사 준비",
+        "colorHex": "#36C2A6"
+      },
+      "sourceAis": [
+        "chatgpt"
+      ],
+      "conversationCount": 1,
+      "messageCount": 9,
+      "startedAt": "2026-09-19T10:00:00+09:00",
+      "lastActivityAt": "2026-09-26T21:10:00+09:00",
+      "completedAt": null,
+      "nextStep": "통신사에 이전 설치 가능한 날짜 문의하기",
+      "nextStepInfo": {
+        "text": "통신사에 이전 설치 가능한 날짜 문의하기",
+        "source": "saved",
+        "basis": "분류 결과"
+      },
+      "needsReview": false,
+      "pin": false,
+      "primaryConversation": {
+        "id": "conv_chatgpt_04abfe52",
+        "sourceAi": "chatgpt",
+        "url": "https://chatgpt.com/c/04abfe52-d82d-47e1-a05b-a7fc8341608a"
+      },
+      "handoff": null,
+      "classificationState": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "confidence": 0.85,
+      "completionReason": null,
+      "conversationOutcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 4,
+        "label": "멈춤 4일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    },
+    {
+      "id": "task_20260921_03",
+      "title": "홈트 루틴 식단",
+      "summary": "주 3회 홈트 루틴은 정했고 식단 부분을 고민 중",
+      "kind": "task",
+      "status": "멈춤",
+      "statusVisual": "stall2",
+      "staleDays": 4,
+      "staleStage": "short_pause",
+      "badge": "4일",
+      "project": {
+        "id": "prj_health",
+        "name": "건강",
+        "colorHex": "#9CCB5E"
+      },
+      "sourceAis": [
+        "gemini"
+      ],
+      "conversationCount": 1,
+      "messageCount": 7,
+      "startedAt": "2026-09-21T07:30:00+09:00",
+      "lastActivityAt": "2026-09-26T08:05:00+09:00",
+      "completedAt": null,
+      "nextStep": "아침 식단 3가지 후보 중 하나 고르기",
+      "nextStepInfo": {
+        "text": "아침 식단 3가지 후보 중 하나 고르기",
+        "source": "saved",
+        "basis": "분류 결과"
+      },
+      "needsReview": false,
+      "pin": false,
+      "primaryConversation": {
+        "id": "conv_gemini_85360ec3",
+        "sourceAi": "gemini",
+        "url": "https://gemini.google.com/app/85360ec33fd77f72"
+      },
+      "handoff": null,
+      "classificationState": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "confidence": 0.85,
+      "completionReason": null,
+      "conversationOutcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 4,
+        "label": "멈춤 4일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    }
+  ],
+  "page": {
+    "limit": 3,
+    "nextCursor": "eyJvIjozfQ",
+    "hasMore": true,
+    "total": 11
+  }
+}

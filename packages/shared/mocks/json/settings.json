@@ -1,0 +1,70 @@
+{
+  "llm": {
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5",
+    "baseUrl": null,
+    "apiKeySet": true,
+    "dailyCostCapUsd": 10,
+    "redactSecrets": true,
+    "sensitiveKeywords": [
+      "건강",
+      "연봉"
+    ],
+    "sensitiveProjectIds": [
+      "prj_health"
+    ]
+  },
+  "classification": {
+    "lowConfidenceThreshold": 0.6,
+    "promptVersion": "cls-v4",
+    "condenseHead": 3,
+    "condenseTail": 6,
+    "condenseMiddleChars": 200
+  },
+  "thresholds": {
+    "inProgressMaxDays": 3,
+    "shortPauseMaxDays": 7,
+    "staleMaxDays": 30,
+    "longStaleMaxDays": 90
+  },
+  "ontology": {
+    "enabled": false,
+    "autoAcceptMin": 0.85,
+    "suggestMin": 0.6,
+    "enabledTypes": [
+      "project",
+      "task",
+      "decision",
+      "tool",
+      "topic"
+    ],
+    "showPersonNames": false
+  },
+  "vault": {
+    "path": "/tmp/subbrain-mocks-bDgXou/vault",
+    "name": "SubBrain",
+    "includeFullTranscript": false,
+    "rawLocation": "inside_vault",
+    "rawHtmlRetentionDays": 30,
+    "gitAutoCommit": false
+  },
+  "digest": {
+    "time": "08:00",
+    "osNotification": true,
+    "writeDailyNote": true,
+    "llmNarrative": true
+  },
+  "automation": {
+    "level": "L3",
+    "catchupIntervalHours": 3,
+    "catchupMaxPerRun": 20,
+    "catchupMinIntervalSec": 15
+  },
+  "server": {
+    "port": 4545,
+    "devOrigins": [
+      "http://localhost:5173",
+      "http://127.0.0.1:5173"
+    ]
+  }
+}

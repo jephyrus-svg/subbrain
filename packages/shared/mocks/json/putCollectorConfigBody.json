@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "sources": [
+    {
+      "sourceAi": "claude-code",
+      "root": "~/.claude/projects",
+      "enabled": true
+    },
+    {
+      "sourceAi": "codex",
+      "root": "~/.codex/sessions",
+      "enabled": true
+    }
+  ]
+}

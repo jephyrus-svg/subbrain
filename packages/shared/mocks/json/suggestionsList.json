@@ -1,0 +1,306 @@
+{
+  "items": [
+    {
+      "id": "s1",
+      "kind": "link",
+      "confidence": 0.77,
+      "text": "[과제] ETF 분배금 세금 —막혔음→ [사람] 친구 민호",
+      "linkType": "blocked_by",
+      "src": {
+        "id": "obj_task_etftax",
+        "type": "task",
+        "label": "ETF 분배금 세금"
+      },
+      "dst": {
+        "id": "obj_person_minho",
+        "type": "person",
+        "label": "친구 민호"
+      },
+      "evidenceCount": 1,
+      "evidence": [
+        {
+          "conversationId": "conv_grok_ex086",
+          "sourceAi": "grok",
+          "excerpt": "종합과세 넘는지는 민호한테 물어보기로.",
+          "at": "2026-09-22T12:00:00+09:00"
+        }
+      ],
+      "state": "pending",
+      "linkId": "l37",
+      "objectId": null,
+      "merge": null,
+      "reason": "first_seen_person",
+      "note": "처음 보는 사람이라 확신도와 상관없이 제안으로 둠",
+      "createdAt": "2026-09-30T12:00:00+09:00"
+    },
+    {
+      "id": "s2",
+      "kind": "merge",
+      "confidence": 0.78,
+      "text": "[도구] Chrome 확장 MV3 ＝ [도구] 크롬 익스텐션 합치기",
+      "linkType": null,
+      "src": {
+        "id": "obj_tool_mv3",
+        "type": "tool",
+        "label": "Chrome 확장 MV3"
+      },
+      "dst": {
+        "id": "obj_tool_chromeext",
+        "type": "tool",
+        "label": "크롬 익스텐션"
+      },
+      "evidenceCount": 1,
+      "evidence": [
+        {
+          "conversationId": "conv_grok_ex094",
+          "sourceAi": "grok",
+          "excerpt": "크롬 익스텐션에서 탭 내용 읽으려면 어떤 권한이 필요해?",
+          "at": "2026-09-26T12:00:00+09:00"
+        }
+      ],
+      "state": "pending",
+      "linkId": null,
+      "objectId": null,
+      "merge": {
+        "keepId": "obj_tool_mv3",
+        "mergeId": "obj_tool_chromeext"
+      },
+      "reason": "merge_candidate",
+      "note": "같은 브라우저 확장 이야기일 수 있음",
+      "createdAt": "2026-09-30T12:00:00+09:00"
+    },
+    {
+      "id": "s3",
+      "kind": "link",
+      "confidence": 0.71,
+      "text": "[과제] 그래프 홈 시안 —사용함→ [도구] Figma",
+      "linkType": "uses",
+      "src": {
+        "id": "obj_task_graphhome",
+        "type": "task",
+        "label": "그래프 홈 시안"
+      },
+      "dst": {
+        "id": "obj_tool_figma",
+        "type": "tool",
+        "label": "Figma"
+      },
+      "evidenceCount": 1,
+      "evidence": [
+        {
+          "conversationId": "conv_claude_ex090",
+          "sourceAi": "claude",
+          "excerpt": "시안은 Figma 말고 코드로 바로 그려 보는 게 빠를 수도.",
+          "at": "2026-09-24T12:00:00+09:00"
+        }
+      ],
+      "state": "pending",
+      "linkId": "l81",
+      "objectId": null,
+      "merge": null,
+      "reason": "mid_confidence",
+      "note": null,
+      "createdAt": "2026-09-30T12:00:00+09:00"
+    },
+    {
+      "id": "s4",
+      "kind": "link",
+      "confidence": 0.7,
+      "text": "[과제] 가구 배치 스케치 —막혔음→ [결정] 이사 날짜 11월 8일",
+      "linkType": "blocked_by",
+      "src": {
+        "id": "obj_task_furniture",
+        "type": "task",
+        "label": "가구 배치 스케치"
+      },
+      "dst": {
+        "id": "obj_decision_moveday",
+        "type": "decision",
+        "label": "이사 날짜 11월 8일"
+      },
+      "evidenceCount": 1,
+      "evidence": [
+        {
+          "conversationId": "conv_gemini_ex088",
+          "sourceAi": "gemini",
+          "excerpt": "이사 날짜가 정해져야 소파 배송일을 잡을 수 있어.",
+          "at": "2026-09-26T12:00:00+09:00"
+        }
+      ],
+      "state": "pending",
+      "linkId": "l39",
+      "objectId": null,
+      "merge": null,
+      "reason": "mid_confidence",
+      "note": null,
+      "createdAt": "2026-09-30T12:00:00+09:00"
+    },
+    {
+      "id": "s5",
+      "kind": "link",
+      "confidence": 0.68,
+      "text": "[도구] Netlify —대체함→ [도구] Vercel",
+      "linkType": "supersedes",
+      "src": {
+        "id": "obj_tool_netlify",
+        "type": "tool",
+        "label": "Netlify"
+      },
+      "dst": {
+        "id": "obj_tool_vercel",
+        "type": "tool",
+        "label": "Vercel"
+      },
+      "evidenceCount": 1,
+      "evidence": [
+        {
+          "conversationId": "conv_claude_ex089",
+          "sourceAi": "claude",
+          "excerpt": "블로그도 Netlify로 옮기자. Vercel 프로젝트는 정리.",
+          "at": "2026-09-26T12:00:00+09:00"
+        }
+      ],
+      "state": "pending",
+      "linkId": "l66",
+      "objectId": null,
+      "merge": null,
+      "reason": "supersedes",
+      "note": "대체함은 늘 제안으로 둠",
+      "createdAt": "2026-09-30T12:00:00+09:00"
+    },
+    {
+      "id": "s6",
+      "kind": "link",
+      "confidence": 0.66,
+      "text": "[과제] 배당 시트 환율 자동화 —막혔음→ [자료] 배당 가계부 시트",
+      "linkType": "blocked_by",
+      "src": {
+        "id": "obj_task_fx",
+        "type": "task",
+        "label": "배당 시트 환율 자동화"
+      },
+      "dst": {
+        "id": "obj_artifact_sheet",
+        "type": "artifact",
+        "label": "배당 가계부 시트"
+      },
+      "evidenceCount": 1,
+      "evidence": [
+        {
+          "conversationId": "conv_chatgpt_ex087",
+          "sourceAi": "chatgpt",
+          "excerpt": "날짜 열이 텍스트라 GOOGLEFINANCE가 안 먹어. 열 구조부터 바꿔야 해.",
+          "at": "2026-09-19T12:00:00+09:00"
+        }
+      ],
+      "state": "pending",
+      "linkId": "l38",
+      "objectId": null,
+      "merge": null,
+      "reason": "mid_confidence",
+      "note": null,
+      "createdAt": "2026-09-30T12:00:00+09:00"
+    },
+    {
+      "id": "s7",
+      "kind": "link",
+      "confidence": 0.64,
+      "text": "[과제] 교토 3박 4일 일정 —사용함→ [도구] Google Sheets",
+      "linkType": "uses",
+      "src": {
+        "id": "obj_task_itinerary",
+        "type": "task",
+        "label": "교토 3박 4일 일정"
+      },
+      "dst": {
+        "id": "obj_tool_sheets",
+        "type": "tool",
+        "label": "Google Sheets"
+      },
+      "evidenceCount": 1,
+      "evidence": [
+        {
+          "conversationId": "conv_gemini_ex091",
+          "sourceAi": "gemini",
+          "excerpt": "일정표를 날짜별 표로 만들어 줘. 시트로 옮겨도 되고.",
+          "at": "2026-09-20T12:00:00+09:00"
+        }
+      ],
+      "state": "pending",
+      "linkId": "l91",
+      "objectId": null,
+      "merge": null,
+      "reason": "mid_confidence",
+      "note": null,
+      "createdAt": "2026-09-30T12:00:00+09:00"
+    },
+    {
+      "id": "s8",
+      "kind": "link",
+      "confidence": 0.62,
+      "text": "[과제] 영문 이력서 다듬기 —관련 있음→ [주제] 카피라이팅",
+      "linkType": "related_to",
+      "src": {
+        "id": "obj_task_resume",
+        "type": "task",
+        "label": "영문 이력서 다듬기"
+      },
+      "dst": {
+        "id": "obj_topic_copywriting",
+        "type": "topic",
+        "label": "카피라이팅"
+      },
+      "evidenceCount": 1,
+      "evidence": [
+        {
+          "conversationId": "conv_claude_ex093",
+          "sourceAi": "claude",
+          "excerpt": "한 줄 요약은 블로그 카피처럼 짧고 동사로 시작하게.",
+          "at": "2026-08-25T12:00:00+09:00"
+        }
+      ],
+      "state": "pending",
+      "linkId": "l122",
+      "objectId": null,
+      "merge": null,
+      "reason": "mid_confidence",
+      "note": null,
+      "createdAt": "2026-09-30T12:00:00+09:00"
+    },
+    {
+      "id": "s9",
+      "kind": "link",
+      "confidence": 0.61,
+      "text": "[조직] A이사업체 —위치함→ [장소] 망원동 지금 집",
+      "linkType": "located_at",
+      "src": {
+        "id": "obj_org_movingA",
+        "type": "organization",
+        "label": "A이사업체"
+      },
+      "dst": {
+        "id": "obj_place_mangwon",
+        "type": "place",
+        "label": "망원동 지금 집"
+      },
+      "evidenceCount": 1,
+      "evidence": [
+        {
+          "conversationId": "conv_chatgpt_ex092",
+          "sourceAi": "chatgpt",
+          "excerpt": "A업체 실장님이 망원동 집으로 토요일 오전 방문.",
+          "at": "2026-09-29T12:00:00+09:00"
+        }
+      ],
+      "state": "pending",
+      "linkId": "l115",
+      "objectId": null,
+      "merge": null,
+      "reason": "mid_confidence",
+      "note": null,
+      "createdAt": "2026-09-30T12:00:00+09:00"
+    }
+  ],
+  "total": 9,
+  "nextCursor": null
+}

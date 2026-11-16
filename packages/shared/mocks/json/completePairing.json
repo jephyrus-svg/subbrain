@@ -1,0 +1,16 @@
+{
+  "token": "sbt_EXAMPLE_ONLY_not_a_real_token_000000",
+  "client": {
+    "tokenId": "pat_k3f9",
+    "kind": "extension",
+    "name": "SubBrain Chrome",
+    "extensionId": "abcdefghijklmnopabcdefghijklmnop",
+    "scopes": [
+      "ingest"
+    ],
+    "createdAt": "2026-09-30T08:31:10+09:00",
+    "lastUsedAt": null,
+    "rotatedAt": null,
+    "revokedAt": null
+  }
+}

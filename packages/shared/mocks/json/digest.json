@@ -1,0 +1,738 @@
+{
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T08:00:03+09:00",
+  "title": "9월 30일 수요일 아침",
+  "prevDate": "2026-09-29",
+  "nextDate": null,
+  "vault": {
+    "path": "daily/2026-09-30.md",
+    "obsidianUri": "obsidian://open?vault=SubBrain&file=daily%2F2026-09-30.md"
+  },
+  "strip": {
+    "yesterdayConversations": 11,
+    "completedTasks": 2,
+    "newlyStalled": 4,
+    "quickQuestions": 4,
+    "collectionGap": {
+      "hasGap": true,
+      "hours": 34,
+      "label": "34시간"
+    }
+  },
+  "yesterday": {
+    "date": "2026-09-29",
+    "narrative": "어제는 ‘Next.js 배포 오류 해결’, ‘전세 계약 특약 문구 검토’을(를) 끝냈어요. ‘분류 프롬프트 정확도 시험’을(를) 새로 시작했어요. ‘러닝 10km 준비’, ‘이사업체 견적 비교표’ 외 2개는 이어서 진행했어요. 볼트 노트 형식, 인터넷 이전 신청 등은(는) 대화가 끊겨 ‘멈춤’으로 옮겼어요.",
+    "events": [
+      {
+        "at": "2026-09-29T07:40:00+09:00",
+        "timeLabel": "오전 7:40",
+        "actor": "extension",
+        "sourceAi": "gemini",
+        "action": "continued",
+        "actionLabel": "이어감",
+        "tasks": [
+          {
+            "id": "task_20260927_02",
+            "title": "러닝 10km 준비"
+          }
+        ],
+        "project": {
+          "id": "prj_health",
+          "name": "건강",
+          "colorHex": "#9CCB5E"
+        },
+        "note": "건강 · 메시지 4개 추가"
+      },
+      {
+        "at": "2026-09-29T09:40:00+09:00",
+        "timeLabel": "오전 9:40",
+        "actor": "extension",
+        "sourceAi": "claude",
+        "action": "continued",
+        "actionLabel": "이어감",
+        "tasks": [
+          {
+            "id": "task_20260926_01",
+            "title": "Next.js 배포 오류 해결"
+          }
+        ],
+        "project": {
+          "id": "prj_devstudy",
+          "name": "개발 공부",
+          "colorHex": "#4DB9E3"
+        },
+        "note": "개발 공부 · 메시지 14개 추가"
+      },
+      {
+        "at": "2026-09-29T10:12:00+09:00",
+        "timeLabel": "오전 10:12",
+        "actor": "classifier",
+        "sourceAi": "claude",
+        "action": "completed",
+        "actionLabel": "완료",
+        "tasks": [
+          {
+            "id": "task_20260926_01",
+            "title": "Next.js 배포 오류 해결"
+          }
+        ],
+        "project": {
+          "id": "prj_devstudy",
+          "name": "개발 공부",
+          "colorHex": "#4DB9E3"
+        },
+        "note": null
+      },
+      {
+        "at": "2026-09-29T14:40:00+09:00",
+        "timeLabel": "오후 2:40",
+        "actor": "extension",
+        "sourceAi": "claude",
+        "action": "started",
+        "actionLabel": "시작",
+        "tasks": [
+          {
+            "id": "task_20260929_01",
+            "title": "분류 프롬프트 정확도 시험"
+          }
+        ],
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "note": null
+      },
+      {
+        "at": "2026-09-29T16:05:00+09:00",
+        "timeLabel": "오후 4:05",
+        "actor": "extension",
+        "sourceAi": "chatgpt",
+        "action": "continued",
+        "actionLabel": "이어감",
+        "tasks": [
+          {
+            "id": "task_20260928_02",
+            "title": "전세 계약 특약 문구 검토"
+          }
+        ],
+        "project": null,
+        "note": "과제 · 메시지 4개 추가"
+      },
+      {
+        "at": "2026-09-29T16:05:00+09:00",
+        "timeLabel": "오후 4:05",
+        "actor": "classifier",
+        "sourceAi": "chatgpt",
+        "action": "completed",
+        "actionLabel": "완료",
+        "tasks": [
+          {
+            "id": "task_20260928_02",
+            "title": "전세 계약 특약 문구 검토"
+          }
+        ],
+        "project": null,
+        "note": null
+      },
+      {
+        "at": "2026-09-29T19:20:00+09:00",
+        "timeLabel": "오후 7:20",
+        "actor": "extension",
+        "sourceAi": "claude",
+        "action": "continued",
+        "actionLabel": "이어감",
+        "tasks": [
+          {
+            "id": "task_20260914_01",
+            "title": "이사업체 견적 비교표"
+          }
+        ],
+        "project": {
+          "id": "prj_moving",
+          "name": "이사 준비",
+          "colorHex": "#36C2A6"
+        },
+        "note": "이사 준비 · 메시지 8개 추가"
+      },
+      {
+        "at": "2026-09-29T20:10:00+09:00",
+        "timeLabel": "오후 8:10",
+        "actor": "extension",
+        "sourceAi": "claude",
+        "action": "continued",
+        "actionLabel": "이어감",
+        "tasks": [
+          {
+            "id": "task_20260929_01",
+            "title": "분류 프롬프트 정확도 시험"
+          }
+        ],
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "note": "서브브레인 · 메시지 24개 추가"
+      },
+      {
+        "at": "2026-09-29T21:20:00+09:00",
+        "timeLabel": "오후 9:20",
+        "actor": "extension",
+        "sourceAi": "claude",
+        "action": "continued",
+        "actionLabel": "이어감",
+        "tasks": [
+          {
+            "id": "task_20260924_01",
+            "title": "그래프 홈 시안"
+          }
+        ],
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "note": "서브브레인 · 메시지 10개 추가"
+      },
+      {
+        "at": "2026-09-29T21:31:00+09:00",
+        "timeLabel": "오후 9:31",
+        "actor": "extension",
+        "sourceAi": "chatgpt",
+        "action": "continued",
+        "actionLabel": "이어감",
+        "tasks": [
+          {
+            "id": "task_20260927_01",
+            "title": "글 목록 태그 필터"
+          }
+        ],
+        "project": {
+          "id": "prj_blog",
+          "name": "블로그 리뉴얼",
+          "colorHex": "#F07F5E"
+        },
+        "note": "블로그 리뉴얼 · 메시지 3개 추가"
+      },
+      {
+        "at": "2026-09-30T03:00:00+09:00",
+        "timeLabel": "새벽 계산",
+        "actor": "rule",
+        "sourceAi": null,
+        "action": "stalled",
+        "actionLabel": "멈춤",
+        "tasks": [
+          {
+            "id": "task_20260915_01",
+            "title": "볼트 노트 형식"
+          }
+        ],
+        "project": {
+          "id": "prj_subbrain",
+          "name": "서브브레인",
+          "colorHex": "#5B8DEF"
+        },
+        "note": "서브브레인 · 1개 멈춤으로"
+      },
+      {
+        "at": "2026-09-30T03:00:00+09:00",
+        "timeLabel": "새벽 계산",
+        "actor": "rule",
+        "sourceAi": null,
+        "action": "stalled",
+        "actionLabel": "멈춤",
+        "tasks": [
+          {
+            "id": "task_20260919_01",
+            "title": "인터넷 이전 신청"
+          }
+        ],
+        "project": {
+          "id": "prj_moving",
+          "name": "이사 준비",
+          "colorHex": "#36C2A6"
+        },
+        "note": "이사 준비 · 1개 멈춤으로"
+      },
+      {
+        "at": "2026-09-30T03:00:00+09:00",
+        "timeLabel": "새벽 계산",
+        "actor": "rule",
+        "sourceAi": null,
+        "action": "stalled",
+        "actionLabel": "멈춤",
+        "tasks": [
+          {
+            "id": "task_20260920_01",
+            "title": "교토 3박 4일 일정"
+          }
+        ],
+        "project": {
+          "id": "prj_kyoto",
+          "name": "가을 교토 여행",
+          "colorHex": "#D768A6"
+        },
+        "note": "가을 교토 여행 · 1개 멈춤으로"
+      },
+      {
+        "at": "2026-09-30T03:00:00+09:00",
+        "timeLabel": "새벽 계산",
+        "actor": "rule",
+        "sourceAi": null,
+        "action": "stalled",
+        "actionLabel": "멈춤",
+        "tasks": [
+          {
+            "id": "task_20260921_03",
+            "title": "홈트 루틴 식단"
+          }
+        ],
+        "project": {
+          "id": "prj_health",
+          "name": "건강",
+          "colorHex": "#9CCB5E"
+        },
+        "note": "건강 · 1개 멈춤으로"
+      }
+    ]
+  },
+  "collectionStatus": [
+    {
+      "sourceAi": "chatgpt",
+      "methods": [
+        "export"
+      ],
+      "methodLabel": "내보내기 가져오기",
+      "lastCapturedAt": "2026-09-30T08:05:12+09:00",
+      "health": "ok",
+      "message": null
+    },
+    {
+      "sourceAi": "claude",
+      "methods": [
+        "export"
+      ],
+      "methodLabel": "내보내기 가져오기",
+      "lastCapturedAt": "2026-09-28T21:40:03+09:00",
+      "health": "ok",
+      "message": null
+    }
+  ],
+  "thisWeek": {
+    "rangeLabel": "월–화 · 하루 한 번 새로 씀",
+    "items": [
+      "‘Next.js 배포 오류 해결’을(를) 끝냈어요.",
+      "‘전세 계약 특약 문구 검토’을(를) 끝냈어요.",
+      "‘hero 섹션 높이 vh 단위’을(를) 끝냈어요.",
+      "‘분류 프롬프트 정확도 시험’을(를) 시작했어요.",
+      "‘가구 배치 스케치’을(를) 시작했어요."
+    ]
+  },
+  "todayPicks": [
+    {
+      "rank": 1,
+      "task": {
+        "id": "task_20260830_01",
+        "title": "메인 페이지 카피 확정",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 12,
+        "projectId": "prj_blog"
+      },
+      "project": {
+        "id": "prj_blog",
+        "name": "블로그 리뉴얼",
+        "colorHex": "#F07F5E"
+      },
+      "freshnessLabel": "12일째",
+      "nextStep": "A안을 기준으로 보조 문장 3개와 CTA 2개 쓰기",
+      "reason": "블로그 리뉴얼 · 다음 단계가 분명해요",
+      "recommendedAi": "chatgpt",
+      "actionLabel": "ChatGPT에서 이어서",
+      "continue": {
+        "sourceAi": "chatgpt",
+        "url": "https://chatgpt.com/c/68f2a91c-4b7e-8003-a1d2-9c0e5b7f3a21",
+        "conversationId": "conv_chatgpt_68f2a91c",
+        "label": "ChatGPT에서 이어서"
+      },
+      "resumeScore": 1.08
+    },
+    {
+      "rank": 2,
+      "task": {
+        "id": "task_20260902_01",
+        "title": "소개 페이지 톤 맞추기",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 6,
+        "projectId": "prj_blog"
+      },
+      "project": {
+        "id": "prj_blog",
+        "name": "블로그 리뉴얼",
+        "colorHex": "#F07F5E"
+      },
+      "freshnessLabel": "6일째",
+      "nextStep": "메인 카피 확정 후 소개 문단 1·2를 같은 톤으로 다시 쓰기",
+      "reason": "블로그 리뉴얼 · 다음 단계가 분명해요",
+      "recommendedAi": "claude",
+      "actionLabel": "Claude에서 이어서",
+      "continue": {
+        "sourceAi": "claude",
+        "url": "https://claude.ai/chat/e02b5a91-6c3d-4f70-b1a8-2d9e4c7f0a35",
+        "conversationId": "conv_claude_e02b5a91",
+        "label": "Claude에서 이어서"
+      },
+      "resumeScore": 1.05
+    },
+    {
+      "rank": 3,
+      "task": {
+        "id": "task_20260921_01",
+        "title": "배당 시트 환율 자동화",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 9,
+        "projectId": "prj_dividend"
+      },
+      "project": {
+        "id": "prj_dividend",
+        "name": "배당 가계부",
+        "colorHex": "#E8B63E"
+      },
+      "freshnessLabel": "9일째",
+      "nextStep": "GOOGLEFINANCE 환율 셀이 #N/A 나는 원인 찾기",
+      "reason": "배당 가계부 · 다음 단계가 분명해요",
+      "recommendedAi": "grok",
+      "actionLabel": "Grok에서 이어서",
+      "continue": {
+        "sourceAi": "grok",
+        "url": "https://grok.com/chat/b1115650-a489-4475-ad01-94f13a6e1c09",
+        "conversationId": "conv_grok_b1115650",
+        "label": "Grok에서 이어서"
+      },
+      "resumeScore": 1.02
+    }
+  ],
+  "longNeglected": {
+    "count": 2,
+    "items": [
+      {
+        "id": "task_20260805_01",
+        "title": "RSS 피드 붙이기",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 54,
+        "projectId": "prj_blog"
+      },
+      {
+        "id": "task_20260827_01",
+        "title": "영문 이력서 다듬기",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 34,
+        "projectId": "prj_career"
+      }
+    ],
+    "prompt": "계속할까요, 보관할까요?"
+  },
+  "movedProjects": [
+    {
+      "project": {
+        "id": "prj_subbrain",
+        "name": "서브브레인",
+        "colorHex": "#5B8DEF"
+      },
+      "messageCount": 34,
+      "note": "시작 1",
+      "becameStalled": true
+    },
+    {
+      "project": {
+        "id": "prj_devstudy",
+        "name": "개발 공부",
+        "colorHex": "#4DB9E3"
+      },
+      "messageCount": 14,
+      "note": "완료 1",
+      "becameStalled": false
+    },
+    {
+      "project": {
+        "id": "prj_moving",
+        "name": "이사 준비",
+        "colorHex": "#36C2A6"
+      },
+      "messageCount": 8,
+      "note": "이어감",
+      "becameStalled": true
+    },
+    {
+      "project": {
+        "id": "prj_health",
+        "name": "건강",
+        "colorHex": "#9CCB5E"
+      },
+      "messageCount": 4,
+      "note": "이어감",
+      "becameStalled": true
+    },
+    {
+      "project": {
+        "id": "prj_blog",
+        "name": "블로그 리뉴얼",
+        "colorHex": "#F07F5E"
+      },
+      "messageCount": 3,
+      "note": "이어감",
+      "becameStalled": false
+    },
+    {
+      "project": {
+        "id": "prj_kyoto",
+        "name": "가을 교토 여행",
+        "colorHex": "#D768A6"
+      },
+      "messageCount": 0,
+      "note": "멈춤으로",
+      "becameStalled": true
+    }
+  ],
+  "quickQuestionsByAi": [
+    {
+      "sourceAi": "claude",
+      "count": 1
+    },
+    {
+      "sourceAi": "gemini",
+      "count": 1
+    },
+    {
+      "sourceAi": "chatgpt",
+      "count": 1
+    },
+    {
+      "sourceAi": "grok",
+      "count": 1
+    }
+  ],
+  "pendingMergeSuggestions": [
+    {
+      "id": "ms_4410",
+      "state": "pending",
+      "confidence": 0.74,
+      "reason": "같은 주제 #카피라이팅 · Claude에서 시작한 소개 페이지 톤 작업을 ChatGPT에서 이어간 것으로 보임",
+      "tasks": [
+        {
+          "id": "task_20260902_01",
+          "title": "소개 페이지 톤 맞추기",
+          "status": "멈춤",
+          "statusVisual": "stall2",
+          "staleDays": 6,
+          "projectId": "prj_blog",
+          "sourceAis": [
+            "claude"
+          ]
+        },
+        {
+          "id": "task_20260924_02",
+          "title": "소개 페이지 문장 다듬기",
+          "status": "멈춤",
+          "statusVisual": "stall2",
+          "staleDays": 6,
+          "projectId": null,
+          "sourceAis": [
+            "chatgpt"
+          ]
+        }
+      ],
+      "suggestedPrimaryTaskId": "task_20260902_01",
+      "createdAt": "2026-09-25T03:02:11+09:00",
+      "decidedAt": null
+    }
+  ],
+  "pendingProjectSuggestions": [],
+  "alerts": [],
+  "ontology": {
+    "newlyLinkedCount": 0,
+    "pendingCount": 9,
+    "items": [
+      {
+        "id": "osg_mkb9b9",
+        "kind": "merge",
+        "confidence": 0.78,
+        "text": "[도구] Chrome 확장 MV3 = 크롬 익스텐션 (같은 것으로 합치기)",
+        "linkType": null,
+        "src": {
+          "id": "obj_tool_mv3",
+          "type": "tool",
+          "label": "Chrome 확장 MV3"
+        },
+        "dst": {
+          "id": "obj_tool_chromeext",
+          "type": "tool",
+          "label": "크롬 익스텐션"
+        },
+        "evidenceCount": 2,
+        "evidence": [
+          {
+            "conversationId": "conv_grok_46093688",
+            "sourceAi": "grok",
+            "excerpt": "크롬 익스텐션에서 탭 내용 읽으려면 어떤 권한이 필요해?",
+            "at": "2026-09-26T12:00:00+09:00"
+          },
+          {
+            "conversationId": "conv_chatgpt_b74a8daa",
+            "sourceAi": "chatgpt",
+            "excerpt": "MV3라 백그라운드 페이지 대신 서비스 워커.",
+            "at": "2026-09-20T12:00:00+09:00"
+          }
+        ],
+        "state": "pending",
+        "linkId": null,
+        "objectId": null,
+        "merge": {
+          "keepId": "obj_tool_mv3",
+          "mergeId": "obj_tool_chromeext"
+        },
+        "reason": "merge_candidate",
+        "note": "같은 브라우저 확장 이야기일 수 있음",
+        "createdAt": "2026-09-30T12:00:00+09:00"
+      },
+      {
+        "id": "osg_tn99dk",
+        "kind": "link",
+        "confidence": 0.77,
+        "text": "[과제] ETF 분배금 세금 —막혔음→ [사람] 친구 민호",
+        "linkType": "blocked_by",
+        "src": {
+          "id": "obj_task_etftax",
+          "type": "task",
+          "label": "ETF 분배금 세금"
+        },
+        "dst": {
+          "id": "obj_person_minho",
+          "type": "person",
+          "label": "친구 민호"
+        },
+        "evidenceCount": 1,
+        "evidence": [
+          {
+            "conversationId": "conv_grok_46093688",
+            "sourceAi": "grok",
+            "excerpt": "종합과세 넘는지는 민호한테 물어보기로.",
+            "at": "2026-09-22T12:00:00+09:00"
+          }
+        ],
+        "state": "pending",
+        "linkId": "lnk_29",
+        "objectId": null,
+        "merge": null,
+        "reason": "first_seen_person",
+        "note": "처음 보는 사람이라 확신도와 상관없이 제안으로 둠",
+        "createdAt": "2026-09-30T12:00:00+09:00"
+      },
+      {
+        "id": "osg_sztgyc",
+        "kind": "link",
+        "confidence": 0.71,
+        "text": "[과제] 그래프 홈 시안 —사용함→ [도구] Figma",
+        "linkType": "uses",
+        "src": {
+          "id": "obj_task_graphhome",
+          "type": "task",
+          "label": "그래프 홈 시안"
+        },
+        "dst": {
+          "id": "obj_tool_figma",
+          "type": "tool",
+          "label": "Figma"
+        },
+        "evidenceCount": 1,
+        "evidence": [
+          {
+            "conversationId": "conv_claude_296a5a76",
+            "sourceAi": "claude",
+            "excerpt": "시안은 Figma 말고 코드로 바로 그려 보는 게 빠를 수도.",
+            "at": "2026-09-24T12:00:00+09:00"
+          }
+        ],
+        "state": "pending",
+        "linkId": "lnk_69",
+        "objectId": null,
+        "merge": null,
+        "reason": "mid_confidence",
+        "note": null,
+        "createdAt": "2026-09-30T12:00:00+09:00"
+      },
+      {
+        "id": "osg_yb7hyx",
+        "kind": "link",
+        "confidence": 0.7,
+        "text": "[과제] 가구 배치 스케치 —막혔음→ [결정] 이사 날짜 11월 8일",
+        "linkType": "blocked_by",
+        "src": {
+          "id": "obj_task_furniture",
+          "type": "task",
+          "label": "가구 배치 스케치"
+        },
+        "dst": {
+          "id": "obj_decision_moveday",
+          "type": "decision",
+          "label": "이사 날짜 11월 8일"
+        },
+        "evidenceCount": 1,
+        "evidence": [
+          {
+            "conversationId": "conv_gemini_b07f0dcd",
+            "sourceAi": "gemini",
+            "excerpt": "이사 날짜가 정해져야 소파 배송일을 잡을 수 있어.",
+            "at": "2026-09-26T12:00:00+09:00"
+          }
+        ],
+        "state": "pending",
+        "linkId": "lnk_31",
+        "objectId": null,
+        "merge": null,
+        "reason": "mid_confidence",
+        "note": null,
+        "createdAt": "2026-09-30T12:00:00+09:00"
+      },
+      {
+        "id": "osg_68vndy",
+        "kind": "link",
+        "confidence": 0.68,
+        "text": "[도구] Netlify —대체함→ [도구] Vercel",
+        "linkType": "supersedes",
+        "src": {
+          "id": "obj_tool_netlify",
+          "type": "tool",
+          "label": "Netlify"
+        },
+        "dst": {
+          "id": "obj_tool_vercel",
+          "type": "tool",
+          "label": "Vercel"
+        },
+        "evidenceCount": 1,
+        "evidence": [
+          {
+            "conversationId": "conv_claude_5cb41190",
+            "sourceAi": "claude",
+            "excerpt": "블로그도 Netlify로 옮기자. Vercel 프로젝트는 정리.",
+            "at": "2026-09-26T12:00:00+09:00"
+          }
+        ],
+        "state": "pending",
+        "linkId": "lnk_57",
+        "objectId": null,
+        "merge": null,
+        "reason": "supersedes",
+        "note": "대체함은 늘 제안으로 둠",
+        "createdAt": "2026-09-30T12:00:00+09:00"
+      }
+    ]
+  },
+  "cleanup": null
+}

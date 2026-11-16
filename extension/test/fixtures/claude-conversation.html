@@ -1,0 +1,43 @@
+<!--
+  ⚠ 근사치(APPROXIMATION) — 실제 claude.ai 화면을 저장한 것이 아니다.
+  2026-10 기준 알려진 공개 구조(data-testid="user-message" · AI 응답 상자의 data-is-streaming · chat-menu-trigger ·
+  사이드바 /chat/<uuid> 링크)를 흉내 내어 손으로 만들었다. 실제 저장 HTML로 바꿔 회귀 테스트로 쓴다.
+  주소: https://claude.ai/chat/c1a0de01-0000-4000-8000-000000000001
+-->
+<html><head><title>Gemini 팟캐스트 자막 변환 도구 개발 - Claude</title></head>
+<body>
+<div class="flex min-h-screen w-full">
+  <nav aria-label="Sidebar" class="z-sidebar fixed">
+    <a href="/new" aria-label="새 채팅">새 채팅</a>
+    <a href="/project/0193aaaa-0000-4000-8000-00000000abcd">서브브레인</a>
+    <ul>
+      <li><a href="/chat/c1a0de01-0000-4000-8000-000000000001" class="group"><span class="truncate">Gemini 팟캐스트 자막 변환 도구 개발</span></a></li>
+      <li><a href="/chat/c1a0de02-0000-4000-8000-000000000002" class="group"><span class="truncate">독서 모임 공지 초안</span></a></li>
+      <li><a href="/chat/77aa0000-0000-4000-8000-000000000003" class="group"><span class="truncate">새 대화</span></a></li>
+    </ul>
+  </nav>
+  <div class="flex flex-1 flex-col">
+    <header class="sticky top-0"><a href="/project/0193aaaa-0000-4000-8000-00000000abcd" class="text-sm">서브브레인</a><span>/</span>
+      <button data-testid="chat-menu-trigger" class="flex items-center"><div class="truncate">Gemini 팟캐스트 자막 변환 도구 개발</div></button></header>
+    <div class="flex-1 flex flex-col gap-3 px-4 max-w-3xl mx-auto w-full pt-1">
+      <div data-test-render-count="1"><div class="mb-1 mt-1"><div class="group relative inline-flex gap-2 bg-bg-300 rounded-xl">
+        <div data-testid="user-message" class="font-user-message grid grid-cols-1 gap-2 py-0.5"><p class="whitespace-pre-wrap break-words">Gemini로 팟캐스트 자막을 만드는 작은 도구를 만들고 싶어.</p><p class="whitespace-pre-wrap break-words">입력은 텍스트 파일 하나.</p></div>
+      </div></div></div>
+      <div data-test-render-count="2"><div data-is-streaming="false" class="group relative -tracking-[0.015em] pb-3">
+        <div class="font-claude-message relative leading-[1.65rem]"><div><div class="grid-cols-1 grid gap-2.5">
+          <p class="whitespace-normal break-words">좋아요. 구조는 이렇게 잡을게요.</p>
+          <ul class="[&amp;:not(:last-child)_ul]:pb-1 list-disc space-y-1.5 pl-7"><li class="whitespace-normal break-words">텍스트 읽기</li><li class="whitespace-normal break-words">자막 프리셋 고르기<ul><li>차분하게</li><li>밝게</li></ul></li></ul>
+          <div class="relative flex flex-col rounded-lg"><div class="text-text-300 absolute pl-3 pt-2.5 text-xs">bash</div>
+            <div class="pointer-events-none sticky my-0.5 ml-0.5 flex items-center justify-end px-1.5 py-1"><button aria-label="복사">복사</button></div>
+            <div><pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed"><code class="language-bash"><span><span class="token">pip</span> install google-genai</span></code></pre></div></div>
+          <blockquote><p>API 키는 환경변수로.</p></blockquote>
+        </div></div></div>
+        <div class="absolute -bottom-0 -right-1.5" data-testid="action-bar-copy"><button aria-label="복사">복사</button><button aria-label="다시 시도">다시 시도</button></div>
+      </div></div>
+      <div data-test-render-count="3"><div data-testid="user-message" class="font-user-message"><p class="whitespace-pre-wrap">좋아, 프리셋 하나 더: 느리게</p></div></div>
+      <div data-test-render-count="4"><div data-is-streaming="false"><div class="font-claude-message"><p>추가했어요. 이제 프리셋은 <strong>3개</strong>예요.</p></div></div></div>
+    </div>
+    <fieldset class="flex w-full"><div contenteditable="true" aria-label="Claude에게 프롬프트 쓰기" class="ProseMirror"><p>답장…</p></div><button aria-label="메시지 보내기">보내기</button></fieldset>
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,81 @@
+{
+  "id": "conv_chatgpt_68f2a91c",
+  "sourceAi": "chatgpt",
+  "sourceId": "68f2a91c-4b7e-8003-a1d2-9c0e5b7f3a21",
+  "sourceUrl": "https://chatgpt.com/c/68f2a91c-4b7e-8003-a1d2-9c0e5b7f3a21",
+  "title": "카피 A/B 비교",
+  "createdAt": "2026-09-17T23:05:00+09:00",
+  "updatedAt": "2026-09-18T01:47:00+09:00",
+  "capturedAt": "2026-09-30T08:05:00+09:00",
+  "messageCount": 18,
+  "captureMethod": "export",
+  "serviceState": "active",
+  "pin": false,
+  "isShared": false,
+  "inServiceProject": false,
+  "hasUnextractedArtifact": false,
+  "task": {
+    "id": "task_20260830_01",
+    "title": "메인 페이지 카피 확정",
+    "status": "멈춤",
+    "statusVisual": "stall",
+    "staleDays": 12,
+    "projectId": "prj_blog"
+  },
+  "sharedWithTasks": [],
+  "classification": {
+    "kind": "task",
+    "resolution": "unresolved",
+    "completionReason": null,
+    "confidence": 0.86,
+    "evidence": "“내일 다시 볼게”로 끝남",
+    "model": "claude-haiku-4-5",
+    "promptVersion": "cls-v1",
+    "classifiedAt": "2026-09-18T01:52:30+09:00",
+    "needsReview": false,
+    "state": "ok",
+    "blockedReason": null,
+    "blockedModel": null,
+    "rawConfidence": null,
+    "handoff": null,
+    "cached": false
+  },
+  "vault": {
+    "path": "conversations/2026/09/2026-09-17_chatgpt_카피-ab-비교_68f2a91c.md",
+    "obsidianUri": "obsidian://open?vault=SubBrain&file=conversations%2F2026%2F09%2F2026-09-17_chatgpt_%EC%B9%B4%ED%94%BC-ab-%EB%B9%84%EA%B5%90_68f2a91c.md"
+  },
+  "rawPath": "raw/exports/chatgpt/2026-09-30_export.zip",
+  "outcome": {
+    "outcome": "open",
+    "status": "멈춤",
+    "staleDays": 12,
+    "label": "멈춤 12일",
+    "target": null,
+    "evidence": null,
+    "detectedBy": "derived"
+  },
+  "messages": {
+    "items": [
+      {
+        "id": 63,
+        "seq": 1,
+        "role": "user",
+        "contentMd": "메인 카피 후보 A랑 B를 나란히 놓고 비교해 줘.\n\nA: 작은 도구를 만들고, 만든 과정을 씁니다.\nB: 왜 어떤 도구는 오래 쓰게 될까요?",
+        "createdAt": "2026-09-17T23:05:00+09:00"
+      },
+      {
+        "id": 64,
+        "seq": 2,
+        "role": "assistant",
+        "contentMd": "| 기준 | A | B |\n|---|---|---|\n| 첫인상 | 담백함 | 호기심 |\n| 나다움 | 높음 | 중간 |",
+        "createdAt": "2026-09-17T23:14:32+09:00"
+      }
+    ],
+    "page": {
+      "limit": 2,
+      "nextCursor": "eyJvIjoyfQ",
+      "hasMore": true,
+      "total": 18
+    }
+  }
+}

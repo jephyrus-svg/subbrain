@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "NOT_FOUND",
+    "message": "과제를 찾을 수 없어요: task_20260830_99",
+    "details": {
+      "taskId": "task_20260830_99"
+    },
+    "requestId": "req_01J9ZK4M"
+  }
+}

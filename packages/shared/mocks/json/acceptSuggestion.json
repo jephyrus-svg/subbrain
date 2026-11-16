@@ -1,0 +1,65 @@
+{
+  "suggestion": {
+    "id": "s1",
+    "kind": "link",
+    "confidence": 0.77,
+    "text": "[과제] ETF 분배금 세금 —막혔음→ [사람] 친구 민호",
+    "linkType": "blocked_by",
+    "src": {
+      "id": "obj_task_etftax",
+      "type": "task",
+      "label": "ETF 분배금 세금"
+    },
+    "dst": {
+      "id": "obj_person_minho",
+      "type": "person",
+      "label": "친구 민호"
+    },
+    "evidenceCount": 1,
+    "evidence": [
+      {
+        "conversationId": "conv_grok_ex086",
+        "sourceAi": "grok",
+        "excerpt": "종합과세 넘는지는 민호한테 물어보기로.",
+        "at": "2026-09-22T12:00:00+09:00"
+      }
+    ],
+    "state": "accepted",
+    "linkId": "l37",
+    "objectId": null,
+    "merge": null,
+    "reason": "first_seen_person",
+    "note": "처음 보는 사람이라 확신도와 상관없이 제안으로 둠",
+    "createdAt": "2026-09-30T12:00:00+09:00"
+  },
+  "objects": [],
+  "links": [
+    {
+      "id": "l37",
+      "type": "blocked_by",
+      "srcId": "obj_task_etftax",
+      "dstId": "obj_person_minho",
+      "status": "accepted",
+      "confidence": 0.77,
+      "origin": "llm",
+      "mentionCount": 1,
+      "validFrom": "2026-09-22T12:00:00+09:00",
+      "endedAt": null,
+      "firstSeenAt": "2026-09-22T12:00:00+09:00",
+      "lastSeenAt": "2026-09-22T12:00:00+09:00",
+      "properties": {},
+      "evidencePreview": {
+        "id": 85,
+        "conversationId": "conv_grok_ex086",
+        "sourceAi": "grok",
+        "conversationTitle": "해외 ETF 분배금 과세",
+        "messageSeq": null,
+        "excerpt": "종합과세 넘는지는 민호한테 물어보기로.",
+        "at": "2026-09-22T12:00:00+09:00",
+        "confidence": 0.77,
+        "model": "gemini-3.8-flash"
+      }
+    }
+  ],
+  "eventId": 9001
+}

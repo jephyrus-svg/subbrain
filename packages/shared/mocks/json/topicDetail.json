@@ -1,0 +1,251 @@
+{
+  "id": "obj_topic_copywriting",
+  "name": "카피라이팅",
+  "aliases": [
+    "copywriting",
+    "카피"
+  ],
+  "objectStatus": "accepted",
+  "mentionCount": 12,
+  "firstSeenAt": "2026-08-30T12:00:00+09:00",
+  "lastSeenAt": "2026-09-22T12:00:00+09:00",
+  "tasks": [
+    {
+      "id": "task_20260902_01",
+      "title": "소개 페이지 톤 맞추기",
+      "summary": "메인 카피가 정해지면 같은 톤으로 다시 쓰기로 함",
+      "kind": "task",
+      "status": "멈춤",
+      "statusVisual": "stall2",
+      "staleDays": 6,
+      "staleStage": "short_pause",
+      "badge": "6일",
+      "project": {
+        "id": "prj_blog",
+        "name": "블로그 리뉴얼",
+        "colorHex": "#F07F5E"
+      },
+      "sourceAis": [
+        "claude"
+      ],
+      "conversationCount": 2,
+      "messageCount": 22,
+      "startedAt": "2026-09-02T10:20:00+09:00",
+      "lastActivityAt": "2026-09-24T22:10:00+09:00",
+      "completedAt": null,
+      "nextStep": "메인 카피 확정 후 소개 문단 1·2를 같은 톤으로 다시 쓰기",
+      "nextStepInfo": {
+        "text": "메인 카피 확정 후 소개 문단 1·2를 같은 톤으로 다시 쓰기",
+        "source": "saved",
+        "basis": "분류 결과"
+      },
+      "needsReview": false,
+      "pin": false,
+      "primaryConversation": {
+        "id": "conv_claude_e02b5a91",
+        "sourceAi": "claude",
+        "url": "https://claude.ai/chat/e02b5a91-6c3d-4f70-b1a8-2d9e4c7f0a35"
+      },
+      "handoff": null,
+      "classificationState": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "confidence": 0.78,
+      "completionReason": null,
+      "conversationOutcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 6,
+        "label": "멈춤 6일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    },
+    {
+      "id": "task_20260924_02",
+      "title": "소개 페이지 문장 다듬기",
+      "summary": "소개 페이지 문장을 짧게 고치는 중",
+      "kind": "task",
+      "status": "멈춤",
+      "statusVisual": "stall2",
+      "staleDays": 6,
+      "staleStage": "short_pause",
+      "badge": "6일",
+      "project": null,
+      "sourceAis": [
+        "chatgpt"
+      ],
+      "conversationCount": 1,
+      "messageCount": 12,
+      "startedAt": "2026-09-24T20:00:00+09:00",
+      "lastActivityAt": "2026-09-24T21:10:00+09:00",
+      "completedAt": null,
+      "nextStep": "소개 문단 두 번째 문장 줄이기",
+      "nextStepInfo": {
+        "text": "소개 문단 두 번째 문장 줄이기",
+        "source": "saved",
+        "basis": "분류 결과"
+      },
+      "needsReview": true,
+      "pin": false,
+      "primaryConversation": {
+        "id": "conv_chatgpt_ecce7181",
+        "sourceAi": "chatgpt",
+        "url": "https://chatgpt.com/c/ecce7181-588b-4c87-a251-37adaf9e7e77"
+      },
+      "handoff": null,
+      "classificationState": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "confidence": 0.52,
+      "completionReason": null,
+      "conversationOutcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 6,
+        "label": "멈춤 6일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    },
+    {
+      "id": "task_20260919_02",
+      "title": "온보딩 문구 다듬기",
+      "summary": "첫 화면 문구를 3줄로 줄이고 버튼은 ‘가져오기 시작’으로",
+      "kind": "task",
+      "status": "완료",
+      "statusVisual": "done",
+      "staleDays": null,
+      "staleStage": null,
+      "badge": null,
+      "project": {
+        "id": "prj_subbrain",
+        "name": "서브브레인",
+        "colorHex": "#5B8DEF"
+      },
+      "sourceAis": [
+        "claude"
+      ],
+      "conversationCount": 1,
+      "messageCount": 6,
+      "startedAt": "2026-09-19T20:10:00+09:00",
+      "lastActivityAt": "2026-09-21T22:48:00+09:00",
+      "completedAt": "2026-09-21T22:48:00+09:00",
+      "nextStep": null,
+      "nextStepInfo": null,
+      "needsReview": false,
+      "pin": false,
+      "primaryConversation": {
+        "id": "conv_claude_7ad4344c",
+        "sourceAi": "claude",
+        "url": "https://claude.ai/chat/7ad4344c-174b-49dc-af6e-d01c0791775e"
+      },
+      "handoff": null,
+      "classificationState": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "confidence": 0.85,
+      "completionReason": "resolved",
+      "conversationOutcome": {
+        "outcome": "done",
+        "status": "완료",
+        "staleDays": null,
+        "label": "끝난 대화",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    },
+    {
+      "id": "task_20260830_01",
+      "title": "메인 페이지 카피 확정",
+      "summary": "후보 3개 중 A/B로 좁힘. 톤은 ‘담백하게’로 합의",
+      "kind": "task",
+      "status": "멈춤",
+      "statusVisual": "stall",
+      "staleDays": 12,
+      "staleStage": "stale",
+      "badge": "12일",
+      "project": {
+        "id": "prj_blog",
+        "name": "블로그 리뉴얼",
+        "colorHex": "#F07F5E"
+      },
+      "sourceAis": [
+        "chatgpt",
+        "claude",
+        "gemini"
+      ],
+      "conversationCount": 5,
+      "messageCount": 89,
+      "startedAt": "2026-08-30T23:12:00+09:00",
+      "lastActivityAt": "2026-09-18T01:47:00+09:00",
+      "completedAt": null,
+      "nextStep": "A안을 기준으로 보조 문장 3개와 CTA 2개 쓰기",
+      "nextStepInfo": {
+        "text": "A안을 기준으로 보조 문장 3개와 CTA 2개 쓰기",
+        "source": "saved",
+        "basis": "분류 결과"
+      },
+      "needsReview": false,
+      "pin": false,
+      "primaryConversation": {
+        "id": "conv_chatgpt_68f2a91c",
+        "sourceAi": "chatgpt",
+        "url": "https://chatgpt.com/c/68f2a91c-4b7e-8003-a1d2-9c0e5b7f3a21"
+      },
+      "handoff": null,
+      "classificationState": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "confidence": 0.86,
+      "completionReason": null,
+      "conversationOutcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 12,
+        "label": "멈춤 12일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_blog",
+      "name": "블로그 리뉴얼",
+      "colorHex": "#F07F5E"
+    },
+    {
+      "id": "prj_subbrain",
+      "name": "서브브레인",
+      "colorHex": "#5B8DEF"
+    }
+  ],
+  "wikiPages": [],
+  "weeklyMentions": [
+    {
+      "start": "2026-07-13",
+      "count": 1
+    },
+    {
+      "start": "2026-08-31",
+      "count": 3
+    },
+    {
+      "start": "2026-09-07",
+      "count": 1
+    },
+    {
+      "start": "2026-09-14",
+      "count": 1
+    },
+    {
+      "start": "2026-09-21",
+      "count": 3
+    }
+  ]
+}

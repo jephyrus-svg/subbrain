@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "index": 0,
+      "ok": true,
+      "result": {
+        "status": "stale",
+        "idempotencyKey": "chatgpt:68f2a91c-1d2e-4b7a-9c3f-0a1b2c3d4e5f:4e07…",
+        "conversationId": "conv_chatgpt_68f2a91c",
+        "taskId": "task_20260830_01",
+        "contentHash": "4e07…",
+        "messageCount": 8,
+        "classification": "not_needed",
+        "receivedAt": "2026-09-30T08:20:41+09:00"
+      }
+    },
+    {
+      "index": 1,
+      "ok": false,
+      "error": {
+        "error": {
+          "code": "CONFLICT",
+          "message": "서버에 있는 내용과 이어 붙일 수 없어요. 전체(full)로 다시 보내 주세요.",
+          "details": {
+            "reason": "BASE_MISMATCH",
+            "expectedContentHash": "4e07…"
+          },
+          "requestId": "req_01JA0001"
+        }
+      }
+    }
+  ]
+}

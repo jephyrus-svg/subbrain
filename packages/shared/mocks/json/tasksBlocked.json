@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "id": "task_20260922_02",
+      "title": "JR 패스 계산",
+      "summary": "JR 패스와 개별 승차권 가격을 비교하다 멈춤",
+      "kind": "task",
+      "status": "멈춤",
+      "statusVisual": "stall2",
+      "staleDays": 6,
+      "staleStage": "short_pause",
+      "badge": "6일",
+      "project": {
+        "id": "prj_kyoto",
+        "name": "가을 교토 여행",
+        "colorHex": "#D768A6"
+      },
+      "sourceAis": [
+        "chatgpt"
+      ],
+      "conversationCount": 1,
+      "messageCount": 8,
+      "startedAt": "2026-09-22T21:00:00+09:00",
+      "lastActivityAt": "2026-09-24T21:40:00+09:00",
+      "completedAt": null,
+      "nextStep": "간사이 와이드 패스 가격과 비교해서 결정",
+      "nextStepInfo": {
+        "text": "간사이 와이드 패스 가격과 비교해서 결정",
+        "source": "saved",
+        "basis": "분류 결과"
+      },
+      "needsReview": true,
+      "pin": false,
+      "primaryConversation": {
+        "id": "conv_chatgpt_956789b4",
+        "sourceAi": "chatgpt",
+        "url": "https://chatgpt.com/c/956789b4-41f1-4a53-aceb-18d55741819c"
+      },
+      "handoff": null,
+      "classificationState": "blocked",
+      "blockedReason": "PROHIBITED_CONTENT",
+      "blockedModel": "gemini-3.5-flash-lite",
+      "confidence": 0.55,
+      "completionReason": null,
+      "conversationOutcome": {
+        "outcome": "open",
+        "status": "멈춤",
+        "staleDays": 6,
+        "label": "멈춤 6일",
+        "target": null,
+        "evidence": null,
+        "detectedBy": "derived"
+      }
+    }
+  ],
+  "page": {
+    "limit": 50,
+    "nextCursor": null,
+    "hasMore": false,
+    "total": 1
+  }
+}

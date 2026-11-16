@@ -1,0 +1,164 @@
+{
+  "granularity": "week",
+  "from": "2026-04-06",
+  "to": "2026-09-30",
+  "projectId": null,
+  "buckets": [
+    {
+      "start": "2026-04-06",
+      "conversationCount": 5,
+      "messageCount": 50,
+      "taskCount": 2
+    },
+    {
+      "start": "2026-04-13",
+      "conversationCount": 7,
+      "messageCount": 73,
+      "taskCount": 3
+    },
+    {
+      "start": "2026-04-20",
+      "conversationCount": 5,
+      "messageCount": 52,
+      "taskCount": 3
+    },
+    {
+      "start": "2026-04-27",
+      "conversationCount": 5,
+      "messageCount": 48,
+      "taskCount": 4
+    },
+    {
+      "start": "2026-05-04",
+      "conversationCount": 5,
+      "messageCount": 42,
+      "taskCount": 5
+    },
+    {
+      "start": "2026-05-11",
+      "conversationCount": 6,
+      "messageCount": 58,
+      "taskCount": 6
+    },
+    {
+      "start": "2026-05-18",
+      "conversationCount": 7,
+      "messageCount": 65,
+      "taskCount": 7
+    },
+    {
+      "start": "2026-05-25",
+      "conversationCount": 6,
+      "messageCount": 57,
+      "taskCount": 8
+    },
+    {
+      "start": "2026-06-01",
+      "conversationCount": 5,
+      "messageCount": 44,
+      "taskCount": 9
+    },
+    {
+      "start": "2026-06-08",
+      "conversationCount": 8,
+      "messageCount": 78,
+      "taskCount": 11
+    },
+    {
+      "start": "2026-06-15",
+      "conversationCount": 6,
+      "messageCount": 60,
+      "taskCount": 14
+    },
+    {
+      "start": "2026-06-22",
+      "conversationCount": 9,
+      "messageCount": 90,
+      "taskCount": 15
+    },
+    {
+      "start": "2026-06-29",
+      "conversationCount": 4,
+      "messageCount": 29,
+      "taskCount": 18
+    },
+    {
+      "start": "2026-07-06",
+      "conversationCount": 7,
+      "messageCount": 68,
+      "taskCount": 21
+    },
+    {
+      "start": "2026-07-13",
+      "conversationCount": 7,
+      "messageCount": 79,
+      "taskCount": 22
+    },
+    {
+      "start": "2026-07-20",
+      "conversationCount": 13,
+      "messageCount": 129,
+      "taskCount": 26
+    },
+    {
+      "start": "2026-07-27",
+      "conversationCount": 10,
+      "messageCount": 87,
+      "taskCount": 28
+    },
+    {
+      "start": "2026-08-03",
+      "conversationCount": 5,
+      "messageCount": 45,
+      "taskCount": 31
+    },
+    {
+      "start": "2026-08-10",
+      "conversationCount": 8,
+      "messageCount": 68,
+      "taskCount": 35
+    },
+    {
+      "start": "2026-08-17",
+      "conversationCount": 15,
+      "messageCount": 114,
+      "taskCount": 39
+    },
+    {
+      "start": "2026-08-24",
+      "conversationCount": 21,
+      "messageCount": 172,
+      "taskCount": 44
+    },
+    {
+      "start": "2026-08-31",
+      "conversationCount": 20,
+      "messageCount": 215,
+      "taskCount": 51
+    },
+    {
+      "start": "2026-09-07",
+      "conversationCount": 15,
+      "messageCount": 136,
+      "taskCount": 54
+    },
+    {
+      "start": "2026-09-14",
+      "conversationCount": 19,
+      "messageCount": 113,
+      "taskCount": 59
+    },
+    {
+      "start": "2026-09-21",
+      "conversationCount": 27,
+      "messageCount": 155,
+      "taskCount": 69
+    },
+    {
+      "start": "2026-09-28",
+      "conversationCount": 16,
+      "messageCount": 127,
+      "taskCount": 72
+    }
+  ]
+}

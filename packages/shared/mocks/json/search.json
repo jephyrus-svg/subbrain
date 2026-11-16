@@ -1,0 +1,143 @@
+{
+  "items": [
+    {
+      "type": "task",
+      "id": "task_20260914_01",
+      "title": "이사업체 견적 비교표",
+      "snippetMd": "**이사**업체 3곳 **견적**을 표로 비교하다가 B업체 추가 **견적** 대기 중",
+      "task": {
+        "id": "task_20260914_01",
+        "title": "이사업체 견적 비교표",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "projectId": "prj_moving"
+      },
+      "conversationId": "conv_claude_a1b2c3d4",
+      "sourceAi": "claude",
+      "sourceUrl": "https://claude.ai/chat/a1b2c3d4-7f60-4e2a-9b1c-5d8e3f0a6c27",
+      "vaultPath": "tasks/이사업체-견적-비교표.md",
+      "at": "2026-09-29T19:20:00+09:00",
+      "score": 1
+    },
+    {
+      "type": "conversation",
+      "id": "conv_claude_a1b2c3d4",
+      "title": "이사업체 견적 비교표",
+      "snippetMd": "**이사**업체 **견적** 비교표",
+      "task": {
+        "id": "task_20260914_01",
+        "title": "이사업체 견적 비교표",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "projectId": "prj_moving"
+      },
+      "conversationId": "conv_claude_a1b2c3d4",
+      "sourceAi": "claude",
+      "sourceUrl": "https://claude.ai/chat/a1b2c3d4-7f60-4e2a-9b1c-5d8e3f0a6c27",
+      "vaultPath": "conversations/2026/09/2026-09-14_claude_이사업체-견적-비교표_a1b2c3d4.md",
+      "at": "2026-09-29T19:20:00+09:00",
+      "score": 0.8
+    },
+    {
+      "type": "message",
+      "id": "250",
+      "title": "이사업체 견적 비교표",
+      "snippetMd": "**이사**업체 **견적** 비교표을(를) 기준으로 보면 세 가지로 나눌 수 있어요. 1) 목표 정하기 2) 선택지 비교 3)…",
+      "task": {
+        "id": "task_20260914_01",
+        "title": "이사업체 견적 비교표",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "projectId": "prj_moving"
+      },
+      "conversationId": "conv_claude_a1b2c3d4",
+      "sourceAi": "claude",
+      "sourceUrl": "https://claude.ai/chat/a1b2c3d4-7f60-4e2a-9b1c-5d8e3f0a6c27",
+      "vaultPath": "conversations/2026/09/2026-09-14_claude_이사업체-견적-비교표_a1b2c3d4.md",
+      "at": "2026-09-29T19:20:00+09:00",
+      "score": 0.72
+    },
+    {
+      "type": "message",
+      "id": "243",
+      "title": "이사업체 견적 비교표",
+      "snippetMd": "좋아. 그럼 **이사**업체 **견적** 비교표에서 제일 먼저 할 일은 뭐야?",
+      "task": {
+        "id": "task_20260914_01",
+        "title": "이사업체 견적 비교표",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "projectId": "prj_moving"
+      },
+      "conversationId": "conv_claude_a1b2c3d4",
+      "sourceAi": "claude",
+      "sourceUrl": "https://claude.ai/chat/a1b2c3d4-7f60-4e2a-9b1c-5d8e3f0a6c27",
+      "vaultPath": "conversations/2026/09/2026-09-14_claude_이사업체-견적-비교표_a1b2c3d4.md",
+      "at": "2026-09-25T06:07:23+09:00",
+      "score": 0.7
+    },
+    {
+      "type": "message",
+      "id": "242",
+      "title": "이사업체 견적 비교표",
+      "snippetMd": "**이사**업체 **견적** 비교표의 첫 단계는 현재 상태를 한 줄로 적는 거예요. 그다음 막힌 지점을 하나만 고르세요.",
+      "task": {
+        "id": "task_20260914_01",
+        "title": "이사업체 견적 비교표",
+        "status": "진행 중",
+        "statusVisual": "run",
+        "staleDays": null,
+        "projectId": "prj_moving"
+      },
+      "conversationId": "conv_claude_a1b2c3d4",
+      "sourceAi": "claude",
+      "sourceUrl": "https://claude.ai/chat/a1b2c3d4-7f60-4e2a-9b1c-5d8e3f0a6c27",
+      "vaultPath": "conversations/2026/09/2026-09-14_claude_이사업체-견적-비교표_a1b2c3d4.md",
+      "at": "2026-09-24T14:31:18+09:00",
+      "score": 0.7
+    },
+    {
+      "type": "message",
+      "id": "256",
+      "title": "포장이사 체크리스트",
+      "snippetMd": "포장**이사**는 **견적** 받을 때 사다리차 비용이 따로인지 꼭 물어보세요. 엘리베이터 사용 예약도 미리 해 두면 좋아요.",
+      "task": {
+        "id": "task_20260802_01",
+        "title": "포장이사 체크리스트",
+        "status": "완료",
+        "statusVisual": "done",
+        "staleDays": null,
+        "projectId": "prj_moving"
+      },
+      "conversationId": "conv_chatgpt_9f8e7d6c",
+      "sourceAi": "chatgpt",
+      "sourceUrl": "https://chatgpt.com/c/9f8e7d6c-1a2b-8005-d4e6-7b9c0a1f2e33",
+      "vaultPath": "conversations/2026/08/2026-08-02_chatgpt_포장이사-체크리스트_9f8e7d6c.md",
+      "at": "2026-08-02T21:38:53+09:00",
+      "score": 0.56
+    }
+  ],
+  "page": {
+    "limit": 20,
+    "nextCursor": null,
+    "hasMore": false,
+    "total": 6
+  },
+  "query": "이사 견적",
+  "terms": [
+    {
+      "term": "이사",
+      "mode": "like"
+    },
+    {
+      "term": "견적",
+      "mode": "like"
+    }
+  ],
+  "notice": "2글자 검색어는 전체 검색(LIKE)으로 찾았어요. 조금 느릴 수 있어요.",
+  "tookMs": 7
+}

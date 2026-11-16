@@ -1,0 +1,19 @@
+{
+  "fetch": [
+    {
+      "sourceId": "c1a0de01-0000-4000-8000-000000000001",
+      "reason": "updated"
+    },
+    {
+      "sourceId": "77aa0000-0000-4000-8000-000000000003",
+      "reason": "new"
+    }
+  ],
+  "skipped": 1,
+  "cursor": "cur_claude_20260930T0821",
+  "stopBefore": "2026-09-12T10:00:00+09:00",
+  "rate": {
+    "maxFetchPerMinute": 6,
+    "nextScanAfter": "2026-09-30T08:51:00+09:00"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": "ms_4410",
+      "state": "pending",
+      "confidence": 0.74,
+      "reason": "같은 주제 #카피라이팅 · Claude에서 시작한 소개 페이지 톤 작업을 ChatGPT에서 이어간 것으로 보임",
+      "tasks": [
+        {
+          "id": "task_20260902_01",
+          "title": "소개 페이지 톤 맞추기",
+          "status": "멈춤",
+          "statusVisual": "stall2",
+          "staleDays": 6,
+          "projectId": "prj_blog",
+          "sourceAis": [
+            "claude"
+          ]
+        },
+        {
+          "id": "task_20260924_02",
+          "title": "소개 페이지 문장 다듬기",
+          "status": "멈춤",
+          "statusVisual": "stall2",
+          "staleDays": 6,
+          "projectId": null,
+          "sourceAis": [
+            "chatgpt"
+          ]
+        }
+      ],
+      "suggestedPrimaryTaskId": "task_20260902_01",
+      "createdAt": "2026-09-25T03:02:11+09:00",
+      "decidedAt": null
+    }
+  ],
+  "page": {
+    "limit": 50,
+    "nextCursor": null,
+    "hasMore": false,
+    "total": 1
+  }
+}

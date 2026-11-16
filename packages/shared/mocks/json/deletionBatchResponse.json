@@ -1,0 +1,80 @@
+{
+  "batch": {
+    "id": "del_20260930",
+    "state": "approved",
+    "selectedCount": 32,
+    "candidateCount": 34,
+    "groups": [
+      {
+        "sourceAi": "claude",
+        "selected": 20,
+        "total": 21,
+        "backupVerified": true,
+        "items": [
+          {
+            "itemId": 501,
+            "conversationId": "conv_claude_91d0f6a4",
+            "title": "Next.js 배포 오류 해결",
+            "kindLabel": "완료 · 위키",
+            "date": "2026-09-29",
+            "selected": true,
+            "excludedByUser": false
+          },
+          {
+            "itemId": 504,
+            "conversationId": "conv_claude_5f81c0d2",
+            "title": "도메인과 호스팅 고르기",
+            "kindLabel": "완료",
+            "date": "2026-06-15",
+            "selected": false,
+            "excludedByUser": true
+          }
+        ]
+      },
+      {
+        "sourceAi": "gemini",
+        "selected": 12,
+        "total": 12,
+        "backupVerified": true,
+        "items": [
+          {
+            "itemId": 522,
+            "conversationId": "conv_gemini_2d9f0a61",
+            "title": "교토 10월 평균 기온",
+            "kindLabel": "간단한 질문",
+            "date": "2026-09-21",
+            "selected": true,
+            "excludedByUser": false
+          }
+        ]
+      }
+    ],
+    "autoExcluded": [
+      {
+        "count": 4,
+        "sourceAi": "grok",
+        "reason": "어댑터 점검 중"
+      },
+      {
+        "count": 2,
+        "sourceAi": null,
+        "reason": "서비스 안 프로젝트 폴더"
+      },
+      {
+        "count": 1,
+        "sourceAi": null,
+        "reason": "공유 링크가 있음"
+      },
+      {
+        "count": 1,
+        "sourceAi": null,
+        "reason": "캔버스를 수집하지 못함"
+      }
+    ],
+    "estimate": {
+      "perItemSec": 4,
+      "totalMin": 3,
+      "label": "건당 4초 간격, 3분쯤 걸려요"
+    }
+  }
+}

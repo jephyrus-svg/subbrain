@@ -1,0 +1,48 @@
+{
+  "today": "2026-09-30",
+  "counts": {
+    "inProgress": 7,
+    "stalled": 11,
+    "stalledOver7Days": 4,
+    "completedThisWeek": 2,
+    "quickQuestions": 26,
+    "archived": 29,
+    "needsReview": 3,
+    "totalTasks": 43,
+    "allTasks": 98
+  },
+  "collection": {
+    "lastCapturedAt": "2026-09-30T08:05:12+09:00",
+    "overallHealth": "ok",
+    "sources": [
+      {
+        "sourceAi": "chatgpt",
+        "methods": [
+          "export"
+        ],
+        "methodLabel": "내보내기 가져오기",
+        "lastCapturedAt": "2026-09-30T08:05:12+09:00",
+        "health": "ok",
+        "message": null
+      },
+      {
+        "sourceAi": "claude",
+        "methods": [
+          "export"
+        ],
+        "methodLabel": "내보내기 가져오기",
+        "lastCapturedAt": "2026-09-28T21:40:03+09:00",
+        "health": "ok",
+        "message": null
+      }
+    ]
+  },
+  "badges": {
+    "digestApprovals": 0,
+    "pendingMergeSuggestions": 1,
+    "vaultConflicts": 1,
+    "runningImports": 0,
+    "pendingProjectSuggestions": 0
+  },
+  "latestDigestDate": "2026-09-30"
+}

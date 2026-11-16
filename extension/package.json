@@ -1,0 +1,26 @@
+{
+  "name": "@subbrain/extension",
+  "version": "0.1.0-alpha",
+  "private": true,
+  "type": "module",
+  "description": "서브브레인 Chrome 확장(MV3) — chatgpt.com · claude.ai 화면 읽기 수집",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "mock-server": "node --experimental-strip-types mock-server/main.ts"
+  },
+  "dependencies": {
+    "@subbrain/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.0",
+    "@types/node": "^22.20.4",
+    "esbuild": "^0.28.2",
+    "fake-indexeddb": "^6.0.0",
+    "happy-dom": "^20.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^5.0.2"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "task": {
+    "id": "task_20260921_01",
+    "title": "배당 시트 환율 자동화",
+    "kind": "task",
+    "status": "멈춤",
+    "statusSource": "rule",
+    "stale": {
+      "staleDays": 6,
+      "staleStage": "short_pause",
+      "statusVisual": "stall2",
+      "badge": "6일"
+    },
+    "completionReason": null,
+    "project": {
+      "id": "prj_dividend",
+      "name": "배당 가계부",
+      "colorHex": "#E8B63E"
+    },
+    "breadcrumb": [
+      {
+        "label": "그래프",
+        "href": "/"
+      },
+      {
+        "label": "배당 가계부",
+        "href": "/?focus=prj_dividend"
+      },
+      {
+        "label": "과제",
+        "href": null
+      }
+    ],
+    "origin": "auto",
+    "pin": false,
+    "overrides": [],
+    "startedAt": "2026-09-21T20:00:00+09:00",
+    "lastActivityAt": "2026-09-24T20:30:00+09:00",
+    "completedAt": null,
+    "firstConversationAt": "2026-09-21T20:00:00+09:00",
+    "lastConversationAt": "2026-09-24T20:30:00+09:00",
+    "conversationCount": 2,
+    "messageCount": 20,
+    "byAi": [
+      {
+        "sourceAi": "grok",
+        "conversationCount": 2,
+        "messageCount": 20,
+        "sharedConversationCount": 0
+      }
+    ],
+    "topics": [
+      {
+        "id": "obj_topic_automation",
+        "name": "자동화"
+      }
+    ],
+    "summary": "GOOGLEFINANCE 환율 셀이 #N/A로 나와 멈춤",
+    "summaryDetail": [],
+    "nextStep": "GOOGLEFINANCE 환율 셀이 #N/A 나는 원인 찾기",
+    "nextStepInfo": {
+      "text": "GOOGLEFINANCE 환율 셀이 #N/A 나는 원인 찾기",
+      "source": "saved",
+      "basis": "분류 결과"
+    },
+    "classification": {
+      "kind": "task",
+      "resolution": "unresolved",
+      "completionReason": null,
+      "confidence": 0.85,
+      "evidence": "마지막 사용자 메시지: ‘나중에 다시 볼게’",
+      "model": "claude-haiku-4-5",
+      "promptVersion": "cls-v1",
+      "classifiedAt": "2026-09-21T21:35:30+09:00",
+      "needsReview": false,
+      "state": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "rawConfidence": null,
+      "handoff": null,
+      "cached": false
+    },
+    "handoff": null,
+    "classificationState": "ok",
+    "conversationOutcome": {
+      "outcome": "open",
+      "status": "멈춤",
+      "staleDays": 6,
+      "label": "멈춤 6일",
+      "target": null,
+      "evidence": null,
+      "detectedBy": "derived"
+    },
+    "conversationOutcomes": [
+      {
+        "conversationId": "conv_grok_46093688",
+        "sourceAi": "grok",
+        "title": "ETF 분배금 세금",
+        "role": "primary",
+        "updatedAt": "2026-09-24T20:30:00+09:00",
+        "outcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 6,
+          "label": "멈춤 6일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      },
+      {
+        "conversationId": "conv_grok_b1115650",
+        "sourceAi": "grok",
+        "title": "배당 시트 환율 자동화",
+        "role": "primary",
+        "updatedAt": "2026-09-21T21:30:00+09:00",
+        "outcome": {
+          "outcome": "open",
+          "status": "멈춤",
+          "staleDays": 9,
+          "label": "멈춤 9일",
+          "target": null,
+          "evidence": null,
+          "detectedBy": "derived"
+        }
+      }
+    ],
+    "vault": {
+      "path": "tasks/배당-시트-환율-자동화.md",
+      "obsidianUri": "obsidian://open?vault=SubBrain&file=tasks%2F%EB%B0%B0%EB%8B%B9-%EC%8B%9C%ED%8A%B8-%ED%99%98%EC%9C%A8-%EC%9E%90%EB%8F%99%ED%99%94.md"
+    },
+    "decisions": [],
+    "openQuestions": [],
+    "resume": {
+      "defaultTargetAi": "grok",
+      "targets": [
+        "chatgpt",
+        "claude",
+        "gemini",
+        "grok"
+      ],
+      "promptPreview": "[맥락] 배당 가계부 — 배당 시트 환율 자동화. GOOGLEFINANCE 환율 셀이 #N/A로 나와 멈춤\n다음 할 일: GOOGLEFINANCE 환율 셀이 #N/A 나는 원인 찾기\n요청: 위 다음 할 일부터 이어서 도와줘.",
+      "continue": {
+        "sourceAi": "grok",
+        "url": "https://grok.com/chat/46093688-b835-4131-af6f-a51db50a85ae",
+        "conversationId": "conv_grok_46093688",
+        "label": "Grok에서 이어서"
+      },
+      "continueNote": "원래 대화(9.24)에 이어 붙임"
+    },
+    "related": {
+      "similarTasks": [
+        {
+          "id": "task_20260926_03",
+          "title": "수집 확장 MV3 골격",
+          "status": "진행 중",
+          "statusVisual": "run",
+          "staleDays": null,
+          "projectId": "prj_subbrain",
+          "projectName": "서브브레인",
+          "sourceAi": "chatgpt",
+          "reason": "같은 주제 #자동화",
+          "completedAt": null
+        }
+      ],
+      "wikiPages": []
+    },
+    "mergeSuggestions": [],
+    "neighborCount": 2,
+    "whyStalled": null
+  },
+  "mergedTaskIds": [
+    "task_20260924_03"
+  ],
+  "event": {
+    "id": 445,
+    "at": "2026-09-30T08:30:00+09:00",
+    "type": "status_changed",
+    "taskId": "task_20260921_01",
+    "conversationId": null,
+    "actor": "user",
+    "payload": {
+      "action": "merge",
+      "mergedTaskIds": [
+        "task_20260924_03"
+      ]
+    }
+  }
+}

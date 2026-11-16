@@ -1,0 +1,17 @@
+{
+  "id": "job_8c21",
+  "type": "classify",
+  "state": "running",
+  "createdAt": "2026-09-30T09:04:31+09:00",
+  "startedAt": "2026-09-30T09:04:33+09:00",
+  "finishedAt": null,
+  "progress": {
+    "processed": 312,
+    "total": 792,
+    "percent": 39
+  },
+  "label": "분류 · 가져오기 imp_20260930_n8w1",
+  "parentId": "imp_20260930_n8w1",
+  "error": null,
+  "costUsd": 1.83
+}

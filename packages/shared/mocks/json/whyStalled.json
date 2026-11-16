@@ -1,0 +1,66 @@
+{
+  "taskId": "task_20260830_01",
+  "objectId": "obj_task_copy",
+  "task": {
+    "status": "멈춤",
+    "staleDays": 14
+  },
+  "chain": [
+    {
+      "depth": 1,
+      "link": {
+        "id": "l30",
+        "type": "blocked_by",
+        "srcId": "obj_task_copy",
+        "dstId": "obj_person_designer",
+        "status": "accepted",
+        "confidence": 0.91,
+        "origin": "llm",
+        "mentionCount": 2,
+        "validFrom": "2026-09-16T12:00:00+09:00",
+        "endedAt": null,
+        "firstSeenAt": "2026-09-16T12:00:00+09:00",
+        "lastSeenAt": "2026-09-16T12:00:00+09:00",
+        "properties": {},
+        "evidencePreview": {
+          "id": 78,
+          "conversationId": "conv_chatgpt_ex079",
+          "sourceAi": "chatgpt",
+          "conversationTitle": "디자이너 회신 전 정리",
+          "messageSeq": null,
+          "excerpt": "윤서 님이 시안에 넣어 보고 길이 답 주기로 함. 그때까지 보류.",
+          "at": "2026-09-16T12:00:00+09:00",
+          "confidence": 0.91,
+          "model": "gemini-3.8-flash"
+        }
+      },
+      "object": {
+        "id": "obj_person_designer",
+        "type": "person",
+        "label": "디자이너 윤서",
+        "status": "accepted",
+        "taskStatus": null
+      }
+    }
+  ],
+  "rootCauses": [
+    {
+      "object": {
+        "id": "obj_person_designer",
+        "type": "person",
+        "label": "디자이너 윤서"
+      },
+      "kind": "waiting_person",
+      "label": "디자이너 윤서 기다리는 중"
+    }
+  ],
+  "ended": [],
+  "suggested": [],
+  "lastConversation": {
+    "id": "conv_chatgpt_ex003",
+    "title": "디자이너 회신 전 정리",
+    "sourceAi": "chatgpt",
+    "at": "2026-09-16T12:00:00+09:00"
+  },
+  "explanation": "‘디자이너 윤서’ 때문에 14일째 멈춤"
+}

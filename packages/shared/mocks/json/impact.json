@@ -1,0 +1,42 @@
+{
+  "objectId": "obj_decision_tone",
+  "affected": [
+    {
+      "object": {
+        "id": "obj_task_copy",
+        "type": "task",
+        "label": "메인 페이지 카피 확정"
+      },
+      "via": [
+        "affects"
+      ],
+      "depth": 1,
+      "superseded": false
+    },
+    {
+      "object": {
+        "id": "obj_task_about",
+        "type": "task",
+        "label": "소개 페이지 톤 맞추기"
+      },
+      "via": [
+        "affects"
+      ],
+      "depth": 1,
+      "superseded": false
+    },
+    {
+      "object": {
+        "id": "obj_artifact_copydraft",
+        "type": "artifact",
+        "label": "카피 초안 v3"
+      },
+      "via": [
+        "derived_from"
+      ],
+      "depth": 1,
+      "superseded": false
+    }
+  ],
+  "supersededBy": null
+}

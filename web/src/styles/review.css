@@ -1,0 +1,56 @@
+/* 1.1.0 확인할 것 (오늘의 요약 지면 톤을 따름) */
+.review{position:absolute;top:52px;left:0;right:0;bottom:0;background:var(--bg-base)}
+.rvin{max-width:1240px;margin:0 auto;padding:22px 40px 64px}
+.review .mast{display:flex;align-items:flex-end;padding-bottom:12px;border-bottom:3px double var(--text-4)}
+.review .mast .l .eyebrow{display:block;margin-bottom:2px}
+.review .mast h1{font-family:var(--sans);font-size:32px;font-weight:600;letter-spacing:-0.02em;line-height:1.2}
+.review .mast .r{margin-left:auto;padding-bottom:6px}
+.review .mast .r button{display:flex;align-items:center;gap:5px;color:var(--ink2);font-size:12px}
+.review .mast .r button:hover{color:var(--ink)}
+.review .strip{display:flex;gap:0;border-bottom:1px solid var(--rule);font-size:12px;color:var(--ink2)}
+.review .strip>div{padding:9px 18px 9px 0;margin-right:18px;border-right:1px solid var(--rule);display:flex;align-items:baseline;gap:6px}
+.review .strip>div:last-child{border:0}
+.review .strip b{font-family:var(--sans);font-size:18px;color:var(--ink)}
+.review .strip b.rose{color:var(--mauve)}
+.review .strip .cm{margin-left:auto;margin-right:0;color:var(--ink3);font-size:11.5px}
+.rvgrid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:40px;margin-top:18px}
+.review h2{font-family:var(--head);font-size:16px;font-weight:600;display:flex;align-items:baseline;gap:8px;padding-bottom:6px;border-bottom:1px solid var(--line-strong);margin-bottom:4px}
+.review h2>span{font-family:var(--sans);font-size:11.5px;color:var(--ink3);font-weight:500}
+.review h2 .tabs{margin-left:auto;display:flex;gap:12px}
+.review h2 .tabs button{font-size:12px;color:var(--ink3);border-bottom:1px solid transparent}
+.review h2 .tabs button:hover{color:var(--ink2)}
+.review h2 .tabs button.on{color:var(--ink);border-bottom-color:var(--ink)}
+.rvempty{font-size:12.5px;color:var(--ink3);padding:14px 0}
+.rv{display:grid;grid-template-columns:16px 1fr auto;gap:8px;padding:11px 0 12px;border-bottom:1px solid var(--rule2);align-items:start}
+.rv>.st{margin-top:5px}
+.rv .btn{height:28px;padding:0 9px 0 11px;font-size:12px;gap:3px;margin-top:1px}
+.rv .btn svg.i{width:12px;height:12px}
+.rvt{font-size:14px;font-weight:600;letter-spacing:-0.01em;display:flex;align-items:center;flex-wrap:wrap;row-gap:4px}
+.rvt a:hover{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--ink4)}
+.rvm{display:flex;flex-wrap:wrap;font-size:11.5px;color:var(--ink3);margin-top:3px}
+.rvm>span{padding:0 9px;border-left:1px solid var(--rule);display:inline-flex;align-items:center;gap:5px}
+.rvm>span:first-child{padding-left:0;border:0}
+.rvm .late{color:var(--accent);font-weight:600}.rvm .warm{color:var(--stall2);font-weight:600}.rvm .ok{color:var(--run);font-weight:600}
+.rvw{font-size:11.5px;color:var(--ink3);margin-top:4px}
+.rv .blkn small{color:var(--ink3);font-size:11px;margin-left:4px}
+.rvsub{margin-top:26px}
+ul.hol{list-style:none}
+ul.hol li{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--rule2);font-size:12.5px}
+ul.hol li a{font-weight:600}
+ul.hol li a:hover{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--ink4)}
+ul.hol li small{margin-left:auto;color:var(--ink3);font-size:11.5px;white-space:nowrap}
+/* 1.8.0 AI가 남긴 기록(MCP 쓰기) */
+.mcpw{margin-top:26px}
+.mcpw ul{list-style:none;margin:6px 0 0;padding:0}
+.mcpw li{display:flex;align-items:baseline;gap:10px;padding:8px 0;border-top:1px solid var(--rule);font-size:12.5px}
+.mcpw li:first-child{border-top:0}
+.mcpw time{flex:none;width:92px;white-space:nowrap;color:var(--ink3);font-size:11.5px}
+.mcpw .who{flex:none;color:var(--clay);font-size:11.5px}
+.mcpw .ty{flex:none;color:var(--ink3);font-size:11px;border:1px solid var(--rule);border-radius:3px;padding:0 5px}
+.mcpw .what{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:2px}
+.mcpw .what a{color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mcpw .what small{color:var(--ink2);font-size:11.5px}
+.mcpw .und{flex:none;color:var(--ink4);font-size:11.5px}
+.mcpw li.off .what,.mcpw li.off .ty,.mcpw li.off .who{opacity:.5}
+.mcpw li.off .what a{text-decoration:line-through;text-decoration-color:var(--ink4)}
+.mcpw .btn{flex:none;padding:2px 9px;font-size:11.5px}

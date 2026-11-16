@@ -1,0 +1,32 @@
+{
+  "newlyLinkedCount": 7,
+  "pendingCount": 3,
+  "items": [
+    {
+      "id": "sg_1102",
+      "kind": "link",
+      "confidence": 0.74,
+      "text": "[과제] 메인 페이지 카피 확정 —막혔음→ [과제] 디자이너 답변 대기",
+      "linkType": "blocked_by",
+      "src": {
+        "id": "obj_task_20260830_01",
+        "type": "task",
+        "label": "메인 페이지 카피 확정"
+      },
+      "dst": {
+        "id": "obj_task_20260916_02",
+        "type": "task",
+        "label": "디자이너 답변 대기"
+      },
+      "evidenceCount": 1,
+      "evidence": [
+        {
+          "conversationId": "conv_chatgpt_68f2a91c",
+          "sourceAi": "chatgpt",
+          "excerpt": "디자이너가 폰트 크기 답을 줘야 카피 길이를 정할 수 있어",
+          "at": "2026-09-18T01:20:00+09:00"
+        }
+      ]
+    }
+  ]
+}

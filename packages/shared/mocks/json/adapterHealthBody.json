@@ -1,0 +1,26 @@
+{
+  "adapter": {
+    "name": "claude-dom",
+    "version": "0.3.0",
+    "domVersion": "2026-09"
+  },
+  "health": "degraded",
+  "checks": [
+    {
+      "name": "sidebar_selector",
+      "ok": true
+    },
+    {
+      "name": "message_selector",
+      "ok": true
+    },
+    {
+      "name": "stream_end_detect",
+      "ok": false,
+      "detail": "응답 끝 표시를 못 찾아 120초 대기로 판단"
+    }
+  ],
+  "errorCode": null,
+  "at": "2026-09-30T08:22:00+09:00",
+  "bufferedSnapshots": 0
+}

@@ -1,0 +1,22 @@
+/* 다음 할 일 — 그래파이트: 테두리·면 차이만, 발광·그라데이션 없음 */
+.nsl{display:flex;align-items:center;gap:6px;min-width:0;font-size:12px;color:var(--text-2);line-height:18px}
+.nsl .k{flex:none;color:var(--text-3);font-size:11px}
+.nsl .x{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.src{flex:none;font-size:10.5px;color:var(--text-3);border:1px solid var(--line-default);border-radius:var(--radius-s);padding:0 5px;line-height:16px;font-weight:400}
+.src.s-user{color:var(--text-1);border-color:var(--line-strong)}
+.nsl .cp{flex:none;display:inline-flex;align-items:center;justify-content:center;width:24px;height:22px;border-radius:var(--radius-s);color:var(--text-3);cursor:pointer}
+.nsl .cp:hover{background:var(--surface-3);color:var(--text-1)}
+.nsl .cp:focus-visible{outline:none;box-shadow:var(--focus)}
+.nsc{border:1px solid var(--line-default);border-radius:var(--radius-l);background:var(--surface-1);padding:12px 14px;margin:0 0 14px}
+.nsc .hd{display:flex;align-items:center;gap:8px;font-size:11.5px;color:var(--text-3);margin-bottom:6px}
+.nsc p{font-size:14px;color:var(--text-1);line-height:1.5;margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.nsc p.none{color:var(--text-3)}
+.nsc .why{font-size:11.5px;color:var(--text-3);margin-top:4px}
+.nsc .row{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.nsc textarea{width:100%;box-sizing:border-box;resize:vertical;background:var(--bg-base);color:var(--text-1);border:1px solid var(--line-strong);border-radius:var(--radius);padding:8px 10px;font:inherit;font-size:14px;line-height:1.45}
+.nsc textarea:focus{outline:none;box-shadow:var(--focus)}
+.nsc.compact{padding:10px 12px}
+/* 과제 목록: 제목 아래 한 줄 */
+.tl .row.has-ns{height:auto;min-height:var(--row-h);padding-top:7px;padding-bottom:7px}
+.tl .row .tw{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.tl .row .tw .t{flex:none}

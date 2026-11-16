@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "type": "task",
+      "id": "task_20260902_01",
+      "title": "소개 페이지 톤 맞추기",
+      "snippetMd": "메인 **카피**가 정해지면 같은 톤으로 다시 쓰기로 함",
+      "task": {
+        "id": "task_20260902_01",
+        "title": "소개 페이지 톤 맞추기",
+        "status": "멈춤",
+        "statusVisual": "stall2",
+        "staleDays": 6,
+        "projectId": "prj_blog"
+      },
+      "conversationId": "conv_claude_e02b5a91",
+      "sourceAi": "claude",
+      "sourceUrl": "https://claude.ai/chat/e02b5a91-6c3d-4f70-b1a8-2d9e4c7f0a35",
+      "vaultPath": "tasks/소개-페이지-톤-맞추기.md",
+      "at": "2026-09-24T22:10:00+09:00",
+      "score": 0.97
+    },
+    {
+      "type": "task",
+      "id": "task_20260830_01",
+      "title": "메인 페이지 카피 확정",
+      "snippetMd": "메인 페이지 **카피** 확정",
+      "task": {
+        "id": "task_20260830_01",
+        "title": "메인 페이지 카피 확정",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 12,
+        "projectId": "prj_blog"
+      },
+      "conversationId": "conv_chatgpt_68f2a91c",
+      "sourceAi": "chatgpt",
+      "sourceUrl": "https://chatgpt.com/c/68f2a91c-4b7e-8003-a1d2-9c0e5b7f3a21",
+      "vaultPath": "tasks/메인-페이지-카피-확정.md",
+      "at": "2026-09-18T01:47:00+09:00",
+      "score": 0.94
+    }
+  ],
+  "page": {
+    "limit": 2,
+    "nextCursor": "eyJvIjoyfQ",
+    "hasMore": true,
+    "total": 13
+  },
+  "query": "카피",
+  "terms": [
+    {
+      "term": "카피",
+      "mode": "like"
+    }
+  ],
+  "notice": "2글자 검색어는 전체 검색(LIKE)으로 찾았어요. 조금 느릴 수 있어요.",
+  "tookMs": 6
+}

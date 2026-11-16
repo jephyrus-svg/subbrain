@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "type": "conversation",
+      "id": "conv_chatgpt_68f2a91c",
+      "title": "카피 A/B 비교",
+      "snippetMd": "**카피** A/B 비교",
+      "task": {
+        "id": "task_20260830_01",
+        "title": "메인 페이지 카피 확정",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 12,
+        "projectId": "prj_blog"
+      },
+      "conversationId": "conv_chatgpt_68f2a91c",
+      "sourceAi": "chatgpt",
+      "sourceUrl": "https://chatgpt.com/c/68f2a91c-4b7e-8003-a1d2-9c0e5b7f3a21",
+      "vaultPath": "conversations/2026/09/2026-09-17_chatgpt_카피-ab-비교_68f2a91c.md",
+      "at": "2026-09-18T01:47:00+09:00",
+      "score": 0.76
+    },
+    {
+      "type": "conversation",
+      "id": "conv_chatgpt_5d1e77b0",
+      "title": "메인 카피 후보 뽑기",
+      "snippetMd": "메인 **카피** 후보 뽑기",
+      "task": {
+        "id": "task_20260830_01",
+        "title": "메인 페이지 카피 확정",
+        "status": "멈춤",
+        "statusVisual": "stall",
+        "staleDays": 12,
+        "projectId": "prj_blog"
+      },
+      "conversationId": "conv_chatgpt_5d1e77b0",
+      "sourceAi": "chatgpt",
+      "sourceUrl": "https://chatgpt.com/c/5d1e77b0-91a3-8004-c2e8-3b7f0d6a1e94",
+      "vaultPath": "conversations/2026/09/2026-09-12_chatgpt_메인-카피-후보-뽑기_5d1e77b0.md",
+      "at": "2026-09-12T23:02:00+09:00",
+      "score": 0.73
+    }
+  ],
+  "page": {
+    "limit": 2,
+    "nextCursor": "eyJvIjo0fQ",
+    "hasMore": true,
+    "total": 13
+  },
+  "query": "카피",
+  "terms": [
+    {
+      "term": "카피",
+      "mode": "like"
+    }
+  ],
+  "notice": "2글자 검색어는 전체 검색(LIKE)으로 찾았어요. 조금 느릴 수 있어요.",
+  "tookMs": 5
+}

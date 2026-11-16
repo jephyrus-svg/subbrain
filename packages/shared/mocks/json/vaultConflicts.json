@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "path": "tasks/이사업체-견적-비교표.md",
+      "entityType": "task",
+      "entityId": "task_20260914_01",
+      "detectedAt": "2026-09-30T08:30:00+09:00",
+      "backupPath": ".subbrain/conflicts/2026-09-30T08-30-00/tasks/이사업체-견적-비교표.md"
+    }
+  ],
+  "page": {
+    "limit": 50,
+    "nextCursor": null,
+    "hasMore": false,
+    "total": 1
+  }
+}

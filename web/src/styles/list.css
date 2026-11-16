@@ -1,0 +1,30 @@
+/* 과제 목록 (Linear식): 상태별 묶음, 34px 행, 메타는 오른쪽 정렬 */
+.tl{position:absolute;top:52px;left:0;right:0;bottom:0;background:var(--bg-base)}
+.tl .head{display:flex;align-items:baseline;gap:14px;padding:22px 32px 14px;border-bottom:1px solid var(--line-subtle)}
+.tl .head h1{font-size:18px;font-weight:600;letter-spacing:-0.02em}
+.tl .head .sum{font-size:12px;color:var(--text-3)}
+.tl .grp{display:flex;align-items:center;gap:8px;height:32px;padding:0 32px;background:var(--surface-1);border-bottom:1px solid var(--line-subtle);font-size:12px;font-weight:500;color:var(--text-2);position:sticky;top:0;z-index:1}
+.tl .grp b{color:var(--text-3);font-weight:500}
+.tl .row{display:flex;align-items:center;gap:10px;width:100%;height:var(--row-h);padding:0 32px;border-bottom:1px solid var(--line-subtle);text-align:left;font-size:13px;color:var(--text-1)}
+.tl .row:hover{background:var(--surface-3)}
+.tl .row .t{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500}
+.tl .row .t small{color:var(--text-3);font-weight:400;margin-left:8px;font-size:12px}
+.tl .row .fl{flex:none;display:flex;gap:4px}
+.tl .row .pj{flex:none;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11.5px;color:var(--text-2);border:1px solid var(--line-default);border-radius:10px;padding:0 8px;height:20px;line-height:18px}
+.tl .row .ai{flex:none;display:flex;gap:5px;width:54px;justify-content:flex-end}
+.tl .row .dt{flex:none;width:64px;text-align:right;font-size:12px;color:var(--text-3)}
+.tl .more{height:30px;padding:0 32px 0 51px;display:flex;align-items:center;font-size:12px;color:var(--text-3);border-bottom:1px solid var(--line-subtle)}
+
+/* polish2: 열 정렬·차분한 호버·빈 묶음 */
+.tl .row{gap:12px}
+.tl .row:hover{background:var(--surface-2)}
+.tl .row:focus-visible{outline:none;background:var(--surface-2);box-shadow:inset 2px 0 0 var(--clay)}
+.tl .row:active{background:var(--surface-3)}
+.tl .row .fl{justify-content:flex-end}
+.tl .row .pjc{flex:none;width:188px;display:flex;justify-content:flex-start}
+.tl .row .pj{max-width:100%;color:var(--text-2);border-color:var(--line-default);background:transparent}
+.tl .row .ai{width:48px;align-items:center}
+.tl .row .dt{width:56px;font-variant-numeric:tabular-nums}
+.tl .grp.empty{color:var(--text-3);background:var(--bg-base);height:30px}
+.tl .grp.empty .st{opacity:.5}
+.tl .grp.empty small{color:var(--text-3);font-size:11.5px;margin-left:2px}

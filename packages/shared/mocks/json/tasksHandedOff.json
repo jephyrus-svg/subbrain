@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "id": "task_20260915_01",
+      "title": "볼트 노트 형식",
+      "summary": "과제 노트 frontmatter 필드는 정했고 본문 섹션 순서를 고민하다 멈춤",
+      "kind": "task",
+      "status": "완료",
+      "statusVisual": "done",
+      "staleDays": null,
+      "staleStage": null,
+      "badge": null,
+      "project": {
+        "id": "prj_subbrain",
+        "name": "서브브레인",
+        "colorHex": "#5B8DEF"
+      },
+      "sourceAis": [
+        "claude"
+      ],
+      "conversationCount": 1,
+      "messageCount": 12,
+      "startedAt": "2026-09-15T20:30:00+09:00",
+      "lastActivityAt": "2026-09-25T22:10:00+09:00",
+      "completedAt": null,
+      "nextStep": "본문 섹션 순서(요약→결정→흐름) 확정하기",
+      "nextStepInfo": null,
+      "needsReview": false,
+      "pin": false,
+      "primaryConversation": {
+        "id": "conv_claude_7a52cdde",
+        "sourceAi": "claude",
+        "url": "https://claude.ai/chat/7a52cdde-c9d0-471a-a0f6-c2cad6aa70ff"
+      },
+      "handoff": {
+        "label": "Claude Code에서 이어감",
+        "target": "Claude Code",
+        "conversationId": "conv_claude_7a52cdde",
+        "evidence": "마지막 사용자 메시지: ‘노트 형식은 md로 정리해줘, Claude Code에서 이어갈게’",
+        "detectedBy": "both"
+      },
+      "classificationState": "ok",
+      "blockedReason": null,
+      "blockedModel": null,
+      "confidence": 0.85,
+      "completionReason": "moved",
+      "conversationOutcome": {
+        "outcome": "moved",
+        "status": "완료",
+        "staleDays": null,
+        "label": "Claude Code로 옮김",
+        "target": "Claude Code",
+        "evidence": "마지막 사용자 메시지: ‘노트 형식은 md로 정리해줘, Claude Code에서 이어갈게’",
+        "detectedBy": "both"
+      }
+    }
+  ],
+  "page": {
+    "limit": 50,
+    "nextCursor": null,
+    "hasMore": false,
+    "total": 1
+  }
+}

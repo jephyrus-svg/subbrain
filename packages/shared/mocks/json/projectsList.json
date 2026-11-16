@@ -1,0 +1,168 @@
+{
+  "items": [
+    {
+      "id": "prj_subbrain",
+      "name": "서브브레인",
+      "aliases": [
+        "SubBrain",
+        "subbrain"
+      ],
+      "status": "active",
+      "colorHex": "#5B8DEF",
+      "activity": {
+        "status": "진행 중",
+        "staleDays": null,
+        "statusVisual": "run"
+      },
+      "taskCount": 9,
+      "conversationCount": 58,
+      "startedAt": "2026-08-18T20:03:00+09:00",
+      "lastActivityAt": "2026-09-30T00:20:00+09:00",
+      "thresholds": null
+    },
+    {
+      "id": "prj_blog",
+      "name": "블로그 리뉴얼",
+      "aliases": [
+        "블로그",
+        "blog renewal"
+      ],
+      "status": "active",
+      "colorHex": "#F07F5E",
+      "activity": {
+        "status": "진행 중",
+        "staleDays": null,
+        "statusVisual": "run"
+      },
+      "taskCount": 7,
+      "conversationCount": 43,
+      "startedAt": "2026-06-11T20:03:00+09:00",
+      "lastActivityAt": "2026-09-29T21:31:00+09:00",
+      "thresholds": null
+    },
+    {
+      "id": "prj_moving",
+      "name": "이사 준비",
+      "aliases": [
+        "이사"
+      ],
+      "status": "active",
+      "colorHex": "#36C2A6",
+      "activity": {
+        "status": "진행 중",
+        "staleDays": null,
+        "statusVisual": "run"
+      },
+      "taskCount": 5,
+      "conversationCount": 19,
+      "startedAt": "2026-07-28T20:00:00+09:00",
+      "lastActivityAt": "2026-09-29T19:41:00+09:00",
+      "thresholds": null
+    },
+    {
+      "id": "prj_devstudy",
+      "name": "개발 공부",
+      "aliases": [
+        "공부",
+        "dev"
+      ],
+      "status": "active",
+      "colorHex": "#4DB9E3",
+      "activity": {
+        "status": "완료",
+        "staleDays": null,
+        "statusVisual": "done"
+      },
+      "taskCount": 6,
+      "conversationCount": 22,
+      "startedAt": "2026-06-20T21:00:00+09:00",
+      "lastActivityAt": "2026-09-29T10:12:00+09:00",
+      "thresholds": null
+    },
+    {
+      "id": "prj_health",
+      "name": "건강",
+      "aliases": [
+        "운동"
+      ],
+      "status": "active",
+      "colorHex": "#9CCB5E",
+      "activity": {
+        "status": "진행 중",
+        "staleDays": null,
+        "statusVisual": "run"
+      },
+      "taskCount": 3,
+      "conversationCount": 9,
+      "startedAt": "2026-08-25T21:00:00+09:00",
+      "lastActivityAt": "2026-09-29T07:40:00+09:00",
+      "thresholds": null
+    },
+    {
+      "id": "prj_kyoto",
+      "name": "가을 교토 여행",
+      "aliases": [
+        "교토",
+        "일본 여행"
+      ],
+      "status": "active",
+      "colorHex": "#D768A6",
+      "activity": {
+        "status": "멈춤",
+        "staleDays": 4,
+        "statusVisual": "stall2"
+      },
+      "taskCount": 4,
+      "conversationCount": 12,
+      "startedAt": "2026-09-02T21:00:00+09:00",
+      "lastActivityAt": "2026-09-26T23:50:00+09:00",
+      "thresholds": null
+    },
+    {
+      "id": "prj_dividend",
+      "name": "배당 가계부",
+      "aliases": [
+        "배당",
+        "가계부"
+      ],
+      "status": "active",
+      "colorHex": "#E8B63E",
+      "activity": {
+        "status": "멈춤",
+        "staleDays": 6,
+        "statusVisual": "stall2"
+      },
+      "taskCount": 3,
+      "conversationCount": 11,
+      "startedAt": "2026-07-10T21:00:00+09:00",
+      "lastActivityAt": "2026-09-24T20:30:00+09:00",
+      "thresholds": null
+    },
+    {
+      "id": "prj_career",
+      "name": "커리어",
+      "aliases": [
+        "이직",
+        "이력서"
+      ],
+      "status": "active",
+      "colorHex": "#A393E0",
+      "activity": {
+        "status": "멈춤",
+        "staleDays": 34,
+        "statusVisual": "stall"
+      },
+      "taskCount": 4,
+      "conversationCount": 16,
+      "startedAt": "2026-07-20T21:00:00+09:00",
+      "lastActivityAt": "2026-08-27T23:30:00+09:00",
+      "thresholds": null
+    }
+  ],
+  "page": {
+    "limit": 50,
+    "nextCursor": null,
+    "hasMore": false,
+    "total": 8
+  }
+}

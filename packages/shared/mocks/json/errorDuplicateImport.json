@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "DUPLICATE_IMPORT",
+    "message": "이미 가져온 파일이에요 (9월 30일 오전 8:02).",
+    "details": {
+      "importId": "imp_20260930_k3f9"
+    },
+    "requestId": "req_01J9ZK6A"
+  }
+}

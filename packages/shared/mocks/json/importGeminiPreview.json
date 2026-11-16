@@ -1,0 +1,64 @@
+{
+  "id": "imp_20261010_g7m2",
+  "state": "preview_ready",
+  "sourceAi": "gemini",
+  "fileName": "takeout-20261010T120000Z-001.zip",
+  "fileSizeBytes": 3184220,
+  "fileHash": "sha256:4f1e2d3c4b5a69788796a5b4c3d2e1f00f1e2d3c4b5a69788796a5b4c3d2e1f0",
+  "createdAt": "2026-09-30T09:02:10+09:00",
+  "startedAt": null,
+  "finishedAt": null,
+  "options": {},
+  "preview": {
+    "sourceAi": "gemini",
+    "detectedFormat": "gemini_takeout_html",
+    "formatVersion": "takeout-my-activity-html-zip",
+    "category": "conversations",
+    "projects": null,
+    "conversationsTotal": 97,
+    "conversationsNew": 97,
+    "conversationsUpdated": 0,
+    "conversationsUnchanged": 0,
+    "messagesTotal": 801,
+    "dateRange": {
+      "from": "2025-11-02T21:14:09+09:00",
+      "to": "2026-10-09T23:41:52+09:00"
+    },
+    "quickQuestionPrefiltered": 31,
+    "activity": {
+      "events": 412,
+      "skipped": 9,
+      "conversations": 97,
+      "byConversationId": 0,
+      "bySession": 97,
+      "sessionGapMinutes": 30,
+      "missingResponses": 23,
+      "attachments": 14,
+      "timezoneAssumed": 0
+    },
+    "estimate": {
+      "model": "gemini-3.5-flash-lite",
+      "inputTokens": 181000,
+      "outputTokens": 19800,
+      "costUsd": 0.03,
+      "note": "글자 수 기준 대략 추정 [미검증] · 간단한 질문 31개는 규칙으로 걸러 LLM 생략"
+    },
+    "warnings": [
+      "Gemini Takeout은 대화가 아니라 활동 기록이에요 — 기록 412개를 대화 97개로 다시 묶었어요 (대화 주소 없는 기록은 30분 간격·주제 연속성으로 묶음)",
+      "응답 본문이 없는 기록 23개 — Takeout이 응답을 빼거나 자르는 일이 흔해요",
+      "첨부·캔버스가 있던 기록 14개 — 파일·캔버스 내용은 Takeout에 없어 표시만 남겨요",
+      "Gemini 대화가 아닌 기록 9개는 건너뛰었어요(피드백·다른 제품·빈 기록)"
+    ]
+  },
+  "progress": {
+    "phase": "preview_ready",
+    "processed": 97,
+    "total": 97,
+    "percent": 10,
+    "currentLabel": "미리보기 준비됨",
+    "etaSec": null
+  },
+  "result": null,
+  "errors": [],
+  "classifyJobId": null
+}

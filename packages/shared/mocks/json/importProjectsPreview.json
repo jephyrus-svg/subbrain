@@ -1,0 +1,62 @@
+{
+  "id": "imp_20261002_p4c2",
+  "state": "preview_ready",
+  "sourceAi": "claude",
+  "fileName": "projects-000.zip",
+  "fileSizeBytes": 48211,
+  "fileHash": "sha256:9a8b7c6d5e4f30211203a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5",
+  "createdAt": "2026-09-30T09:02:10+09:00",
+  "startedAt": null,
+  "finishedAt": null,
+  "options": {},
+  "preview": {
+    "sourceAi": "claude",
+    "detectedFormat": "claude_projects_zip",
+    "formatVersion": "2026-10",
+    "category": "projects",
+    "projects": {
+      "total": 23,
+      "new": 20,
+      "existing": 1,
+      "skipped": 2,
+      "names": [
+        "서브브레인",
+        "블로그 리뉴얼",
+        "이사 준비"
+      ]
+    },
+    "conversationsTotal": 0,
+    "conversationsNew": 0,
+    "conversationsUpdated": 0,
+    "conversationsUnchanged": 0,
+    "messagesTotal": 0,
+    "dateRange": {
+      "from": null,
+      "to": null
+    },
+    "quickQuestionPrefiltered": 0,
+    "activity": null,
+    "estimate": {
+      "model": null,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "costUsd": 0,
+      "note": "대화가 없는 파일이라 분류하지 않아요 — 비용 없음"
+    },
+    "warnings": [
+      "Claude 프로젝트 파일이에요 — 대화가 없어 프로젝트만 만들어요.",
+      "새 Claude 내보내기는 대화에 프로젝트 정보가 없어요. 과제는 분류 때 프로젝트 이름이 맞거나 새 프로젝트 제안을 수락하면 연결돼요."
+    ]
+  },
+  "progress": {
+    "phase": "preview_ready",
+    "processed": 0,
+    "total": 0,
+    "percent": 10,
+    "currentLabel": "미리보기 준비됨",
+    "etaSec": null
+  },
+  "result": null,
+  "errors": [],
+  "classifyJobId": null
+}
