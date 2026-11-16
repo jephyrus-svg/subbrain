@@ -185,12 +185,12 @@ export function buildEnDataset(today: string): SeedDataset {
     // rust
     { id: 'task_rust_async', title: 'Async Rust with tokio', project: 'prj_rust', state: 'stall', ai: 'chatgpt', msgs: 18, first: at(14, '21:00'), last: at(11, '22:00'), topics: ['async'],
       summary: 'Understood futures are lazy. Stuck on why a spawned task needs \'static data.', next: 'Finish the tokio tutorial: spawning + JoinHandle' },
-    { id: 'task_rust_errors', title: 'Errors: anyhow vs thiserror', project: 'prj_rust', state: 'done', ai: 'claude', msgs: 12, first: at(10, '21:00'), last: at(9, '21:40'),
+    { id: 'task_rust_errors', title: 'Errors: anyhow vs thiserror', project: 'prj_rust', state: 'done', ai: 'claude', msgs: 12, first: at(5, '21:00'), last: at(4, '21:40'),
       summary: 'thiserror for library code, anyhow in main.rs.' },
     // trip
     { id: 'task_trip_trains', title: 'Lisbon → Porto train tickets', project: 'prj_portugal', state: 'run', ai: 'chatgpt', msgs: 10, first: at(2, '12:30'), last: at(2, '13:10'), topics: ['itinerary'],
       summary: 'Alfa Pendular (2h50) vs Intercidades (3h15). Tickets open 60 days ahead; early fares are much cheaper.', next: 'Book the morning Alfa Pendular on day 4' },
-    { id: 'task_trip_packing', title: 'Carry-on only packing list', project: 'prj_portugal', state: 'done', ai: 'gemini', msgs: 10, first: at(15, '08:00'), last: at(15, '08:40'),
+    { id: 'task_trip_packing', title: 'Carry-on only packing list', project: 'prj_portugal', state: 'done', ai: 'gemini', msgs: 10, first: at(3, '08:00'), last: at(3, '08:40'),
       summary: 'Fits in a 30 L bag. Rain jacket + one pair of shoes that survive cobblestones.' },
     { id: 'task_trip_food', title: 'Where to eat in Porto', project: 'prj_portugal', state: 'run', ai: 'grok', msgs: 8, first: at(1, '12:10'), last: at(1, '12:50'), topics: ['itinerary'],
       summary: 'Shortlist of 6 places; francesinha is mandatory at least once.', next: 'Book a table for the first night in Porto' },

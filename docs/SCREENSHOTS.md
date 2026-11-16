@@ -8,7 +8,7 @@ Re-capture: `npm run demo`, then e.g. `google-chrome --headless=new --window-siz
 | ✅ `docs/screenshots/01-home-graph.png` | Graph home `/` | Project clusters, selected project panel with next step and "Continue in ChatGPT" |
 | ✅ `docs/screenshots/02-tasks.png` | Tasks `/board` | Tasks by status with next steps, outcome badges (moved to Claude Code, interrupted) |
 | ✅ `docs/screenshots/03-task-detail.png` | Task detail `/tasks/task_tp_pricing` | Why stalled, conversation flow, decisions, open questions, continue panel |
-| ✅ `docs/screenshots/04-weekly-review.png` | Weekly review `/week` | Finished / started / stalled / long-idle |
+| ✅ `docs/screenshots/04-weekly-review.png` | Weekly review `/week/<last Monday>` | Finished / started / stalled / long-idle |
 | ✅ `docs/screenshots/05-todays-digest.png` | Today's digest `/digest` | Yesterday's summary, "Continue today" top 3 |
 | `docs/screenshots/cleanup.png` | Digest → chat cleanup | Archive-only list, "no deletion" note |
 | `docs/screenshots/mcp.png` | Claude Desktop | An agent calling `toc_index` → `toc_task` and continuing work |

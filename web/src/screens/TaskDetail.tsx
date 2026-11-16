@@ -268,7 +268,7 @@ function DetailBody({ t, setT, reload }: { t: TTaskDetail; setT: (fn: (d: TTaskD
               <h2>{tt("함께 보면 좋은 것")} <span>{tt("같은 주제")}</span></h2>
               <ul className="open rel">
                 {t.related.similarTasks.map((s) => (
-                  <li key={s.id} onClick={() => nav(`/tasks/${encodeURIComponent(s.id)}`)}><b>↳</b><span>{s.projectName ? `${s.projectName} › ` : ''}{s.title} <small style={{ display: 'inline', marginLeft: 6 }}>{s.sourceAi ? `${aiLabel(s.sourceAi)} · ` : ''}{s.status}{s.completedAt ? ` ${dotDate(s.completedAt)}` : ''}</small></span></li>
+                  <li key={s.id} onClick={() => nav(`/tasks/${encodeURIComponent(s.id)}`)}><b>↳</b><span>{s.projectName ? `${s.projectName} › ` : ''}{s.title} <small style={{ display: 'inline', marginLeft: 6 }}>{s.sourceAi ? `${aiLabel(s.sourceAi)} · ` : ''}{tt(s.status)}{s.completedAt ? ` ${dotDate(s.completedAt)}` : ''}</small></span></li>
                 ))}
                 {t.related.wikiPages.map((w) => (
                   <li key={w.id} onClick={() => toast.show(tt("위키는 다음 단계(Phase 5)에서 열려요"))}><b>↳</b><span>{tt("위키 ›")} {w.title} <small style={{ display: 'inline', marginLeft: 6 }}>{w.reviewLabel}</small></span></li>

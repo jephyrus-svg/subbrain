@@ -15,7 +15,7 @@ const [mode = 'demo', ...args] = process.argv.slice(2);
 const li = args.indexOf('--lang');
 const lang = (li >= 0 ? args[li + 1] : process.env.SUBBRAIN_LANG ?? 'en')?.toLowerCase().startsWith('ko') ? 'ko' : 'en';
 const keep = args.includes('--keep');
-const rest = args.filter((a, i) => a !== '--keep' && i !== li && i !== li + 1);
+const rest = args.filter((a, i) => a !== '--keep' && (li < 0 || (i !== li && i !== li + 1)));
 const tsx = join(ROOT, 'packages', 'core', 'node_modules', '.bin', process.platform === 'win32' ? 'tsx.cmd' : 'tsx');
 const cli = join(ROOT, 'packages', 'core', 'src', 'cli.ts');
 if (!existsSync(tsx)) { console.error('Dependencies are missing — run `npm run setup` first.'); process.exit(1); }
