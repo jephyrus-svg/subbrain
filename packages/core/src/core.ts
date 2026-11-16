@@ -73,7 +73,7 @@ export class Core {
       return L(`LLM: 제공자 미선택${envs.length ? ` (환경변수 키 감지: ${envs.join(', ')} — 설정에서 제공자를 고르면 사용)` : ''} → 규칙 분류기(${MOCK_MODEL})`, `LLM: no provider selected${envs.length ? ` (found key env vars: ${envs.join(', ')} — pick a provider in Settings to use them)` : ''} → rule classifier (${MOCK_MODEL})`);
     }
     const model = s.model ?? DEFAULT_MODEL[s.provider];
-    if (!s.apiKeySet) return L(`LLM: ${s.provider} 선택됨, API 키 없음 → 규칙 분류기(${MOCK_MODEL})`, `LLM: ${s.provider} selected but no API key → rule classifier (${MOCK_MODEL})`);
+    if (!s.apiKeySet) return L(`LLM: ${s.provider} 선택됨, API 키 없음 → 규칙 분류기(${MOCK_MODEL})`, `LLM: no API key → built-in rule classifier (free, offline; provider setting: ${s.provider})`);
     return L(`LLM: ${s.provider} · ${model}${s.model ? '' : ' (기본 모델)'} · 키 출처 ${this.settings.apiKeySource(s.provider) ?? (s.provider === 'ollama' ? '불필요' : '-')}`, `LLM: ${s.provider} · ${model}${s.model ? '' : ' (default model)'} · key from ${this.settings.apiKeySource(s.provider) ?? (s.provider === 'ollama' ? 'not needed' : '-')}`);
   }
 

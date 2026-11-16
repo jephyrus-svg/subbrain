@@ -255,7 +255,7 @@ server: { proxy: { '/api': 'http://127.0.0.1:4545' } }
 
 ## 3. 모노레포 구성 계획
 
-> **런타임: Node.js 22 LTS 이상 필수(22.13+ 권장)** — 코어가 내장 `node:sqlite`를 쓰기 때문(설계서 §13). `node:sqlite`는 **Node 22.5**에 들어왔고 22.13부터 플래그 없이 쓸 수 있다. Node 20 이하에는 `node:sqlite`가 없다.
+> **런타임: Node.js 22 LTS 이상 필수(22.16+, FTS5 포함)** — 코어가 내장 `node:sqlite`를 쓰기 때문(설계서 §13). `node:sqlite`는 **Node 22.5**에 들어왔고 22.13부터 플래그 없이 쓸 수 있고, FTS5는 22.16부터 들어 있다. Node 20 이하에는 `node:sqlite`가 없다.
 > → `.nvmrc`(22)를 따르거나 nvm/fnm 등으로 Node 22를 설치해 쓴다.
 > 확인 결과(2026-09-30): `node:sqlite`에서 FTS5 `trigram` 동작함, 3글자 이상 검색 OK, **2글자("이사")는 0건** → 설계서 §6.4의 대체 검색이 실제로 필요함(설계서 §16.1 T2 일부 확인).
 
@@ -265,7 +265,7 @@ subbrain/
 ├── scripts/
 │   ├── contract.template.md     ← 이 문서의 원본 틀
 │   └── build-contract.mjs       ← 틀 + api-types.ts + 목 JSON → API_CONTRACT.md
-├── package.json                 ← private, "packageManager": "pnpm@9", engines.node ">=22.13"
+├── package.json                 ← private, "packageManager": "pnpm@9", engines.node ">=22.16"
 ├── pnpm-workspace.yaml          ← packages: ["packages/*", "web"]
 ├── tsconfig.base.json
 ├── .nvmrc                       ← 22

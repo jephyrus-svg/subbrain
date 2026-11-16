@@ -18,7 +18,7 @@ app/
 
 ## 준비
 
-- Node **22.13+** (`node:sqlite` 사용 — 실행 시 나오는 `ExperimentalWarning: SQLite is an experimental feature`는 무해)
+- Node **22.16+** (`node:sqlite` 사용 — 실행 시 나오는 `ExperimentalWarning: SQLite is an experimental feature`는 무해)
 - pnpm 9 — 루트 스크립트가 안에서 `pnpm`을 다시 부르므로 `pnpm`이 PATH에 있어야 한다(`corepack enable pnpm`)
 
 ```bash

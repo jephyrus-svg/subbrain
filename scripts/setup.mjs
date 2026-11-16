@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Subbrain one-command setup:  npm run setup   (or: pnpm setup / node scripts/setup.mjs)
-//   1. checks Node (22.13+, node:sqlite with FTS5)
+//   1. checks Node (22.16+, node:sqlite with FTS5)
 //   2. installs dependencies (pnpm, via corepack if needed)
 //   3. builds the web app
 //   4. fills a demo data folder (.demo/) with clearly fake sample data
@@ -23,7 +23,7 @@ const run = (cmd, a, opts = {}) => { const r = spawnSync(cmd, a, { cwd: ROOT, st
 
 // 1. Node
 const [maj, min] = process.versions.node.split('.').map(Number);
-if (maj < 22 || (maj === 22 && min < 13)) fail(`Node 22.13+ is required (you have ${process.versions.node}). Install Node 22 LTS (e.g. \`nvm install 22\`).`, `Node 22.13 이상이 필요해요(지금 ${process.versions.node}). Node 22 LTS를 설치해 주세요(예: \`nvm install 22\`).`);
+if (maj < 22 || (maj === 22 && min < 16)) fail(`Node 22.16+ is required (you have ${process.versions.node}). Install Node 22 LTS (e.g. \`nvm install 22\`).`, `Node 22.16 이상이 필요해요(지금 ${process.versions.node}). Node 22 LTS를 설치해 주세요(예: \`nvm install 22\`).`);
 try {
   const { DatabaseSync } = await import('node:sqlite');
   const d = new DatabaseSync(':memory:'); d.exec("CREATE VIRTUAL TABLE t USING fts5(x, tokenize='trigram')"); d.close();
@@ -73,7 +73,7 @@ say(`
 ✓ Setup complete.
 
   Demo (fake sample data, no key needed):   npm run demo      → http://127.0.0.1:4545
-  Your own data (${REAL}):                  npm run app       → http://127.0.0.1:4545
+  Your own data:                            npm run app       → http://127.0.0.1:4545  (stored in ${REAL})
   Korean: npm run demo -- --lang ko · npm run app -- --lang ko  (UI only: add ?lang=ko to the URL)
 
 Import your chats (into your own data folder, not the demo):

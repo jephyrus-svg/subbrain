@@ -34,7 +34,7 @@ Most tools either archive chats (search them later) or give an agent a memory st
 
 ## Quick start
 
-Requires **Node 22.13+** (uses the built-in `node:sqlite` with FTS5) and git. pnpm is used via corepack.
+Requires **Node 22.16+** (uses the built-in `node:sqlite` with FTS5; 22.13–22.15 lack FTS5) and git. Tested on Node 22.23 and 24.22. pnpm is used via corepack.
 
 ```bash
 git clone https://github.com/<your-account>/subbrain.git

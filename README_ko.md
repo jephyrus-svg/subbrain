@@ -15,7 +15,7 @@
 
 ## 빠른 시작
 
-**Node 22.13 이상**이 필요해요(내장 `node:sqlite` + FTS5 사용).
+**Node 22.16 이상**이 필요해요(내장 `node:sqlite` + FTS5 사용, 22.13~22.15에는 FTS5가 없음). Node 22.23·24.22에서 확인했어요.
 
 ```bash
 git clone https://github.com/<계정>/subbrain.git
