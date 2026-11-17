@@ -58,4 +58,4 @@ npm run app                                          # → http://127.0.0.1:4545
 
 ## 라이선스
 
-[MIT](LICENSE) © Subbrain Contributors
+[MIT](LICENSE) © headam

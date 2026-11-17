@@ -145,4 +145,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Bug reports with an anonymized export sa
 
 ## License
 
-[MIT](LICENSE) © Subbrain Contributors
+[MIT](LICENSE) © headam
